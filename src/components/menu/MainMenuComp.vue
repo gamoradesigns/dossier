@@ -236,7 +236,7 @@
                 <div class="imgDiv3 height100">
                   <img
                     v-scrollfadinganimation
-                    src="../../assets/images/resizeLONG/branding/pack/pine5F.png"
+                    src="../../assets/images/resizeLONG/branding/pack/jar/pine5F.png"
                     alt=""
                   />
                 </div>

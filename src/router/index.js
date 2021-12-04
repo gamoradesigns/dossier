@@ -63,6 +63,8 @@ const routes = [{
             import ( /* webpackChunkName: "brandingSingle" */ '../views/single/BrandingSingle.vue'),
         props: true
     },
+    // branding singles
+
     {
         path: '/agile',
         name: 'Agile',
@@ -75,6 +77,37 @@ const routes = [{
         name: 'Alta',
         component: () =>
             import ( /* webpackChunkName: "alta" */ '../components/single/branding/Alta.vue'),
+        props: true
+    },
+    // logo singles
+    {
+        path: '/mamaLogo',
+        name: 'MamaLogo',
+        component: () =>
+            import ( /* webpackChunkName: "mamaLogo" */ '../components/single/logo/MamaLogo.vue'),
+        props: true
+    },
+    // package singles
+    {
+        path: '/jars',
+        name: 'Jars',
+        component: () =>
+            import ( /* webpackChunkName: "jars" */ '../components/single/pack/Jars.vue'),
+        props: true
+    },
+    {
+        path: '/mamaPack',
+        name: 'MamaPack',
+        component: () =>
+            import ( /* webpackChunkName: "mamaPack" */ '../components/single/pack/MamaPack.vue'),
+        props: true
+    },
+     // mag singles
+    {
+        path: '/beauty',
+        name: 'Beauty',
+        component: () =>
+            import ( /* webpackChunkName: "beauty" */ '../components/single/mag/Beauty.vue'),
         props: true
     },
 ]

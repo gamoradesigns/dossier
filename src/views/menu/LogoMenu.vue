@@ -28,7 +28,7 @@
           <router-link
             class="linkClass"
             :to="{
-              name: 'BrandingMenu',
+              name: 'MamaLogo',
         
             }"
           >
@@ -52,7 +52,7 @@
                   >
                     <div class="paddedBox-1">
                       <div class="navLinkTitle" v-scrollanimation>
-                        logo
+                        mama
                       </div>
                       <div class="navLinkSubTitle" v-scrollanimation style="transition: all 1s .6s cubic-bezier(0.58, 0.37, 0.7, 1.48);">
                   Brand Developement &middot; UX  &middot; UI
@@ -235,7 +235,7 @@
                 <div class="imgDiv3 height100">
                   <img
                     v-scrollfadinganimation
-                    src="../../assets/images/resizeLONG/branding/pack/pine5F.png"
+                    src="../../assets/images/resizeLONG/branding/pack/jar/pine5F.png"
                     alt=""
                   />
                 </div>

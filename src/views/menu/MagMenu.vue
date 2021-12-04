@@ -28,7 +28,7 @@
           <router-link
             class="linkClass"
             :to="{
-              name: 'BrandingMenu',
+              name: 'Beauty',
         
             }"
           >
@@ -39,7 +39,7 @@
                   class='menuImg'
                   
                     v-scrollfadinganimation
-                    src="../../assets/images/resizeLONG/branding/manual/agile/agile2.jpg"
+                    src="../../assets/images/mag/beauty/beauty.jpg"
                     alt=""
                   />
                 </div>
@@ -52,10 +52,10 @@
                   >
                     <div class="paddedBox-1">
                       <div class="navLinkTitle" v-scrollanimation>
-                        mag
+                        beauty
                       </div>
                       <div class="navLinkSubTitle" v-scrollanimation style="transition: all 1s .6s cubic-bezier(0.58, 0.37, 0.7, 1.48);">
-                  Brand Developement &middot; UX  &middot; UI
+                  Magazine Editorial · Brand Development · Grid Layout Developement · Branding Tone & Voice
                       </div>
                     </div>
                   </div>
@@ -235,7 +235,7 @@
                 <div class="imgDiv3 height100">
                   <img
                     v-scrollfadinganimation
-                    src="../../assets/images/resizeLONG/branding/pack/pine5F.png"
+                    src="../../assets/images/resizeLONG/branding/pack/jar/pine5F.png"
                     alt=""
                   />
                 </div>
