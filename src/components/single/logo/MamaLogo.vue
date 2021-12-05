@@ -15,18 +15,18 @@
 
     <!-- nav -->
     <div class="articleMenuContainer" >
-      <div class="beautyText beauty" v-scrollfadinganimation>beauty.</div>
+      <div class="beautyText beauty"  >beauty.</div>
       <div class="articleMenu">
-        <router-link to="/" v-scrollfadinganimation>
+        <router-link to="/"  >
           <div class="articleMenuText">home</div></router-link
         >
-        <router-link to="/collectionMenu" v-scrollfadinganimation>
+        <router-link to="/collectionMenu"  >
           <div class="articleMenuText">Collections</div></router-link
         >
-        <router-link to="/articleMenu" v-scrollfadinganimation>
+        <router-link to="/articleMenu"  >
           <div class="articleMenuText">Articles</div></router-link
         >
-        <router-link to="/closerLookMenu" v-scrollfadinganimation>
+        <router-link to="/closerLookMenu"  >
           <div class="articleMenuText">Closer Look</div></router-link
         >
       </div>
@@ -38,7 +38,7 @@
 
       <div class="closerContentDiv" >
         <ul>
-          <li v-for="(value, index) in credit" :key="index" v-scrollanimation>
+          <li v-for="(value, index) in credit" :key="index"  >
             <div class="closerContentHeader">{{ credit[index].title }}</div>
             <div class="closerContentSubHeader" >{{ credit[index].value }}</div>
           </li>
@@ -56,7 +56,7 @@
       </div>
 
       <!-- right side -->
-      <div class="closerImg" v-scrollfadinganimation style="transition-delay: 1s !important">
+      <div class="closerImg"    >
         <img
           v-if="itemSelected"
          
@@ -72,7 +72,7 @@
       </div>
     </div>
     <!-- sidebar - hover -->
-    <div class=""  v-scrollfadinganimation style="transition-delay: 1.5s !important" >
+    <div class=""     >
       <div class="blocked">
         <div class="menu">
           <div class="title">Editions</div>
@@ -185,28 +185,7 @@ export default {
 };
 </script>
 <style scoped>
-  .before-enter-fade {
-    opacity: 0;
-    transition: all 1s .2s cubic-bezier(.58,.37,.7,1.48);
-  }
-
-  .enter-fade {
-    opacity: 1
-  }
-
-
-
-   .before-enter {
-    opacity: 0;
-   transform: translateY(50px);
-    transition: all 1s .5s cubic-bezier(.58,.37,.7,1.48);
-  }
- 
-  .enter {
-    opacity: 1;
-    transform: translateY(0px);
   
-  }
 img.bgImg {
 position: absolute;
     top: -200px;

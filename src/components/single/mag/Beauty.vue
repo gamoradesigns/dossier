@@ -1,5 +1,5 @@
 <template>
-  <div class="articleContainer" v-scrollfadinganimation>
+  <div class="articleContainer"  >
     <img
       v-if="itemSelected"
       class="bgImg"
@@ -15,51 +15,37 @@
 
     <!-- nav -->
     <div class="articleMenuContainer">
-      <div class="beautyText beauty" v-scrollfadinganimation>beauty.</div>
+      <div class="beautyText beauty"  >beauty.</div>
       <div class="articleMenu">
-        <router-link to="/" v-scrollfadinganimation>
+        <router-link to="/"  >
           <div class="articleMenuText">home</div></router-link
         >
-        <router-link to="/collectionMenu" v-scrollfadinganimation>
+        <router-link to="/collectionMenu"  >
           <div class="articleMenuText">Collections</div></router-link
         >
-        <router-link to="/articleMenu" v-scrollfadinganimation>
+        <router-link to="/articleMenu"  >
           <div class="articleMenuText">Articles</div></router-link
         >
-        <router-link to="/closerLookMenu" v-scrollfadinganimation>
+        <router-link to="/closerLookMenu"  >
           <div class="articleMenuText">Closer Look</div></router-link
         >
       </div>
       <div class="articleMenuIcon"></div>
     </div>
     <!-- content div -->
+
+
+    
+
     <div class="magContentContainer">
-      <!-- left  side -->
 
-      <div class="closerContentDiv">
-        <!-- <ul>
-          <li v-for="(value, index) in credit" :key="index" v-scrollanimation>
-            <div class="closerContentHeader">{{ credit[index].title }}</div>
-            <div class="closerContentSubHeader" >{{ credit[index].value }}</div>
-          </li>
-        </ul> -->
 
-        <!--               
-        <div class="closerContentHeader">photography</div>
-        <div class="closerContentSubHeader">{{ athrName }}</div> -->
-        <!-- <div class="closerContentHeader">{{credits[1].credit[0].title}}</div>
-        <div class="closerContentSubHeader">{{ credits[1].credit[1].value }}</div>
-             <div class="closerContentHeader">{{credits[1].credit[2].title}}</div>
-        <div class="closerContentSubHeader">{{ credits[1].credit[3].value }}</div>
-             <div class="closerContentHeader">{{credits[1].credit[4].title}}</div>
-        <div class="closerContentSubHeader">{{ credits[1].credit[5].value }}</div> -->
-      </div>
-
-      <!-- right side -->
+      <div class="magImgContainer">
+    <!-- img div -->
       <div
         class="magImg"
-        v-scrollfadinganimation
-        style="transition-delay: 1s !important"
+         
+         
       >
         <img
           v-if="itemSelected"
@@ -76,24 +62,118 @@
           alt=""
         />
       </div>
+
+
+
+
+
+    </div>
+    <div class="magBtmContainer" v-if="showAll">
+      <div class="magTitleContainer">
+        <div class="magTitleDiv">
+          <div class="magTopTitle articleHeaderDivBrandingLG">
+            beauty
+          </div>
+          <div class="magBtnTitle packageSubHeaderDiv">
+            <br>
+          </div>
+        </div>
+             <div class="packageSubHeaderContainer">
+        <div class="packageSubHeaderDiv"     >
+          <span class="subHeaderText">magazine</span> &middot; layout design
+        </div>
+      
+          
+      </div>
+        
+      </div>
+  <div class="magSliderContainer">
+       <div class="outer-wrapper-content-small-mag">
+    <div class="wrapper-content-small-mag">
+       <div class="magMenuRow">
+
+         <ul style="display: flex" class="ulMag">
+           <li v-for="(image, index) in beautyAssets"
+                  :key="index"
+                  @click="nextImg(index, image)"
+                  class="liMag">
+<div class="nextViewMagDiv">
+                    <div class="nextViewMagImgDiv">
+                      <img
+                        class="fullImg"
+                        :src="
+                          require(`./../../../assets/images/mag/beauty/${image.imgName}`)
+                        "
+                        alt=""
+                      />
+                   <!-- <div class="nextViewText">
+                      {{ image.currentEdition }}
+                    </div> -->
+                    </div>
+                
+                  </div>
+           </li>
+         </ul>
+             
+                </div>
+    </div>
+       </div>
+    </div>
+
+    </div>
+  
+<div class="magControlContainer">
+    <!-- control  btns -->
       <div class="magControlDiv">
        <div class="magLeftBtn" @click="backwards()">
           <i class="fa fa-chevron-circle-left"></i>
         </div>
-        <div class="magPopup" @click="showCollection">
-          <i class="fa fa-circle"></i></div>
+        
+
+            <div class="magPopup"  @click="showCollection"  >
+      <i v-if="!hideMe" class="fa fa-eye-slash"  ></i>
+      <i v-if="hideMe" class="fa fa-eye"  ></i>
+    </div>
+
+
         <div class="magRightBtn" @click="forwards()">
           <i class="fa fa-chevron-circle-right"></i>
         </div>
        
       </div>
+</div>
+
+
+      <!-- left  side -->
+
+      <!-- <div class="closerContentDiv"> -->
+        <!-- <ul>
+          <li v-for="(value, index) in credit" :key="index"  >
+            <div class="closerContentHeader">{{ credit[index].title }}</div>
+            <div class="closerContentSubHeader" >{{ credit[index].value }}</div>
+          </li>
+        </ul> -->
+
+        <!--               
+        <div class="closerContentHeader">photography</div>
+        <div class="closerContentSubHeader">{{ athrName }}</div> -->
+        <!-- <div class="closerContentHeader">{{credits[1].credit[0].title}}</div>
+        <div class="closerContentSubHeader">{{ credits[1].credit[1].value }}</div>
+             <div class="closerContentHeader">{{credits[1].credit[2].title}}</div>
+        <div class="closerContentSubHeader">{{ credits[1].credit[3].value }}</div>
+             <div class="closerContentHeader">{{credits[1].credit[4].title}}</div>
+        <div class="closerContentSubHeader">{{ credits[1].credit[5].value }}</div> -->
+      <!-- </div> -->
+
+  
+    
     </div>
     <!-- sidebar - hover -->
     <div
     v-if="showAll"
       class=""
-      v-scrollfadinganimation
-      style="transition-delay: 1.5s !important"
+       
+      
     >
       <div class="">
         <div class="menuClick" >
@@ -150,21 +230,23 @@ export default {
   data() {
     return {
       isActive: false,
-      showAll: false,
+      hideMe: false,
+      showAll: true,
       pageNumber: 0,
       editionName: "Alpha",
       beautyImgs: "beauty.jpg",
       currentImg: "beauty.jpg",
       itemSelected: false,
       beautyAssets: [
-        { imgName: "beauty.jpg", currentEdition: "zeta" },
-        { imgName: "beauty2.jpg", currentEdition: "zeta" },
-        { imgName: "beauty0.jpg", currentEdition: "Omega" },
-        { imgName: "beauty1.jpg", currentEdition: "alpha" },
-        { imgName: "beauty1.1.jpg", currentEdition: "gamma" },
-        { imgName: "beauty3.jpg", currentEdition: "zeta" },
-        { imgName: "beauty4.jpg", currentEdition: "zeta" },
-        { imgName: "beauty9.jpg", currentEdition: "zeta" },
+        { imgName: "beauty.jpg", currentEdition: "I" },
+        { imgName: "beauty2.jpg", currentEdition: "II" },
+        { imgName: "beauty3.jpg", currentEdition: "III" },
+        { imgName: "beauty4.jpg", currentEdition: "IV" },
+        { imgName: "beauty5.jpg", currentEdition: "V" },
+        { imgName: "beauty6.jpg", currentEdition: "VI" },
+        { imgName: "beauty7.jpg", currentEdition: "VII" },
+         { imgName: "beauty8.jpg", currentEdition: "VIII" },
+        { imgName: "beauty9.jpg", currentEdition: "IX" },
       ],
      
       credit: [
@@ -215,45 +297,42 @@ export default {
       console.log("page number- ", this.pageNumber, index, image);
       //   (this.collectionText = collection.collectionText),
       this.pageNumber = index;
-      this.beautyImgs = image.imgName;
-      this.editionName = image.currentEdition;
-      this.showAll = false
-      this.itemSelected = true;
+      // this.beautyImgs = image.imgName;
+      // this.editionName = image.currentEdition;
+      // this.showAll = false
+      // this.itemSelected = true;
     },
     forwards() {
-      console.log("forwards", this.pageNumber);
-      this.pageNumber += 1; 
+   
+      if (this.pageNumber <= 7) {
+    this.pageNumber += 1; 
+    return
+      } else {
+    this.pageNumber = 0; 
+          return
+      }
+  
     },
     backwards() {
-      console.log("back", this.beautyAssets);
+   
+      if (this.pageNumber >= 1) {
       this.pageNumber -= 1;
+      return
+      } else {
+           this.pageNumber = 8; 
+        return
+      }
+
     },
     showCollection(){
       this.showAll = !this.showAll
+      this.hideMe = !this.hideMe
     }
   },
 };
 </script>
 <style scoped>
-.before-enter-fade {
-  opacity: 0;
-  transition: all 1s 0.2s cubic-bezier(0.58, 0.37, 0.7, 1.48);
-}
 
-.enter-fade {
-  opacity: 1;
-}
-
-.before-enter {
-  opacity: 0;
-  transform: translateY(50px);
-  transition: all 1s 0.5s cubic-bezier(0.58, 0.37, 0.7, 1.48);
-}
-
-.enter {
-  opacity: 1;
-  transform: translateY(0px);
-}
 img.bgImg {
   position: absolute;
   top: -200px;

@@ -5,7 +5,7 @@
       <div class="col-endcap">
         <div class="col-grid">
           <div class="topSection hideOverflow beautyBox">
-            <div class="beautyText topLeftBeauty" v-scrollfadinganimation>
+            <div class="beautyText topLeftBeauty"  >
              dossier <br />
 
               <div class="spanbeautyText">
@@ -38,7 +38,7 @@
                   <img
                   class='menuImg'
                   
-                    v-scrollfadinganimation
+                     
                     src="../../assets/images/resizeLONG/branding/pack/jar/pine5F.png"
                     alt=""
                   />
@@ -51,10 +51,10 @@
                  
                   >
                     <div class="paddedBox-1">
-                      <div class="navLinkTitle" v-scrollanimation>
+                      <div class="navLinkTitle"  >
                         In The Weeds
                       </div>
-                      <div class="navLinkSubTitle" v-scrollanimation style="transition: all 1s .6s cubic-bezier(0.58, 0.37, 0.7, 1.48);">
+                      <div class="navLinkSubTitle"   style="transition: all 1s .6s cubic-bezier(0.58, 0.37, 0.7, 1.48);">
                  Package Design &middot; UX  &middot; UI
                       </div>
                     </div>
@@ -64,22 +64,22 @@
               <transition name="fade" mode="out-in">
                 <div class="popupMenuContainer"  v-show="showMenu1">
                   <div class="hideOverflow popupMenuDiv">
-                    <router-link to="/brand">
+                    <router-link to="/brandingMenu">
                       <div class="divTwo div beautyText menuText">
                         &middot; branding &middot;
                       </div>
                     </router-link>
-                    <router-link to="/logo">
+                    <router-link to="/logoMenu">
                       <div class="divTwo div beautyText menuText">
                         &middot; logos &middot;
                       </div>
                     </router-link>
-                    <router-link to="/packaging">
+                    <router-link to="/packageMenu">
                       <div class="divTwo div beautyText menuText">
                         &middot; packaging &middot;
                       </div>
                     </router-link>
-                    <router-link to="/magazine">
+                    <router-link to="/magMenu">
                       <div class="divTwo div beautyText menuText">
                         &middot; magazines &middot;
                       </div>
@@ -97,7 +97,7 @@
 
           <div
             class="bottomSection footer-text"
-            v-scrollfadinganimation
+             
             @click="viewMenu((val = 1))"
           >
             &middot; {{ showMenu1 ? "explore dossier" : "explore"}} &middot;
@@ -136,7 +136,7 @@
             class="linkClass"
             style="overflow: hidden"
             :to="{
-              name: 'Logo',
+              name: 'MamaPack',
              
             }"
           >
@@ -146,8 +146,8 @@
                   <div class="imgDiv3 height100">
                     <img
                     class=""
-                      v-scrollfadinganimation
-                      src="../../assets/images/resizeLONG/branding/station/station7.jpg"
+                       
+                      src="../../assets/images/resizeLONG/branding/pack/mama/mama1.jpg"
                       alt=""
                     />
                   </div>
@@ -156,10 +156,10 @@
                       class="paddedBox-2 "
                      
                     >
-                      <div class="navLinkTitle" v-scrollanimation>
-                       ALTA Fin
+                      <div class="navLinkTitle"  >
+                    Mama Ethel's Herbal Infustions
                       </div>
-                      <div class="navLinkSubTitle" v-scrollanimation style="transition: all 1s .6s cubic-bezier(0.58, 0.37, 0.7, 1.48);">
+                      <div class="navLinkSubTitle"   style="transition: all 1s .6s cubic-bezier(0.58, 0.37, 0.7, 1.48);">
                         Logo Design &middot; Visual Elements
                       </div>
                     </div>
@@ -169,22 +169,22 @@
               <transition name="fade">
                 <div class="popupMenuContainer2" v-show="showMenu2">
                     <div class="hideOverflow popupMenuDiv">
-                    <router-link to="/brand">
+                    <router-link to="/brandingMenu">
                       <div class="divTwo div beautyText menuText">
                         &middot; branding &middot;
                       </div>
                     </router-link>
-                    <router-link to="/logo">
+                    <router-link to="/logoMenu">
                       <div class="divTwo div beautyText menuText">
                         &middot; logos &middot;
                       </div>
                     </router-link>
-                    <router-link to="/packaging">
+                    <router-link to="/packageMenu">
                       <div class="divTwo div beautyText menuText">
                         &middot; packaging &middot;
                       </div>
                     </router-link>
-                    <router-link to="/magazine">
+                    <router-link to="/magMenu">
                       <div class="divTwo div beautyText menuText">
                         &middot; magazines &middot;
                       </div>
@@ -201,7 +201,7 @@
           </router-link>
           <div
             class="bottomSection footer-text"
-            v-scrollfadinganimation
+             
             @click="viewMenu((val = 2))"
           >
             &middot; {{ showMenu2 ? "explore dossier" : "explore" }} &middot;
@@ -226,7 +226,7 @@
           <router-link
             class="linkClass"
             :to="{
-              name: 'Packaging',
+              name: 'Flowerchild',
            
             }"
           >
@@ -234,8 +234,8 @@
               <div class="hideOverflow" style="height: 100%">
                 <div class="imgDiv3 height100">
                   <img
-                    v-scrollfadinganimation
-                    src="../../assets/images/resizeLONG/branding/pack/jar/pine5F.png"
+                     
+                    src="../../assets/images/resizeLONG/branding/pack/bag/bagThumbnail.jpg"
                     alt=""
                   />
                 </div>
@@ -248,10 +248,10 @@
                   >
                     <div class="paddedBox-3">
                     
-                      <div class="navLinkTitle" v-scrollanimation>
-                        Packing Design
+                      <div class="navLinkTitle"  >
+                        Flowerchild
                       </div>
-                      <div class="navLinkSubTitle" v-scrollanimation style="transition: all 1s .6s cubic-bezier(0.58, 0.37, 0.7, 1.48);">
+                      <div class="navLinkSubTitle"   style="transition: all 1s .6s cubic-bezier(0.58, 0.37, 0.7, 1.48);">
                        Product Design &middot; Visual Communication
                       </div>
                     </div>
@@ -261,22 +261,22 @@
               <transition name="fade">
                 <div class="popupMenuContainer" v-show="showMenu3">
                     <div class="hideOverflow popupMenuDiv">
-                    <router-link to="/brand">
+                    <router-link to="/brandingMenu">
                       <div class="divTwo div beautyText menuText">
                         &middot; branding &middot;
                       </div>
                     </router-link>
-                    <router-link to="/logo">
+                    <router-link to="/logoMenu">
                       <div class="divTwo div beautyText menuText">
                         &middot; logos &middot;
                       </div>
                     </router-link>
-                    <router-link to="/packaging">
+                    <router-link to="/packageMenu">
                       <div class="divTwo div beautyText menuText">
                         &middot; packaging &middot;
                       </div>
                     </router-link>
-                    <router-link to="/magazine">
+                    <router-link to="/magMenu">
                       <div class="divTwo div beautyText menuText">
                         &middot; magazines &middot;
                       </div>
@@ -293,7 +293,7 @@
           </router-link>
           <div
             class="bottomSection footer-text"
-            v-scrollfadinganimation
+             
             @click="viewMenu((val = 3))"
           >
             &middot; {{ showMenu3 ? "explore dossier" : "explore" }} &middot;
@@ -328,7 +328,7 @@
             class="linkClass"
             style="overflow: hidden"
             :to="{
-              name: 'Magazine',
+              name: 'Spa',
              
             }"
           >
@@ -337,8 +337,8 @@
                 <div class="height100">
                   <div class="imgDiv3 height100">
                     <img
-                      v-scrollfadinganimation
-                     src="../../assets/images/resizeLONG/branding/mag/beauty/beauty.jpg"
+                       
+                     src="../../assets/images/resizeLONG/branding/pack/spa/spa3.jpg"
                       alt=""
                     />
                   </div>
@@ -348,10 +348,10 @@
                     
                     >
                   
-                      <div class="navLinkTitle" v-scrollanimation>
-                       Magazine Viewing
+                      <div class="navLinkTitle"  >
+                      Cosmetic Essienial
                       </div>
-                      <div class="navLinkSubTitle" v-scrollanimation style="transition: all 1s .6s cubic-bezier(0.58, 0.37, 0.7, 1.48);">
+                      <div class="navLinkSubTitle"   style="transition: all 1s .6s cubic-bezier(0.58, 0.37, 0.7, 1.48);">
                        Layout Design &middot; Editoral
                       </div>
                     </div>
@@ -361,22 +361,22 @@
               <transition name="fade">
                 <div class="popupMenuContainer4" v-show="showMenu4">
                     <div class="hideOverflow popupMenuDiv">
-                    <router-link to="/brand">
+                    <router-link to="/brandingMenu">
                       <div class="divTwo div beautyText menuText">
                         &middot; branding &middot;
                       </div>
                     </router-link>
-                    <router-link to="/logo">
+                    <router-link to="/logoMenu">
                       <div class="divTwo div beautyText menuText">
                         &middot; logos &middot;
                       </div>
                     </router-link>
-                    <router-link to="/packaging">
+                    <router-link to="/packageMenu">
                       <div class="divTwo div beautyText menuText">
                         &middot; packaging &middot;
                       </div>
                     </router-link>
-                    <router-link to="/magazine">
+                    <router-link to="/magMenu">
                       <div class="divTwo div beautyText menuText">
                         &middot; magazines &middot;
                       </div>
@@ -393,7 +393,7 @@
           </router-link>
           <div
             class="bottomSection footer-text"
-            v-scrollfadinganimation
+             
             @click="viewMenu((val = 4))"
           >
             &middot; {{ showMenu4 ? "explore dossier" : "explore" }} &middot;
@@ -409,7 +409,7 @@
       <div class="col-endcap">
         <div class="col-grid">
           <div class="topSection hideOverflow beautyBox">
-             <div class="beautyText topLeftBeauty" v-scrollfadinganimation>
+             <div class="beautyText topLeftBeauty"  >
              dossier <br />
 
               <div class="spanbeautyText">
@@ -460,33 +460,4 @@ export default {
 </script>
 <style scoped>
 
-.fade-enter-active,
-.fade-leave-active {
-  transition-duration: 0.3s;
-  transition-property: opacity;
-  transition-timing-function: ease;
-}
-
-.fade-enter,
-.fade-leave-active {
-  opacity: 0
-}
-.before-enter {
-  opacity: 0;
-  transform: translateY(50px);
-  transition: all 1s 0.5s cubic-bezier(0.58, 0.37, 0.7, 1.48);
-}
-
-.enter {
-  opacity: 1;
-  transform: translateY(0px);
-}
- .before-enter-fade {
-    opacity: 0;
-    transition: all 1s .2s cubic-bezier(.58,.37,.7,1.48);
-  }
-
-  .enter-fade {
-    opacity: 1
-  }
 </style>

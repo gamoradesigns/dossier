@@ -102,12 +102,40 @@ const routes = [{
             import ( /* webpackChunkName: "mamaPack" */ '../components/single/pack/MamaPack.vue'),
         props: true
     },
-     // mag singles
+    {
+        path: '/spa',
+        name: 'Spa',
+        component: () =>
+            import ( /* webpackChunkName: "spa" */ '../components/single/pack/Spa.vue'),
+        props: true
+    },
+    {
+        path: '/flowerchild',
+        name: 'Flowerchild',
+        component: () =>
+            import ( /* webpackChunkName: "flowerchild" */ '../components/single/pack/Flowerchild.vue'),
+        props: true
+    },
+    // mag singles
     {
         path: '/beauty',
         name: 'Beauty',
         component: () =>
             import ( /* webpackChunkName: "beauty" */ '../components/single/mag/Beauty.vue'),
+        props: true
+    },
+    {
+        path: '/nogen',
+        name: 'Nogen',
+        component: () =>
+            import ( /* webpackChunkName: "nogen" */ '../components/single/mag/Nogen.vue'),
+        props: true
+    },
+    {
+        path: '/retroMag',
+        name: 'RetroMag',
+        component: () =>
+            import ( /* webpackChunkName: "retroMag" */ '../components/single/mag/RetroMag.vue'),
         props: true
     },
 ]

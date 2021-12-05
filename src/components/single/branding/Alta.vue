@@ -1,508 +1,1411 @@
 <template>
-  <div class="">
-    <div class="" style="display: flex">
-      <!-- col - empty-->
-      <div class="col-endcap">
-        <div class="section-content">
-          <div class="topSection hideOverflow">
-            <div class="beautyText topLeftBeauty" v-scrollfadinganimation>
-              beauty. <br />
+  <div class="articleContainer"  >
+    <!-- background images  -->
 
-              <div class="spanbeautyText">
-                &middot; <br />
-                summer edition
-              </div>
-            </div>
-          </div>
-          <!-- <div class="middleSection hideOverflow">
-            <div class="beautyText sidebarBeauty" v-scrollfadinganimation>
-              beauty
-              <div class="middot">&middot;</div>
-              <div class="spanbeautyText">summer edition</div>
-            </div>
-          </div> -->
-          <div class="bottomSection hideOverflow"></div>
-        </div>
+    <img
+       
+      class="bgImg"
+      src="./../../../assets/images/resizeLONG/branding/manual/agile/agile8.jpg"
+      alt=""
+    />
+    <!-- nav -->
+    <div class="articleMenuContainer">
+      <div class="beauty beautyText"  >beauty.</div>
+      <div class="articleMenu">
+        <router-link to="/main"  >
+          <div class="articleMenuText">home</div></router-link
+        >
+        <router-link to="/logoMenu"  >
+          <div class="articleMenuText">logos</div></router-link
+        >
+        <router-link to="/packageMenu"  >
+          <div class="articleMenuText">packaging</div></router-link
+        >
+        <router-link to="/magMenu"  >
+          <div class="articleMenuText">magazines</div></router-link
+        >
       </div>
-      <!-- col - ux content -->
-
-      <div class="col-content-ux">
-        <div class="section-content">
-          <div class="topSection hideOverflow"></div>
-          <div class="middleSection hideOverflow content-ux-container">
-            <div class="content-img">
-              <div class="content-img-content">
-                <div class="agileLogo"></div>
-
-                <div class="content-img-top">
-                  <div class="ux-content-sub-body-2">
-                    ALTA
-                  </div>
-                </div>
-
-                <div class="content-view-btn">
-                  <button>VIEW BRAND MANUAL</button>
-                </div>
-              </div>
-            </div>
-            <div class="content-ux-div">
-              <div class="branding-title"> ALTA's fitness brand basics</div>
-              <div class="ux-content-title p-2010">who we are</div>
-              <div class="ux-content-sub">
-                <div class="ux-content-sub-body">
-    hello alta, goodbye cash
-                </div>
-              </div>
-              <div class="ux-content-title" style="padding-top: 30px">
-                values
-              </div>
-
-              <div class="ux-content-sub">
-                <div class="value-content-div">
-                 <div class="value-single">fast</div>
-                  <div class="value-single">easy</div>
-                  <div class="value-single">freedom</div>
-                  <div class="value-single">safe</div>
-                  <div class="value-single">trust</div>
-                  <div class="value-single">limitless</div>
-                </div>
-
-                <div class="ux-content-sub-body">
-             ALTA is a digital payment club for cash-intensive industries
-                  where businesses pay each other using digital tokens instead
-                  of cash. As a cash-intensive business, you deserve a partner
-                  that understands your unique needs and anticipates the
-                  protections you’ll need to operate your business. Alta enables
-                  you to receive and make payments 24/7, you can also sell your
-                  tokens for dollars which are then deposited into a bank
-                  account of your choice, thus empowering your business to reach
-                  new heights.
-                </div>
-              </div>
-              <div class="ux-content-title p-2010"> Voice and Tone</div>
-              <div class="ux-content-sub">
-                <div class="ux-content-sub-body-2">
-                  Communicating for Clarity
-                </div>
-                <div class="ux-content-sub-body">
-                   Alta’s brand voice is clear, concise, possessive and most of
-                  all always positive. The industry that Alta operates in has a
-                  lot of misconceptions about it, it’s important the
-                  communication stays within these specific parameters. If you
-                  stick to these things, you can’t go wrong.
-                </div>
-              </div>
-            </div>
-          </div>
-
-
-
-
-
-          <div class="bottomSection hideOverflow"></div>
-        </div>
-      </div>
-      <!-- col - ui content -->
-      <div class="col-content-ui">
-        <div class="section-content">
-          <div class="topSection hideOverflow"></div>
-          <div class="middleSection hideOverflow content-ui-container">
-            <div class="content-upper-container">
-    <tabs>
-  
-      <tab title="Color pallette" class="callpallette" v-scrollfadinganimation>
-        <div class="color-pallette-content">
-          <div class="outer-wrapper-content">
-            <div class="wrapper-content">
-              <div class="color-array-intro">
-                <div class="color-array-intro-content">
-                  <transition>
-                  <div class="color-array-intro-title mont-font" v-scrollfadinganimation style="transition-delay: .3s !important ;">
-                    Forrest Color Pallette
-                  </div>
-                  </transition>
-                  <div class="color-bar-alta" v-scrollfadinganimation style="transition-delay: .8s !important ;"></div>
-                  <div class="color-sup-text" v-scrollfadinganimation style="transition-delay: 1s !important ;">
-                    Fun <br />
-                 
-                  </div>
-                      <div class="color-sup-text" v-scrollfadinganimation style="transition-delay: 1.2s !important ;">
-                
-                    energtic
-                 
-                  </div>
-                      <div class="color-sup-text" v-scrollfadinganimation style="transition-delay: 1.4s !important ;">
-                  
-                    supportive
-                  </div>
-                  <div class="color-array-intro-body" v-scrollfadinganimation style="transition-delay: 1.6s !important ;">
-                    <div class="color-array-intro-body-text">
-                      Lorem ipsum dolor sit doloremque, neque deserunt quam quos
-                      aliquam reiciendis pariatur eos facere excepturi modi in
-                      recusandae ea velit enim?
-                    </div>
-                    <div class="color-array-intro-body-arrow"></div>
-                  </div>
-                </div>
-
-                <div class="color-array-container">
-                  <div class="color-array-div">
-                    <div class="color-title" v-scrollfadinganimation style="transition-delay: 2s !important ;">Mint </div>
-
-                    <div class="content-color-div">
-                      <div class="content-color-left">
-                        <div class="color-codes">
-                          <div class="" v-scrollfadinganimation style="transition-delay: 2.2s !important ;" >HEX : 96E632</div>
-                          <div class="" v-scrollfadinganimation style="transition-delay: 2.4s !important ;">CMYK : 48.23 0 94.21 0</div>
-                          <div class="" v-scrollfadinganimation style="transition-delay: 2.6s !important ;">RGBA :150 230 50</div>
-                        </div>
-                      </div>
-                      <div class="content-color-right" v-scrollfadinganimation style="transition-delay: 1s !important ;">
-                        <div class="content-color-colors-1 altagreen"></div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="color-array-div">
-                    <div class="color-title" v-scrollfadinganimation >Colbalt </div>
-                    <div class="content-color-div">
-                      <div class="content-color-left">
-                        <div class="color-codes">
-                          <div class=""  v-scrollfadinganimation style="transition-delay: .8s !important ;">HEX : 002352</div>
-                          <div class=""  v-scrollfadinganimation style="transition-delay: 1s !important ;"> CMYK : 100 91 37 37</div>
-                          <div class=""  v-scrollfadinganimation style="transition-delay: 1.2s !important ;">03582</div>
-                        </div>
-                      </div>
-                      <div class="content-color-right" v-scrollfadinganimation style="transition-delay: .5s !important ;">
-                        <div class="content-color-colors-1 altablue"></div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="color-array-div">
-                    <div class="color-title" v-scrollfadinganimation style="transition-delay: 3s !important ;">green 1</div>
-                    <div class="content-color-div">
-                      <div class="content-color-left">
-                        <div class="color-codes">
-                          <div class="" v-scrollfadinganimation style="transition-delay: 3.2s !important ;">HEX : 43B02B</div>
-                          <div class="" v-scrollfadinganimation style="transition-delay: 3.4s !important ;">CMYK: 651983</div>
-                          <div class="" v-scrollfadinganimation style="transition-delay: 3.5s !important ;">RGBA : 67 176 43</div>
-                        </div>
-                      </div>
-                      <div class="content-color-right" v-scrollfadinganimation style="transition-delay: 1.4s !important ;">
-                        <div class="content-color-colors-1 green1" ></div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="color-array-div">
-                    <div class="color-title" v-scrollfadinganimation style="transition-delay: 1.4s !important ;">green 2 </div>
-                    <div class="content-color-div">
-                      <div class="content-color-left">
-                        <div class="color-codes">
-                          <div class="" v-scrollfadinganimation style="transition-delay: 1.6s !important ;">HEX : 099A44</div>
-                          <div class="" v-scrollfadinganimation style="transition-delay: 1.8s !important ;">CMYK: 803946</div>
-                          <div class="" v-scrollfadinganimation style="transition-delay: 2s !important ;">RGBA : 13 154 68</div>
-                        </div>
-                      </div>
-                      <div class="content-color-right" v-scrollfadinganimation style="transition-delay: 1.5s !important ;">
-                        <div class="content-color-colors-1 green2"></div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="color-array-div">
-                    <div class="color-title" v-scrollfadinganimation style="transition-delay: 4s !important ;">blue 1</div>
-                    <div class="content-color-div">
-                      <div class="content-color-left">
-                        <div class="color-codes">
-                          <div class="" v-scrollfadinganimation style="transition-delay: 4.2s !important ;">HEX : 071D49</div>
-                          <div class="" v-scrollfadinganimation style="transition-delay: 4.4s !important ;">CMYK: 94 81 18 45</div>
-                          <div class="" v-scrollfadinganimation style="transition-delay: 4.6s !important ;">RGBA : 7 28 73</div>
-                        </div>
-                      </div>
-                      <div class="content-color-right" v-scrollfadinganimation style="transition-delay: 2s !important ;">
-                        <div class="content-color-colors-1 blue1"></div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="color-array-div">
-                    <div class="color-title" v-scrollfadinganimation style="transition-delay: 2.4s !important ;">blue 2</div>
-                    <div class="content-color-div">
-                      <div class="content-color-left">
-                        <div class="color-codes">
-                          <div class="" v-scrollfadinganimation style="transition-delay: 2.6s !important ;">HEX : FF8F1C</div>
-                          <div class="" v-scrollfadinganimation style="transition-delay: 2.8s !important ;"> CMYK : 0 48 84 0</div>
-                          <div class="" v-scrollfadinganimation style="transition-delay: 3s !important ;">RGB : 255 143 28</div>
-                        </div>
-                      </div>
-                      <div class="content-color-right" v-scrollfadinganimation style="transition-delay: 2s !important ;">
-                        <div class="content-color-colors-1 blue2"></div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </tab>
-      <tab title="Typography" class="" style="text-transformation: lowercase" v-scrollfadinganimation>
-        <div class="outer-wrapper-content">
-          <div class="wrapper-content">
-            <div class="typo-whole-container">
-              <div class="demo-intro-content">
-                <div class="color-array-intro-title  mont-font" v-scrollfadinganimation style="transition-delay: .3s !important ;">
-                  Typography
-                </div>
-                <div class=""></div>
-                <div class="color-sup-text">
-                  <div class="type-intro-sup">
-                    <div class=" mont-font supFont1" v-scrollfadinganimation style="transition-delay: .8s !important ;">safe</div>
-                    <div class="nova supFont2" v-scrollfadinganimation style="transition-delay: 1.2s !important ;">easy</div>
-                    <div class="mont-font supFont3" v-scrollfadinganimation style="transition-delay: 1.4s !important ;">trust</div>
-                    <div class="nova supFontF4" v-scrollfadinganimation style="transition-delay: 1.6s !important ;">limitless</div>
-                    <div class=" mont-font supFont5" v-scrollfadinganimation style="transition-delay: 1.8s !important ;">fast</div>
-                  </div>
-                </div>
-                <div class="color-array-intro-body">
-                  <div class="color-array-intro-body-text" v-scrollfadinganimation style="transition-delay: 2.2s !important ;">
-                    Lorem ipsum dolor sit doloremque, neque deserunt quam quos
-                    aliquam reiciendis pariatur eos facere excepturi modi in
-                    recusandae ea velit enim?
-                  </div>
-                  <div class="color-array-intro-body-arrow"></div>
-                </div>
-              </div>
-
-              <div class="type-container">
-                <div class="type-info-div">
-                  <div class="type-info-title title-short  mont-font" v-scrollfadinganimation style="transition-delay: 2.6s !important ;">MONTSERRAT</div>
-                  <div class="" v-scrollfadinganimation style="transition-delay: 2.8s !important ;">
-                    The old posters and signs in the traditional neighborhood of Buenos Aires called Montserrat inspired me to design a typeface that rescues the beauty of urban typography from the first half of the twentieth century. The goal is to rescue what is in Montserrat and set it free, under a free, libre and open source license, the SIL Open Font License
-                    <div class="type-span">
-                      Used for corporate font, body copy, press releases, print
-                      and digital media when appliciable.
-                    </div>
-                  </div>
-                </div>
-                <div class="text-example-div">
-                  <div class="abText  mont-font" v-scrollfadinganimation style="transition-delay: .5s !important ;">AaBbCc</div>
-                  <div class="aphlaText  mont-font" v-scrollfadinganimation style="transition-delay: .8s !important ;">
-                    ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijlmnopqrstvuwxyz
-                    `~!@#$%^?,./:"{}[]*()_+-=
-                  </div>
-                </div>
-              </div>
-             
-            </div>
-          </div>
-        </div>
-      </tab>
-
-      <tab title="Logo" class="" v-scrollfadinganimation >
-        <div class="outer-wrapper-content">
-          <div class="wrapper-content">
-            <div class="logo-whole-container">
-              <div class="logo-containter">
-                <div class="logo-single-div logo-first-single">
-                  <div class="logo-title mont-font" v-scrollfadinganimation style="transition-delay: .3s !important ;">the Alta Logo</div>
-                  <div class="logo-img og-logo-alta" v-scrollfadinganimation style="transition-delay: .8s !important ;"></div>
-                  <div class="logo-content-div logo-content-div-first">
-                
-                    <div class="logo-body" v-scrollfadinganimation style="transition-delay: 1s !important ;">
-                      Our Logo is the key building block of our identity, the primary visual element that identifies us. The signature is a combination of the the symbol itself and our company name – they have a fixed relationship that should never be changed in any way.
-                    </div>
-                  </div>
-                </div>
-                <div class="logo-single-div">
-                  <div class="logo-img display-logo" v-scrollfadinganimation></div>
-                  <div class="logo-content-div">
-                    <div class="logo-title mont-font" v-scrollfadinganimation style="transition-delay: 1.5s !important ;">Logo Spacing</div>
-                    <div class="logo-body" v-scrollfadinganimation style="transition-delay: 1.8s !important ;">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Ullam molestias commodi suscipit obcaecati eligendi quis
-                      totam ipsam distinctio natu.
-                    </div>
-                  </div>
-                </div>
-                <div class="logo-single-div">
-                  <div class="logo-img white-logo-alta"  v-scrollfadinganimation></div>
-                  <div class="logo-content-div">
-                    <div class="logo-title mont-font" v-scrollfadinganimation style="transition-delay: .7s !important ;">White Logo</div>
-                    <div class="logo-body" v-scrollfadinganimation style="transition-delay: 1s !important ;">
-                      Will be used when the backround color is dark
-                    </div>
-                  </div>
-                </div>
-                <div class="logo-single-div">
-                  <div class="logo-img outline-logo-alta" v-scrollfadinganimation></div>
-                  <div class="logo-content-div" >
-                    <div class="logo-title mont-font" v-scrollfadinganimation style="transition-delay: .7s !important ;" > Monoline Logo</div>
-                    <div class="logo-body" v-scrollfadinganimation style="transition-delay: 1s !important ;">
-                  Will be used for an alternative to the full color single logo.
-                    </div>
-                  </div>
-                </div>
-                <div class="logo-single-div">
-                        <div class="logo-img outline-logo-alta-black" v-scrollfadinganimation></div>
+      <div class="articleMenuIcon"></div>
+    </div>
+    <!-- content div -->
+    <div class="brandingContainer">
+      <div
+        class="brandingGridContainer2 positionInherit"
+        style="margin: 10px 0px 0px 10px"
+        v-if="!hideMe"
+         
+      >
+        <div class="backdropContent_Collection"  >
+          <div class="brandingTopMenuDiv">
+            <div
+              class="articleHeaderDivBranding"
                
-                  <div class="logo-content-div">
-                    <div class="logo-title mont-font"  v-scrollfadinganimation style="transition-delay: .7s !important ;">Black Monoline Logo</div>
-                    <div class="logo-body"  v-scrollfadinganimation style="transition-delay: 1s !important ;">
-                     Will be used for an alternative to the full color single logo.
+            >
+              1574 <br />
+            </div>
+            <div
+              class="articleHeaderDivBrandingLG"
+               
+            >
+              Visiual Menu
+            </div>
+          </div>
+          <div class="brandingBottomMenuContainer">
+            <div class="brandingBottomMenuDiv">
+              <div class="packageSubHeaderContainer">
+                <div
+                  class="brandingSubHeaderDiv"
+                   
+                >
+                  Meet the brand
+                  <!-- &middot; <span class="subHeaderText">UX</span>  -->
+                </div>
+                <div class="brandingMenuRow">
+                  <div class="nextViewMenuDiv">
+                    <div
+                      class="nextViewMenuImgDiv"
+                      @click="showContainer(gridInput)"
+                    >
+                      <img
+                        class="fullImg"
+                        src="./../../../assets/images/resizeLONG/branding/manual/agile/agile2.jpg"
+                        alt=""
+                      />
+                    </div>
+                    <div class="nextViewText">ALTA</div>
+                  </div>
+                </div>
+                <div
+                  class="brandingSubHeaderDiv"
+                   
+                >
+                  <!-- <span class="subHeaderText"> UI</span> &middot;  -->
+                  get to know
+                </div>
+                <div class="brandingMenuRow">
+                  <div class="nextViewMenuDiv">
+                    <div
+                      class="nextViewMenuImgDiv"
+                      @click="showContainer(logoInput)"
+                    >
+                      <img
+                        class="fullImg"
+                        src="./../../../assets/images/resizeLONG/branding/manual/agile/yoga.jpg"
+                        alt=""
+                      />
+                    </div>
+                    <div class="nextViewText">logo</div>
+                  </div>
+                  <div
+                    class="nextViewMenuDiv"
+                    @click="showContainer(colorInput)"
+                  >
+                    <div class="nextViewMenuImgDiv">
+                      <img
+                        class="fullImg"
+                        src="./../../../assets/images/resizeLONG/branding/manual/alta/altabrandbible14.jpg"
+                        alt=""
+                      />
+                    </div>
+                    <div class="nextViewText">colors</div>
+                  </div>
+                  <div
+                    class="nextViewMenuDiv"
+                    @click="showContainer(typeInput)"
+                  >
+                    <div class="nextViewMenuImgDiv">
+                      <img
+                        class="fullImg"
+                        src="./../../../assets/images/resizeLONG/branding/manual/alta/altabrandbible12.jpg"
+                        alt=""
+                      />
+                    </div>
+                    <div class="nextViewText">Typography</div>
+                  </div>
+                </div>
+
+                <div
+                  class="brandingSubHeaderDiv"
+                   
+                   
+                >
+                  <!-- <span class="subHeaderText"> Deliveriables</span> &middot;  -->
+                  take a look
+                </div>
+                <div class="brandingMenuRow">
+                  <div class="nextViewMenuDiv">
+                    <div
+                      class="nextViewMenuImgDiv"
+                      @click="showContainer(socialInput)"
+                    >
+                      <img
+                        class="fullImg"
+                        src="./../../../assets/images/resizeLONG/branding/manual/agile/agile7.1.jpg"
+                        alt=""
+                      />
+                    </div>
+                    <div class="nextViewText" style="top: -40px !important">
+                      Social Media 
+                    </div>
+                  </div>
+                  <div class="nextViewMenuDiv">
+                    <div
+                      class="nextViewMenuImgDiv"
+                      @click="showContainer(manualInput)"
+                    >
+                      <img
+                        class="fullImg"
+                        src="./../../../assets/images/resizeLONG/branding/manual/agile/agile7.1.jpg"
+                        alt=""
+                      />
+                    </div>
+                    <div class="nextViewText" style="top: -40px !important">
+                      Brand Manual
+                    </div>
+                  </div>
+                  <!-- <div class="nextViewMenuDiv">
+                    <div
+                      class="nextViewMenuImgDiv"
+                      @click="showContainer(stationInput)"
+                    >
+                      <img
+                        class="fullImg"
+                        src="./../../../assets/images/resizeLONG/branding/manual/agile/agile7.1.jpg"
+                        alt=""
+                      />
+                    </div>
+                    <div class="nextViewText" style="top: -40px !important">
+                      Stationary Packet
+                    </div>
+                  </div> -->
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- <div class="articleContentDiv fullWidth">
+        {{ collectionText }}
+      </div> -->
+
+          <!-- photo gallery-->
+        </div>
+      </div>
+
+      <div
+        class="brandingGridContainer positionInherit"
+        style="margin: 10px 0px 0px 10px; overflow: hidden !important"
+      >
+        <div class="backdropContentBrandingGrid">
+          <div class="container">
+            <div class="agileBrand" v-if="grid">
+              <div class="grid-layout">
+                <div class="grid-item grid-item-1">
+                  <img src="./../../../assets/images/agile/agile3.jpg" alt="" />
+                </div>
+                <div class="grid-item grid-item-2">
+                  <img
+                    src="./../../../assets/images/resizeLONG/branding/manual/agile/agile8.jpg"
+                  />
+                </div>
+                <div class="grid-item span-3 grid-item-3">
+                  <img
+                    src="./../../../assets/images/resizeLONG/branding/manual/agile/agile6_1.jpg"
+                  />
+                </div>
+                <div class="grid-item grid-item-4">
+                  <img
+                    src="./../../../assets/images/resizeLONG/branding/manual/agile/agile6.jpg"
+                  />
+                </div>
+                <div class="grid-item span-2 grid-item-5">
+                  <img
+                    src="./../../../assets/images/resizeLONG/branding/manual/agile/agile7.jpg"
+                  />
+                </div>
+                <div class="grid-item grid-item-6">
+                  <img
+                    src="./../../../assets/images/resizeLONG/branding/manual/agile/agileux32.jpg"
+                  />
+                </div>
+                <div class="grid-item grid-item-7">
+                  <img
+                    src="./../../../assets/images/resizeLONG/branding/manual/agile/agile7.jpg"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="logo" v-if="logo">
+              <div class="colors">
+                <div class="color-pallette-content">
+                  <div class="color-array">
+                    <transition>
+                      <div
+                        class="colorTitle"
+                          
+                        
+                      >
+                        The ALTA Logo
+                      </div>
+                    </transition>
+                    <div
+                      class="color-bar-agile"
+                        
+                        
+                    ></div>
+                    <div class="colorSubDiv">
+                      <div class="colorSubDivLeft">
+                        <div
+                          class="color-sup-text"
+                          
+                         
+                        >
+                          Fun <br />
+                        </div>
+                        <div
+                          class="color-sup-text"
+                           
+                         
+                        >
+                          energtic
+                        </div>
+                        <div
+                          class="color-sup-text"
+                           
+                         
+                        >
+                          supportive
+                        </div>
+                      </div>
+                      <div class="colorSubDivRight">
+                        <div
+                          class="color-array-intro-body"
+                            
+                         
+                        >
+                          <div class="color-array-intro-body-text">
+                            Our Logo is the key building block of our identity,
+                            the primary visual element that identifies us. The
+                            signature is a combination of the the symbol itself
+                            and our company name – they have a fixed
+                            relationship that should never be changed in any
+                            way.
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="outer-wrapper-content-small">
+                    <div class="wrapper-content-small">
+                      <div class="color-array">
+                        <div class="logo-whole-container">
+                          <div class="logo-containter">
+                            <div class="logo-single-div logo-first-single"   
+                         >
+                              <div
+                                class="logo-title mont-font"
+                               
+                              >
+                                the ALTA Logo
+                              </div>
+                              <div
+                                class="logo-img"
+                               
+                              >
+                                <img
+                                  src="./../../../assets/images/alta/altalogoog.png"
+                                  alt=""
+                                />
+                              </div>
+                              <div
+                                class="logo-content-div logo-content-div-first"
+                              >
+                                <div
+                                  class="logo-body"
+                                   
+                                >
+                                  Our Logo is the key building block of our
+                                  identity, the primary visual element that
+                                  identifies us. The signature is a combination
+                                  of the the symbol itself and our company name
+                                  – they have a fixed relationship that should
+                                  never be changed in any way.
+                                </div>
+                              </div>
+                            </div>
+                            <div class="logo-single-div"   
+                         >
+                              <div
+                                class="logo-img"
+                               
+                              >
+                                <img
+                                  src="./../../../assets/images/alta/altalogowhite.png"
+                                  alt=""
+                                />
+                              </div>
+                              <div class="logo-content-div">
+                                <div
+                                  class="logo-title mont-font"
+                                   
+                                >
+                                  Logo Spacing
+                                </div>
+                                <div
+                                  class="logo-body"
+                                   
+                                >
+                                  Lorem ipsum dolor sit amet consectetur
+                                  adipisicing elit. Ullam molestias commodi
+                                  suscipit obcaecati eligendi quis totam ipsam
+                                  distinctio natu.
+                                </div>
+                              </div>
+                            </div>
+                            <div class="logo-single-div"   
+                         >
+                              <div
+                                class="logo-img"
+                               
+                              >
+                                <img
+                           src="./../../../assets/images/alta/monolinelogo.png"
+                                  alt=""
+                                />
+                              </div>
+                              <div class="logo-content-div">
+                                <div
+                                  class="logo-title mont-font"
+                                   
+                                >
+                                  White Logo
+                                </div>
+                                <div
+                                  class="logo-body"
+                                   
+                                >
+                                  Will be used when the backround color is dark
+                                </div>
+                              </div>
+                            </div>
+                            <div class="logo-single-div"   
+                         >
+                              <div
+                                class="logo-img"
+                               
+                              >
+                                <img
+                                src="./../../../assets/images/alta/monolinelogoblack.png"
+                                  alt=""
+                                />
+                              </div>
+                              <div class="logo-content-div">
+                                <div
+                                  class="logo-title mont-font"
+                                   
+                                >
+                                  Monoline Logo
+                                </div>
+                                <div
+                                  class="logo-body"
+                                   
+                                >
+                                  Will be used for an alternative to the full
+                                  color single logo.
+                                </div>
+                              </div>
+                            </div>
+                            <div class="logo-single-div"   
+                         >
+                              <div
+                                class="logo-img"
+                               
+                              >
+                                <img
+                                  src="./../../../assets/images/alta/altabrandbible5.jpg"
+                                  alt=""
+                                />
+                              </div>
+
+                              <div class="logo-content-div">
+                                <div
+                                  class="logo-title mont-font"
+                                   
+                                >
+                                  Black Monoline Logo
+                                </div>
+                                <div
+                                  class="logo-body"
+                                   
+                                   
+                                >
+                                  Will be used for an alternative to the full
+                                  color single logo.
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
+            <div class="type" v-if="type">
+              <div class="colors">
+                <div class="color-pallette-content">
+                  <div class="color-array">
+                    <transition>
+                      <div
+                        class="colorTitle"
+                         
+                        
+                      >
+                        Typography
+                      </div>
+                    </transition>
+                    <div
+                      class="color-bar-agile"
+                       
+                      
+                    ></div>
+                    <div class="colorSubDiv">
+                      <div class="colorSubDivLeft">
+                        <div
+                          class="color-sup-text"
+                           
+                           
+                        >
+                          exciting <br />
+                        </div>
+                        <div
+                          class="color-sup-text"
+                           
+                           
+                        >
+                          Plesant
+                        </div>
+                        <div
+                          class="color-sup-text"
+                           
+                           
+                        >
+                          bold
+                        </div>
+                      </div>
+                      <div class="colorSubDivRight">
+                        <div
+                          class="color-array-intro-body"
+                           
+                           
+                        >
+                          <div class="color-array-intro-body-text">
+                            Give me life! Give me energy! Get me motivated!
+                            <br />
+                            Typography is the art and technique of arranging
+                            type to make written language legible, readable and
+                            appealing when displayed.
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="outer-wrapper-content-small">
+                    <div class="wrapper-content-small-type"   
+                         >
+
+                      <div
+                        class="type-container"
+                    
+                      >
+                        <div class="type-info-div">
+                          <div class="type-info-title title-short mont-font">
+                            MONTSERRAT
+                          </div>
+                          <div class="type-span">
+                            The old posters and signs in the traditional
+                            neighborhood of Buenos Aires called Montserrat. The
+                            goal is to rescue what is in Montserrat and set it
+                            free, under a free, libre and open source license,
+                            the SIL Open Font License
+                            <div class="type-span">
+                              Used for corporate font, body copy, press
+                              releases, print and digital media when
+                              appliciable.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="text-example-div">
+                          <div class="abText mont-font">AaBbCc</div>
+                          <div class="aphlaText mont-font">
+                            ABCDEFGHIJKLMNOPQRSTUVWXYZ <br />
+                            abcdefghijlmnopqrstvuwxyz <br />
+                            `~!@#$%^?,./:"{}[]*()_+-=
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="colors" v-if="color">
+              <div class="colors">
+                <div class="color-pallette-content">
+                  <div class="color-array">
+                    <transition>
+                      <div
+                        class="colorTitle"
+                         
+                        
+                      >
+                        Forest Color Pallette
+                      </div>
+                    </transition>
+                    <div
+                      class="color-bar-agile"
+                       
+                       
+                    ></div>
+                    <div class="colorSubDiv">
+                      <div class="colorSubDivLeft">
+                        <div
+                          class="color-sup-text"
+                           
+                           
+                        >
+                          corporate <br />
+                        </div>
+                        <div
+                          class="color-sup-text"
+                           
+                           
+                        >
+                          freedom
+                        </div>
+                        <div
+                          class="color-sup-text"
+                           
+                           
+                        >
+                          trust
+                        </div>
+                      </div>
+                      <div class="colorSubDivRight">
+                        <div
+                          class="color-array-intro-body"
+                           
+                           
+                        >
+                          <div class="color-array-intro-body-text">
+                            Banking with ALTA is banking with trust!
+                            <br />
+                            This color pallette has been designed to convey trust,
+                            freedom and the limitless nature of banking with ALTA. 
+                        
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="outer-wrapper-content-small">
+                    <div class="wrapper-content-small">
+                      <div class="color-array">
+                        <div class="color-array-container">
+                          <div class="color-array-div">
+                            <div
+                              class="color-title"
+                               
+                               
+                            >
+                              Cobalt
+                            </div>
+
+                            <div class="content-color-div">
+                              <div class="content-color-left">
+                                <div class="color-codes">
+                                  <div
+                                    class=""
+                                     
+                                     
+                                  >
+                                    HEX : 002352
+                                  </div>
+                                  <div
+                                    class=""
+                                     
+                                     
+                                  >
+                                    CMYK : 48.23 0 94.21 0
+                                  </div>
+                                  <div
+                                    class=""
+                                     
+                                    
+                                  >
+                                    RGBA :150 230 50
+                                  </div>
+                                </div>
+                              </div>
+                              <div
+                                class="content-color-right"
+                                 
+                                 
+                              >
+                                <div
+                                  class="content-color-colors-1 altablue"
+                                ></div>
+                              </div>
+                            </div>
+                          </div>
+                           <div class="color-array-div">
+                            <div
+                              class="color-title"
+                               
+                               
+                            >
+                              Navy
+                            </div>
+                            <div class="content-color-div">
+                              <div class="content-color-left">
+                                <div class="color-codes">
+                                  <div
+                                    class=""
+                                     
+                                     
+                                  >
+                                    HEX : 071D49
+                                  </div>
+                                  <div
+                                    class=""
+                                     
+                                     
+                                  >
+                                    CMYK: 803946
+                                  </div>
+                                  <div
+                                    class=""
+                                     
+                                     
+                                  >
+                                    RGBA : 13 154 68
+                                  </div>
+                                </div>
+                              </div>
+                              <div
+                                class="content-color-right"
+                                 
+                                
+                              >
+                                <div
+                                  class="content-color-colors-1 blue1"
+                                ></div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="color-array-div">
+                            <div class="color-title"  >
+                             Forest
+                            </div>
+                            <div class="content-color-div">
+                              <div class="content-color-left">
+                                <div class="color-codes">
+                                  <div
+                                    class=""
+                                     
+                                     
+                                  >
+                                    HEX : 96E632
+                                  </div>
+                                  <div
+                                    class=""
+                                     
+                                     
+                                  >
+                                    CMYK : 100 91 37 37
+                                  </div>
+                                  <div
+                                    class=""
+                                     
+                                     
+                                  >
+                                    RGBA : 150 90 53 01
+                                  </div>
+                                </div>
+                              </div>
+                              <div
+                                class="content-color-right"
+                                 
+                           
+                              >
+                                <div
+                                  class="content-color-colors-1 green1"
+                                ></div>
+                              </div>
+                            </div>
+                          </div>
+                             <div class="color-array-div">
+                            <div
+                              class="color-title"
+                               
+                               
+                            >
+                              Gem
+                            </div>
+                            <div class="content-color-div">
+                              <div class="content-color-left">
+                                <div class="color-codes">
+                                  <div
+                                    class=""
+                                     
+                                     
+                                  >
+                                    HEX : 43B02B
+                                  </div>
+                                  <div
+                                    class=""
+                                     
+                                     
+                                  >
+                                    CMYK: 803946
+                                  </div>
+                                  <div
+                                    class=""
+                                     
+                                     
+                                  >
+                                    RGBA : 13 154 68
+                                  </div>
+                                </div>
+                              </div>
+                              <div
+                                class="content-color-right"
+                                 
+                                
+                              >
+                                <div
+                                  class="content-color-colors-1 altagreen"
+                                ></div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="color-array-div">
+                            <div
+                              class="color-title"
+                               
+                               
+                            >
+                              Orange
+                            </div>
+                            <div class="content-color-div">
+                              <div class="content-color-left">
+                                <div class="color-codes">
+                                  <div
+                                    class=""
+                                     
+                                     
+                                  >
+                                    HEX : FF8F1C
+                                  </div>
+                                  <div
+                                    class=""
+                                     
+                                     
+                                  >
+                                    CMYK: 651983
+                                  </div>
+                                  <div
+                                    class=""
+                                     
+                                   
+                                  >
+                                    RGBA : 67 176 43
+                                  </div>
+                                </div>
+                              </div>
+
+                              <div
+                                class="content-color-right"
+                                 
+                                 
+                              >
+                                <div
+                                  class="content-color-colors-1 orange"
+                                ></div>
+                              </div>
+                            </div>
+                          </div>
+                       
+                     
+                        
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="socialmedia" v-if="social">
+              <div class="colors">
+                <div class="color-pallette-content">
+                  <div class="color-array">
+                    <transition>
+                      <div
+                        class="colorTitle"
+                         
+                        
+                      >
+                       Social Media Ad 
+                      </div>
+                    </transition>
+                    <div
+                      class="color-bar-agile"
+                       
+                       
+                    ></div>
+                    <div class="colorSubDiv">
+                      <div class="colorSubDivLeft">
+                        <div
+                          class="color-sup-text"
+                           
+                           
+                        >
+                          corporate <br />
+                        </div>
+                        <div
+                          class="color-sup-text"
+                           
+                           
+                        >
+                          freedom
+                        </div>
+                        <div
+                          class="color-sup-text"
+                           
+                           
+                        >
+                          trust
+                        </div>
+                      </div>
+                      <div class="colorSubDivRight">
+                        <div
+                          class="color-array-intro-body"
+                           
+                           
+                        >
+                          <div class="color-array-intro-body-text">
+                           Keep track! Stay motivate! Stay connected!
+                            <br />
+                            This color pallette has been designed to excited the
+                            senses, get you moving, and make you smile. The Spry
+                            Color Pallette balances bright bubbly colors with
+                            warm supportive tones.
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="outer-wrapper-content-small">
+                    <div class="wrapper-content-small">
+                      <div class="color-array">
+                        <div class="grid-layout-small">
+                          <div class="grid-item grid-item-1">
+                            <img
+                              src="./../../../assets/images/resizeLONG/branding/manual/alta/media2.jpg"
+                              alt=""
+                            />
+                          </div>
+                          <div class="grid-item span-2 grid-item-2">
+                            <img
+                              src="./../../../assets/images/resizeLONG/branding/manual/alta/thumbnail.jpg"
+                            />
+                          </div>
+                          <div class="grid-item grid-item-2">
+                            <img
+                              src="./../../../assets/images/resizeLONG/branding/manual/alta/media1.jpg"
+                            />
+                          </div>
+                          <div class="grid-item grid-item-4">
+                            <img
+                              src="./../../../assets/images/resizeLONG/branding/manual/agile/agile6.jpg"
+                            />
+                          </div>
+                        
+                           <div class="grid-item grid-item-2">
+                            <img
+                              src="./../../../assets/images/resizeLONG/branding/manual/agile/agile6_1.jpg"
+                            />
+                          </div>
+                          
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="colors" v-if="manual">
+              <div class="colors">
+                <div class="color-pallette-content">
+                  <div class="color-array">
+                    <transition>
+                      <div
+                        class="colorTitle"
+                         
+                        
+                      >
+                        ALTA's Brand Manual
+                      </div>
+                    </transition>
+                    <div
+                      class="color-bar-alta"
+                       
+                       
+                    ></div>
+                    <div class="colorSubDiv">
+                      <div class="colorSubDivLeft">
+                        <div
+                          class="color-sup-text"
+                           
+                           
+                        >
+                          sneak <br />
+                        </div>
+                        <div
+                          class="color-sup-text"
+                           
+                           
+                        >
+                          a
+                        </div>
+                        <div
+                          class="color-sup-text"
+                           
+                           
+                        >
+                          peak
+                        </div>
+                      </div>
+                      <div class="colorSubDivRight">
+                        <div
+                          class="color-array-intro-body"
+                           
+                           
+                        >
+                          <div class="color-array-intro-body-text">
+                            Take a look! <br />
+                            This color pallette has been designed to excited the
+                            senses, get you moving, and make you smile. The Spry
+                            Color Pallette balances bright bubbly colors with
+                            warm supportive tones.
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="outer-wrapper-content-small">
+                    <div class="wrapper-content-small-manual" >
+                      <div class="color-array">
+                        <div class="grid-layout-small-manual">
+                        
+                          <div class="grid-item span-2 grid-item-2">
+                            <img
+                              src="./../../../assets/images/resizeLONG/branding/manual/alta/altabrandbible2.jpg"
+                            />
+                          </div>
+                          <div class="grid-item grid-item-3">
+                            <img
+                              src="./../../../assets/images/resizeLONG/branding/manual/alta/altabrandbible66.jpg"
+                            />
+                          </div>
+                          <div class="grid-item grid-item-4">
+                            <img
+                              src="./../../../assets/images/resizeLONG/branding/manual/alta/altabrandbible5.jpg"
+                            />
+                          </div>
+                          <div class="grid-item span-2 grid-item-5" >
+                            <img
+                              src="./../../../assets/images/resizeLONG/branding/manual/alta/altabrandbible7.jpg"
+                            />
+                          </div>
+                          <div class="grid-item grid-item-6">
+                            <img
+                              src="./../../../assets/images/resizeLONG/branding/manual/alta/altabrandbible11.jpg"
+                            />
+                          </div>
+                          <div class="grid-item grid-item-7">
+                            <img
+                              src="./../../../assets/images/resizeLONG/branding/manual/alta/altabrandbible12.jpg"
+                            />
+                          </div>
+                            <div class="grid-item grid-item-1">
+                            <img
+                              src="./../../../assets/images/resizeLONG/branding/manual/alta/altabrandbible15.jpg"
+                              alt=""
+                            />
+                          </div>
+                            <div class="grid-item grid-item-1">
+                            <img
+                              src="./../../../assets/images/resizeLONG/branding/manual/alta/altabrandbible14.jpg"
+                              alt=""
+                            />
+                          </div>
+            
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- <div class="colors" v-if="station">
+              <div class="colors">
+                <div class="color-pallette-content">
+                  <div class="color-array">
+                    <transition>
+                      <div
+                        class="colorTitle"
+                         
+                        
+                      >
+                        Stationary
+                      </div>
+                    </transition>
+                    <div
+                      class="color-bar-agile"
+                       
+                       
+                    ></div>
+                    <div class="colorSubDiv">
+                      <div class="colorSubDivLeft">
+                        <div
+                          class="color-sup-text"
+                           
+                           
+                        >
+                          print
+                        </div>
+                        <div
+                          class="color-sup-text"
+                           
+                           
+                        >
+                          digial
+                        </div>
+                        <div
+                          class="color-sup-text"
+                           
+                           
+                        >
+                          media
+                        </div>
+                      </div>
+                      <div class="colorSubDivRight">
+                        <div
+                          class="color-array-intro-body"
+                           
+                           
+                        >
+                          <div class="color-array-intro-body-text">
+                            Give me life! Give me energy! Get me motivated!
+                            <br />
+                            This color pallette has been designed to excited the
+                            senses, get you moving, and make you smile. The Spry
+                            Color Pallette balances bright bubbly colors with
+                            warm supportive tones.
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="outer-wrapper-content-small">
+                    <div class="wrapper-content-small">
+                      <div class="color-array">
+                        <div class="grid-layout-small">
+                          <div class="grid-item grid-item-1">
+                            <img
+                              src="./../../../assets/images/agile/agile3.jpg"
+                              alt=""
+                            />
+                          </div>
+                          <div class="grid-item span-2 grid-item-2">
+                            <img
+                              src="./../../../assets/images/resizeLONG/branding/manual/agile/agile8.jpg"
+                            />
+                          </div>
+                          <div class="grid-item grid-item-3">
+                            <img
+                              src="./../../../assets/images/resizeLONG/branding/manual/agile/agile6_1.jpg"
+                            />
+                          </div>
+                          <div class="grid-item grid-item-4">
+                            <img
+                              src="./../../../assets/images/resizeLONG/branding/manual/agile/agile6.jpg"
+                            />
+                          </div>
+                          <div class="grid-item grid-item-5">
+                            <img
+                              src="./../../../assets/images/resizeLONG/branding/manual/agile/agile7.jpg"
+                            />
+                          </div>
+                          <div class="grid-item grid-item-6">
+                            <img
+                              src="./../../../assets/images/resizeLONG/branding/manual/agile/agileux32.jpg"
+                            />
+                          </div>
+                          <div class="grid-item grid-item-7">
+                            <img
+                              src="./../../../assets/images/resizeLONG/branding/manual/agile/agile7.jpg"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div> -->
           </div>
-        </div>
-      </tab>
-    </tabs>
-  </div>
-          </div>
-
-
-
-
-
-
-
-
-
-
-
-          
-          <div class="bottomSection hideOverflow"></div>
-        </div>
-      </div>
-      <!-- col - empty-->
-      <div class="col-endcap">
-        <div class="section-content">
-          <div class="topSection hideOverflow"></div>
-          <div class="middleSection hideOverflow"></div>
-          <div class="bottomSection hideOverflow"></div>
         </div>
       </div>
     </div>
+
+    <div class="hideContentsDiv" @click="hideContents"  >
+      <i v-if="!hideMe" class="fa fa-eye-slash"  ></i>
+      <i v-if="hideMe" class="fa fa-eye"  ></i>
+    </div>
   </div>
 </template>
-<script>
-import Tab from "../../layout/Tab.vue";
-import Tabs from "../../layout/Tabs.vue";
 
+<script>
 export default {
-  components: {
-    Tab,
-    Tabs,
+  name: "Alta",
+  data() {
+    return {
+      stationInput: "station",
+      station: false,
+      manualInput: "manual",
+      manual: false,
+      gridInput: "grid",
+      grid: true,
+      logoInput: "logo",
+      logo: false,
+      colorInput: "color",
+      color: false,
+      typeInput: "type",
+      type: false,
+      socialInput: "social",
+      social: false,
+      input: "here",
+      colors: true,
+      isActive: false,
+      hideMe: false,
+      editionName: "Alpha",
+      articleNumber: "5692",
+      firstImg: "jar1.jpg",
+      collectionText:
+        "Uipsum&middot; dolor sit amet consectetur adipisicing elit. Reprehenderit ducimus Modi, quibusdam! Neque animi perferendis.Uipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, ducimus! Modi, quibusdam! Neque animi perferendis.",
+      packageImg: "fashion15.jpg",
+      itemSelected: false,
+      jarImgAssets2: ["jar1.jpg", "pine.jpg", "pine4F.jpg", "pine5F.png"],
+      jarImgAssets: [
+        { imgName: "jar1.jpg", currentEdition: "alpha" },
+        { imgName: "pine.jpg", currentEdition: "Omega" },
+        { imgName: "pine4F.jpg", currentEdition: "gamma" },
+        { imgName: "pine5F.png", currentEdition: "zeta" },
+      ],
+    };
+  },
+
+  methods: {
+    hideContents() {
+      console.log("hiding");
+      this.hideMe = !this.hideMe;
+    },
+    seeCollectionList() {
+      console.log("learn more");
+      this.isActive = !this.isActive;
+    },
+
+    nextImg(index, image) {
+      console.log("nextImg", index, image);
+      //   (this.collectionText = collection.collectionText),
+      this.packageImg = image.imgName;
+      this.editionName = image.currentEdition;
+      this.itemSelected = true;
+    },
+    showContainer(input) {
+      console.log("showContainer", input);
+      if (input == "grid") {
+        console.log("= to grid");
+        this.grid = true;
+        this.type = false;
+        this.color = false;
+        this.social = false;
+        this.logo = false;
+        this.manual = false;
+        this.station = false;
+        return;
+      } else if (input == "logo") {
+        console.log("= to logo");
+        this.logo = true;
+        this.type = false;
+        this.color = false;
+        this.social = false;
+        this.grid = false;
+        this.manual = false;
+        this.station = false;
+        return;
+      } else if (input == "type") {
+        this.type = true;
+        this.logo = false;
+        this.color = false;
+        this.social = false;
+        this.grid = false;
+        this.manual = false;
+        this.station = false;
+        return;
+      } else if (input == "color") {
+        this.color = true;
+        this.logo = false;
+        this.type = false;
+        this.social = false;
+        this.grid = false;
+        this.manual = false;
+        this.station = false;
+        return;
+      } else if (input == "social") {
+        this.social = true;
+        this.logo = false;
+        this.type = false;
+        this.color = false;
+        this.grid = false;
+        this.manual = false;
+        this.station = false;
+        return;
+      } else if (input == "manual") {
+        this.manual = true;
+        this.logo = false;
+        this.type = false;
+        this.color = false;
+        this.grid = false;
+        this.social = false;
+        this.station = false;
+        return;
+      } else if (input == "station") {
+        this.station = true;
+        this.logo = false;
+        this.type = false;
+        this.color = false;
+        this.grid = false;
+        this.manual = false;
+        this.social = false;
+        return;
+      } else {
+        console.log("didnt work");
+        return;
+      }
+    },
   },
 };
 </script>
 <style scoped>
-.agileLogo {
-  background-image: url(../../../assets/images/alta/altalogoog.png);
-  height: 201px;
-  width: 123px;
-  background-size: contain;
-  background-repeat: no-repeat;
-  /* background-position-x: -100px; */
-  position: relative;
-  top: -45px;
-  left: -159px;
-}
-.content-img {
+.articleContentContainer {
+  /* border: 6px solid brown; */
+  height: 73vh;
+  width: 73vw;
+  margin: 100px 0px 0px 150px;
+  text-align: left;
+  color: white;
   overflow: hidden;
-  background-image: url(../../../assets/images/agile/agile2.jpg);
-  background-size: cover;
-  height: 100%;
-  width: 157%;
-  background-position-x: -114px;
-  background-position-y: -41px;
+  position: relative;
+  /* left: -600px; */
 }
-.branding-img {
-  height: 130%;
-  width: 130%;
-  background-size: cover;
-  background-position-y: 12px;
-  background-position-x: -14px;
-}
-.branding-title,
-.ux-content-title,
-.ux-content-sub-body-2 {
-  font-family: "Covered By Your Grace", cursive;
-}
-.p-2010 {
-  padding: 20px 0px 10px 0px;
-}
-.content-ux-div {
-  margin: 30px;
-  overflow: scroll;
-}
-.ux-content-sub-body {
-  padding: 10px 0px 0px 0px;
-  font-weight: 100;
-  font-family: proxima-nova, sans-serif;
-}
-.ux-content-sub-body-2 {
-  padding: 16px 0px;
-  font-size: 1.2rem;
-  letter-spacing: 1.5px;
-  text-transform: uppercase;
-}
-.value-content-div {
-  display: flex;
-  width: 100%;
-  justify-content: space-between;
-  text-transform: uppercase;
-  letter-spacing: 1.5px;
-  font-family: "proxima-nova";
-  font-size: 0.8em;
-  font-weight: 300;
-  padding: 24px 0px;
-}
-.branding-title {
-  padding: 0px 0px 20px 0px;
-}
-.branding-title,
-.ux-content-title {
-  /* font-family: "baskerville-poster-pt";
-      font-style: italic; */
-  letter-spacing: 1.5px;
-  font-size: 1.2rem;
-  text-transform: uppercase;
-}
-.ux-content-sub {
-  font-family: proxima-nova, sans-serif;
-}
-.content-ux-container,
-.content-img-content {
+
+.grid-layout-small {
   display: grid;
-  grid-template-rows: 1fr 1fr;
+  grid-template-columns: minmax(204px, 1fr) minmax(204px, 1fr) minmax(204px, 1fr) minmax(204px, 1fr);
+  grid-gap: 4px;
+  grid-auto-columns: minmax(100px, auto);
+  grid-auto-flow: dense;
+  padding: 1px;
+  grid-template-rows: 25vh 25vh;
 }
-.content-img-content {
-  height: 65%;
-  width: 49%;
-  margin: 60px;
+.grid-layout-small-manual {
+ display: grid;
+    grid-template-columns: minmax(204px, 1fr) minmax(204px, 1fr) minmax(204px, 1fr) minmax(204px, 1fr) minmax(204px, 1fr) minmax(204px, 1fr) minmax(204px, 1fr);
+    grid-gap: 4px;
+    grid-auto-columns: minmax(100px, auto);
+    grid-auto-flow: dense;
+    padding: 1px;
+    grid-template-rows: 25vh 25vh;
+}
+.grid-layout {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  grid-gap: 4px;
+  grid-auto-rows: minmax(180px, auto);
+  grid-auto-flow: dense;
+  padding: 1px;
+}
+
+.grid-item {
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #000;
+  background-color: #ccc;
+
+  /* &:nth-child(odd) {
+        background-color: #ccc;
+    } */
+}
+.span-1 {
+  grid-column-end: span 2;
+  grid-row-end: span 2;
+}
+.span-2 {
+  grid-column-end: span 2;
+  grid-row-end: span 2;
+}
+
+.span-3 {
+  grid-column-end: span 3;
+  grid-row-end: span 3;
+}
+.fullWidth {
+  width: 100% !important;
+}
+.backdropContentBrandin {
+  backdrop-filter: blur(0.5px) brightness(0.95);
+  padding: 20px;
+  height: 100%;
+  overflow: hidden;
+  /* background: black; */
+}
+.backdropContentBrandingGrid {
+  backdrop-filter: blur(0.5px) brightness(0.95);
+  padding: 20px;
+  height: 100%;
+  overflow: scroll;
+  /* background: black; */
+}
+img.fullImg {
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+ul {
+  position: relative;
   display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
+  list-style: none;
 }
-.content-img {
-  border-bottom: 2px solid #303030;
-  /*  
-  padding: 60px 60px 60px 60px; */
+li {
+  padding: 2px;
+  opacity: 0.8;
+  transition: all 0.2s;
 }
-
-.content-view-btn {
-  margin-top: auto;
-}
-button {
-  height: 40px;
-  width: 200px;
-  background: transparent;
-  border: 1px solid;
-  letter-spacing: 1px;
-}
-
-.content-ui-container {
-  padding: 30px 60px;
+li:hover {
+  opacity: 1;
 }
 </style>

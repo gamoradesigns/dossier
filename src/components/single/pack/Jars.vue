@@ -1,14 +1,14 @@
 <template>
-  <div class="articleContainer " v-scrollfadinganimation>
+  <div class="articleContainer "  >
     <!-- background images  -->
 
-    <img v-scrollfadinganimation
+    <img  
       v-if="itemSelected"
       class="bgImg"
      :src="require(`./../../../assets/images/resizeLONG/branding/pack/jar/${packageImg}`)"
       alt=""
     />
-    <img v-scrollfadinganimation
+    <img  
       v-if="!itemSelected"
       class="bgImg"
       :src="require(`./../../../assets/images/resizeLONG/branding/pack/jar/${firstImg}`)"
@@ -16,42 +16,42 @@
     />
     <!-- nav -->
     <div class="articleMenuContainer">
-      <div class="beauty beautyText" v-scrollfadinganimation>beauty.</div>
+      <div class="beauty beautyText"  >beauty.</div>
         <div class="articleMenu">
-        <router-link to="/main" v-scrollfadinganimation>
+        <router-link to="/main"  >
           <div class="articleMenuText">home</div></router-link
         >
-        <router-link to="/logoMenu" v-scrollfadinganimation>
+        <router-link to="/logoMenu"  >
           <div class="articleMenuText">logos</div></router-link
         >
-        <router-link to="/packageMenu" v-scrollfadinganimation>
+        <router-link to="/packageMenu"  >
           <div class="articleMenuText">packaging</div></router-link
         >
-        <router-link to="/magMenu" v-scrollfadinganimation>
+        <router-link to="/magMenu"  >
           <div class="articleMenuText">magazines</div></router-link
         >
       </div>
       <div class="articleMenuIcon"></div>
     </div>
     <!-- content div -->
-    <div class="articleContentContainer positionInherit" v-if="!hideMe" v-scrollfadinganimation>
-      <div class="backdropContent_Collection" v-scrollfadinganimation >
-     <div class="articleHeaderDiv" v-scrollfadinganimation style="transition-delay: 1.5s !important"  >5545 <br /></div>
-      <div class="articleHeaderDiv2" v-scrollfadinganimation style="transition-delay: 1s !important"  >
+    <div class="articleContentContainer positionInherit" v-if="!hideMe"  >
+      <div class="backdropContent_Collection"   >
+     <div class="articleHeaderDiv"   > </div>
+      <div class="articleHeaderDiv2"      >
         In the Weeds <br />
         Packaging Design  
       </div>
       <div class="packageSubHeaderContainer">
-        <div class="packageSubHeaderDiv" v-scrollfadinganimation style="transition-delay: 1.2s !important" >
+        <div class="packageSubHeaderDiv"     >
           <span class="subHeaderText">Edition</span> &middot; {{ editionName }}
         </div>
-        <div class="packageSubHeaderDiv" v-scrollfadinganimation style="transition-delay: 1.4s !important" >
+        <div class="packageSubHeaderDiv"     >
           <span class="subHeaderText">Type</span> &middot;  Product Package Design
         </div>
-         <div class="packageSubHeaderDiv" v-scrollfadinganimation style="transition-delay: 1.6s !important" >
+         <div class="packageSubHeaderDiv"     >
           <span class="subHeaderText">uses</span> &middot; Branding label
         </div>
-        <div class="packageSubHeaderDiv" v-scrollfadinganimation style="transition-delay: 1.8s !important" >
+        <div class="packageSubHeaderDiv"     >
           <span class="subHeaderText">Templates</span> &middot; duplicatable & customisable
         </div>
           
@@ -64,7 +64,7 @@
       <div class="">
         <div class="">
       
-          <ul v-scrollfadinganimation style="transition-delay: 2s !important"  >
+          <ul      >
             <li
               v-for="(image, index) in jarImgAssets"
               :key="index"
@@ -91,9 +91,9 @@
     
     </div>
 
-    <div class="hideContentsDiv" @click="hideContents" v-scrollfadinganimation> 
-      <i v-if="!hideMe"  class="fa fa-eye-slash" v-scrollfadinganimation ></i> 
-      <i v-if="hideMe" class="fa fa-eye" v-scrollfadinganimation></i> 
+    <div class="hideContentsDiv" @click="hideContents"  > 
+      <i v-if="!hideMe"  class="fa fa-eye-slash"   ></i> 
+      <i v-if="hideMe" class="fa fa-eye"  ></i> 
       </div>
   </div>
 </template>
@@ -113,13 +113,13 @@ export default {
       packageImg: "fashion15.jpg",
       itemSelected: false,
       jarImgAssets2: [
-          "jar1.jpg", "pine.jpg", "pine4F.jpg", "pine5F.png"
+          "jar1.jpg", "pine.png", "pine4F.jpg", "pine5F.png"
       ],
       jarImgAssets: [
         {imgName : "jar1.jpg", currentEdition: "alpha"},
-        {imgName : "pine.jpg", currentEdition: "Omega"},
+        {imgName : "pine.png", currentEdition: "Omega"},
         {imgName : "pine4F.jpg", currentEdition: "gamma"},
-        {imgName : "pine5F.png", currentEdition: "zeta"},
+        {imgName : "pine5B.png", currentEdition: "zeta"},
           
       ],
     

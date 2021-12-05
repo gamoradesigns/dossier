@@ -1,16 +1,32 @@
 <template>
-  <div id="app">
+  <div id="app"  >
     <!-- <div id="nav">
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link> |
       <router-link to="/main">Main</router-link> |
       <router-link to="/menuTemplate"> Template </router-link> 
     </div> -->
+     <transition
+        name="appfade"
+        mode="out-in"
+      >
     <router-view/>
+     </transition>
   </div>
 </template>
 
 <style>
+.appfade-enter-active,
+.appfade-leave-active {
+  transition-duration: 0.3s;
+  transition-property: opacity;
+  transition-timing-function: ease;
+}
+
+.appfade-enter,
+.appfade-leave-active {
+  opacity: 0
+}
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;

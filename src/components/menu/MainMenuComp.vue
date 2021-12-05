@@ -5,7 +5,7 @@
       <div class="col-endcap">
         <div class="col-grid">
           <div class="topSection hideOverflow beautyBox">
-            <div class="beautyText topLeftBeauty" v-scrollfadinganimation>
+            <div class="beautyText topLeftBeauty" v-firstIn >
              dossier <br />
 
               <div class="spanbeautyText">
@@ -32,13 +32,13 @@
         
             }"
           >
-            <div class="middleSection" style="height: 100%">
+            <div class="middleSection" style="height: 100%" v-thirdIn >
               <div class="hideOverflow" style="height: 100%">
                 <div class="imgDiv3 hideOverflow height100">
                   <img
                   class='menuImg'
                   
-                    v-scrollfadinganimation
+                     
                     src="../../assets/images/resizeLONG/branding/manual/agile/agile2.jpg"
                     alt=""
                   />
@@ -51,10 +51,10 @@
                  
                   >
                     <div class="paddedBox-1">
-                      <div class="navLinkTitle" v-scrollanimation>
+                      <div class="navLinkTitle"  >
                         Brand Viewing
                       </div>
-                      <div class="navLinkSubTitle" v-scrollanimation style="transition: all 1s .6s cubic-bezier(0.58, 0.37, 0.7, 1.48);">
+                      <div class="navLinkSubTitle"   style="transition: all 1s .6s cubic-bezier(0.58, 0.37, 0.7, 1.48);">
                   Brand Developement &middot; UX  &middot; UI
                       </div>
                     </div>
@@ -97,8 +97,9 @@
 
           <div
             class="bottomSection footer-text"
-            v-scrollfadinganimation
+             
             @click="viewMenu((val = 1))"
+            v-secondIn
           >
             &middot; {{ showMenu1 ? "explore dossier" : "explore"}} &middot;
           </div>
@@ -140,13 +141,13 @@
              
             }"
           >
-            <div class="middleSection height100">
+            <div class="middleSection height100" >
               <transition name="fade">
                 <div class="height100">
                   <div class="imgDiv3 height100">
                     <img
                     class=""
-                      v-scrollfadinganimation
+                       
                       src="../../assets/images/resizeLONG/branding/station/station7.jpg"
                       alt=""
                     />
@@ -156,11 +157,11 @@
                       class="paddedBox-2 "
                      
                     >
-                      <div class="navLinkTitle" v-scrollanimation>
+                      <div class="navLinkTitle"  >
                         Logo 
                       Viewing
                       </div>
-                      <div class="navLinkSubTitle" v-scrollanimation style="transition: all 1s .6s cubic-bezier(0.58, 0.37, 0.7, 1.48);">
+                      <div class="navLinkSubTitle"   style="transition: all 1s .6s cubic-bezier(0.58, 0.37, 0.7, 1.48);">
                         Logo Design &middot; Visual Elements
                       </div>
                     </div>
@@ -202,7 +203,7 @@
           </router-link>
           <div
             class="bottomSection footer-text"
-            v-scrollfadinganimation
+             
             @click="viewMenu((val = 2))"
           >
             &middot; {{ showMenu2 ? "explore dossier" : "explore" }} &middot;
@@ -235,7 +236,7 @@
               <div class="hideOverflow" style="height: 100%">
                 <div class="imgDiv3 height100">
                   <img
-                    v-scrollfadinganimation
+                     
                     src="../../assets/images/resizeLONG/branding/pack/jar/pine5F.png"
                     alt=""
                   />
@@ -249,10 +250,10 @@
                   >
                     <div class="paddedBox-3">
                     
-                      <div class="navLinkTitle" v-scrollanimation>
+                      <div class="navLinkTitle"  >
                         Packing Design
                       </div>
-                      <div class="navLinkSubTitle" v-scrollanimation style="transition: all 1s .6s cubic-bezier(0.58, 0.37, 0.7, 1.48);">
+                      <div class="navLinkSubTitle"   style="transition: all 1s .6s cubic-bezier(0.58, 0.37, 0.7, 1.48);">
                        Product Design &middot; Visual Communication
                       </div>
                     </div>
@@ -294,7 +295,7 @@
           </router-link>
           <div
             class="bottomSection footer-text"
-            v-scrollfadinganimation
+             
             @click="viewMenu((val = 3))"
           >
             &middot; {{ showMenu3 ? "explore dossier" : "explore" }} &middot;
@@ -338,7 +339,7 @@
                 <div class="height100">
                   <div class="imgDiv3 height100">
                     <img
-                      v-scrollfadinganimation
+                       
                      src="../../assets/images/resizeLONG/branding/mag/beauty/beauty.jpg"
                       alt=""
                     />
@@ -349,10 +350,10 @@
                     
                     >
                   
-                      <div class="navLinkTitle" v-scrollanimation>
+                      <div class="navLinkTitle"  >
                        Magazine Viewing
                       </div>
-                      <div class="navLinkSubTitle" v-scrollanimation style="transition: all 1s .6s cubic-bezier(0.58, 0.37, 0.7, 1.48);">
+                      <div class="navLinkSubTitle"   style="transition: all 1s .6s cubic-bezier(0.58, 0.37, 0.7, 1.48);">
                        Layout Design &middot; Editoral
                       </div>
                     </div>
@@ -394,7 +395,7 @@
           </router-link>
           <div
             class="bottomSection footer-text"
-            v-scrollfadinganimation
+             
             @click="viewMenu((val = 4))"
           >
             &middot; {{ showMenu4 ? "explore dossier" : "explore" }} &middot;
@@ -461,33 +462,4 @@ export default {
 </script>
 <style scoped>
 
-.fade-enter-active,
-.fade-leave-active {
-  transition-duration: 0.3s;
-  transition-property: opacity;
-  transition-timing-function: ease;
-}
-
-.fade-enter,
-.fade-leave-active {
-  opacity: 0
-}
-.before-enter {
-  opacity: 0;
-  transform: translateY(50px);
-  transition: all 1s 0.5s cubic-bezier(0.58, 0.37, 0.7, 1.48);
-}
-
-.enter {
-  opacity: 1;
-  transform: translateY(0px);
-}
- .before-enter-fade {
-    opacity: 0;
-    transition: all 1s .2s cubic-bezier(.58,.37,.7,1.48);
-  }
-
-  .enter-fade {
-    opacity: 1
-  }
 </style>
