@@ -9,7 +9,7 @@
 
     <!-- nav -->
     <div class="articleMenuContainer">
-      <div class="beautyText beauty">beauty.</div>
+      <div class="beautyText beauty">dossier</div>
       <div class="articleMenu">
         <router-link to="/about">
           <div class="articleMenuText">home</div></router-link
@@ -53,14 +53,15 @@
         <!-- title side -->
         <div class="magTitleContainer">
           <div class="magTitleDiv">
-            <div class="magTopTitle articleHeaderDivBrandingLG">nogen</div>
+            <div class="magTopTitle articleHeaderDivBrandingLG">Nogen</div>
             <div class="magBtnTitle packageSubHeaderDiv">
-              <br />
+            
             </div>
           </div>
           <div class="packageSubHeaderContainer">
             <div class="packageSubHeaderDiv">
-              <span class="subHeaderText">magazine</span> &middot; layout design
+               <span class="subHeaderText">magazine</span> &middot; layout design
+              <span class="subHeaderText">Explicit Content</span> 
             </div>
           </div>
         </div>

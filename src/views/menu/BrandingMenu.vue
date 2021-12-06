@@ -55,7 +55,7 @@
                         Agile Fitness
                       </div>
                       <div class="navLinkSubTitle"   v-fallinganimationsub>
-                  Brand Developement &middot; UX  &middot; UI
+                 UX  &middot; UI Brand Developement 
                       </div>
                     </div>
                   </div>
@@ -160,7 +160,7 @@
                        ALTA 
                       </div>
                       <div class="navLinkSubTitle"   v-fallinganimationsub>
-                        Logo Design &middot; Visual Elements
+                UX  &middot; UI Brand Developement 
                       </div>
                     </div>
                   </div>

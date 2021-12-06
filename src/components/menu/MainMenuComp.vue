@@ -55,7 +55,7 @@
                         Brand Viewing
                       </div>
                       <div class="navLinkSubTitle"  v-fallinganimationsub >
-                  Brand Developement &middot; UX  &middot; UI
+                 UX  &middot; UI Brand Developement 
                       </div>
                     </div>
                   </div>
@@ -251,7 +251,7 @@
                     <div class="paddedBox-3">
                     
                       <div class="navLinkTitle" v-fallinganimation >
-                        Packing Design
+                        Package Design
                       </div>
                       <div class="navLinkSubTitle"  v-fallinganimationsub >
                        Product Design &middot; Visual Communication
@@ -354,7 +354,7 @@
                        Magazine Viewing
                       </div>
                       <div class="navLinkSubTitle"   v-fallinganimationsub>
-                       Layout Design &middot; Editoral
+                 Magazine Editoral &middot; Layout Design
                       </div>
                     </div>
                   </div>

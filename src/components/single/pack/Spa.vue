@@ -20,7 +20,7 @@
     />
     <!-- nav -->
     <div class="articleMenuContainer">
-      <div class="beauty beautyText">beauty.</div>
+      <div class="beauty beautyText">dossier</div>
       <div class="articleMenu">
         <router-link to="/main">
           <div class="articleMenuText">home</div></router-link
@@ -43,7 +43,7 @@
       v-if="!hideMe"
       v-fadeInOut
     >
-      <div class="backdropContent_Collection">
+      <div class="backdropContent_CollectionSpa">
         <div class="articleHeaderDiv">PJ5545 <br /></div>
         <div class="articleHeaderDiv2">
           Cosmetic Essienial <br />
@@ -71,9 +71,10 @@
       </div> -->
 
         <!-- photo gallery-->
-        <div class="">
-          <div class="">
-            <ul>
+      
+                  <div class="outer-wrapper-content-small-spa">
+                    <div class="wrapper-content-small-spa">
+            <ul v-thirdIn>
               <li
                 v-for="(image, index) in jarImgAssets"
                 :key="index"
@@ -95,6 +96,7 @@
                 </div>
               </li>
             </ul>
+                    
           </div>
         </div>
       </div>
@@ -157,10 +159,10 @@ export default {
 .fullWidth {
   width: 100% !important;
 }
-.backdropContent_Collection {
+.backdropContent_CollectionSpa {
   backdrop-filter: blur(0.5px) brightness(0.95);
   padding: 20px;
-  /* background: black; */
+  height: 90%;
   width: 50%;
 }
 img.fullImg {

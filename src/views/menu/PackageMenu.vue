@@ -55,7 +55,7 @@
                         In The Weeds
                       </div>
                       <div class="navLinkSubTitle"   v-fallinganimationsub>
-                 Package Design &middot; UX  &middot; UI
+                        Package Design &middot; Visual Communication
                       </div>
                     </div>
                   </div>
@@ -160,7 +160,7 @@
                     Mama Ethel's Herbal Infustions
                       </div>
                       <div class="navLinkSubTitle"   v-fallinganimationsub>
-                        Logo Design &middot; Visual Elements
+                               Package Design &middot; Visual Communication
                       </div>
                     </div>
                   </div>
@@ -252,7 +252,7 @@
                         Flowerchild
                       </div>
                       <div class="navLinkSubTitle"   v-fallinganimationsub>
-                       Product Design &middot; Visual Communication
+                          Package Design &middot; Visual Communication
                       </div>
                     </div>
                   </div>
@@ -352,7 +352,7 @@
                       Cosmetic Essienial
                       </div>
                       <div class="navLinkSubTitle"   v-fallinganimationsub>
-                       Layout Design &middot; Editoral
+                  Package Design &middot; Visual Communication
                       </div>
                     </div>
                   </div>

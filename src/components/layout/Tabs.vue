@@ -45,7 +45,7 @@ ul.tabs__header li {
 }
 ul.tabs__header li:hover {
   color: white;
-  font-size: .92rem;
+  font-size: .92em;
   letter-spacing: 2.2px;
 }
 .tabs__selected {

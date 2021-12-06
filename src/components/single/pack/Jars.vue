@@ -1,8 +1,8 @@
 <template>
   <div class="articleContainer">
     <!-- background images  -->
-
-    <img
+<transition name="appfade" mode="out-in">
+   <img
       v-if="itemSelected"
       class="bgImg"
       :src="
@@ -18,9 +18,11 @@
       "
       alt=""
     />
+</transition>
+ 
     <!-- nav -->
     <div class="articleMenuContainer">
-      <div class="beauty beautyText">beauty.</div>
+      <div class="beauty beautyText">dossier</div>
       <div class="articleMenu">
         <router-link to="/main">
           <div class="articleMenuText">home</div></router-link
@@ -73,11 +75,12 @@
         <!-- photo gallery-->
         <div class="">
           <div class="">
-            <ul>
+            <ul v-thirdIn>
               <li
                 v-for="(image, index) in jarImgAssets"
                 :key="index"
                 @click="nextImg(index, image)"
+
               >
                 <div class="nextViewDiv">
                   <div class="nextViewImgDiv">

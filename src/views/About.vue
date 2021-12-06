@@ -9,7 +9,7 @@
     />
     <!-- nav -->
     <div class="articleMenuContainer">
-      <div class="beauty beautyText">beauty.</div>
+      <div class="beauty beautyText">dossier</div>
       <div class="articleMenu">
         <router-link to="/main">
           <div class="articleMenuText">home</div></router-link
@@ -32,7 +32,7 @@
       <div class="backdropContentAbout">
         <div class="aboutTopMenuDiv">
           <div class="aboutTitleDiv">
-            <div class="articleHeaderDivBranding">5545 <br /></div>
+            <div class="articleHeaderDivBranding">AV0001 <br /></div>
             <div class="articleHeaderDivBrandingLG">Let's Talk</div>
           </div>
           <div class="aboutBusCardContainer">

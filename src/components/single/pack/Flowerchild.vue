@@ -64,7 +64,7 @@
       <div class="">
         <div class="">
       
-          <ul      >
+          <ul   v-thirdIn   >
             <li
               v-for="(image, index) in jarImgAssets"
               :key="index"

@@ -1,15 +1,15 @@
 <template>
-  <div class="articleContainer">
+  <div class="articleContainer" >
     <!-- background images  -->
 
     <img
       class="bgImg"
-      src="./../../../assets/images/resizeLONG/branding/manual/agile/agile8.jpg"
+      src="./../../../assets/images/resizeLONG/branding/manual/agile/agile2.jpg"
       alt=""
     />
     <!-- nav -->
     <div class="articleMenuContainer">
-      <div class="beauty beautyText">beauty.</div>
+      <div class="beauty beautyText">dossier</div>
       <div class="articleMenu">
         <router-link to="/main">
           <div class="articleMenuText">home</div></router-link
@@ -106,7 +106,7 @@
                         alt=""
                       />
                     </div>
-                    <div class="nextViewText">Typography</div>
+                    <div class="nextViewText up40">Typo <br> graphy</div>
                   </div>
                   <div
                     class="nextViewMenuDiv"
@@ -115,11 +115,11 @@
                     <div class="nextViewMenuImgDiv">
                       <img
                         class="fullImg"
-                        src="./../../../assets/images/resizeLONG/branding/manual/agile/kick.jpg"
+                        src="./../../../assets/images/resizeLONG/branding/manual/agile/jump.jpg"
                         alt=""
                       />
                     </div>
-                    <div class="nextViewText">Demographies</div>
+                    <div class="nextViewText up40" >Demo <br>graphies</div>
                   </div>
                 </div>
 
@@ -139,8 +139,8 @@
                         alt=""
                       />
                     </div>
-                    <div class="nextViewText" style="top: -40px !important">
-                      App Design
+                    <div class="nextViewText up40" >
+                      App <br> Design
                     </div>
                   </div>
                   <div class="nextViewMenuDiv">
@@ -150,11 +150,11 @@
                     >
                       <img
                         class="fullImg"
-                        src="./../../../assets/images/resizeLONG/branding/manual/agile/pplwtire.jpg"
+                        src="./../../../assets/images/resizeLONG/branding/manual/agile/agile3.jpg"
                         alt=""
                       />
                     </div>
-                    <div class="nextViewText" style="top: -40px !important">
+                    <div class="nextViewText up40" >
                       Brand Manual
                     </div>
                   </div>
@@ -198,10 +198,9 @@
                 <div class="articleHeaderDivBrandingsx">Development</div>
 
                 <div class="brandGridHomeBOdy">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Itaque pariatur fugiat eum ipsa porro possimus quo qui
-                  consequatur aut! Inventore hic ducimus numquam, quis ullam
-                  voluptate voluptatum exercitationem architecto assumenda?
+                 Welcome and explore Agile Fitness's brand basics and visual elements. Explore the
+                 brand core values, viual assets from the colors, typography, logos, customer demeographics, application design
+                 and more. 
                 </div>
               </div>
             </div>
@@ -241,7 +240,7 @@
                           <div class="logo-single-div">
                             <div class="logo-img">
                               <img
-                                src="./../../../assets/images/agile/agileBlackLogo.png"
+                                src="./../../../assets/images/agile/agileWhiteLogo.png"
                                 alt=""
                               />
                             </div>
@@ -278,17 +277,17 @@
                           <div class="logo-single-div">
                             <div class="logo-img">
                               <img
-                                src="./../../../assets/images/agile/agileWhiteLogo.png"
+                                src="./../../../assets/images/agile/agileBlackLogo.png"
                                 alt=""
                               />
                             </div>
                             <div class="logo-content-div">
                               <div class="logo-title covered-font">
-                                White Logo
+                                Black Logo
                               </div>
                               <div class="logo-body">
-                                The all white version be used when the backround
-                                color is dark.
+                                The all black version be used when the backround
+                                color is light.
                               </div>
                             </div>
                           </div>
@@ -365,7 +364,8 @@
                   </div>
                   <div class="outer-wrapper-content-small">
                     <div class="wrapper-content-small-type">
-                      <div class="type-container">
+                      <div class="type-div-first">
+  <div class="type-container">
                         <!-- <div class="type-info-div">
                         
                         </div> -->
@@ -380,9 +380,8 @@
                         </div>
                         <div class="type-span">
                           Covered By Your Grace is based on the adorable
-                          handwriting of a very sweet teacher friend. The
-                          whimsical curves and extensions are wonderful.
-                          <div class="type-span">
+                          handwriting of a very sweet teacher friend. 
+                          <div class="type-span-span">
                             Used for logo and / or as accent font for print and
                             digital media when appliciable.
                           </div>
@@ -392,7 +391,10 @@
                       
                         </div> -->
                       </div>
-                      <div class="type-container">
+                      </div>
+                    
+                      <div class="type-div">
+       <div class="type-container">
                         <div class="abText mont-font">AaBbCc</div>
                         <div class="aphlaText mont-font">
                           ABCDEFGHIJKLMNOPQRSTUVWXYZ <br />
@@ -406,12 +408,10 @@
                         <div class="type-span">
                           The old posters and signs in the traditional
                           neighborhood of Buenos Aires called Montserrat. The
-                          goal is to rescue what is in Montserrat and set it
-                          free, under a free, libre and open source license, the
-                          SIL Open Font License
-                          <div class="type-span">
-                            Used for corporate font, body copy, press releases,
-                            print and digital media when appliciable.
+                          goal is to rescue and set it
+                          free.
+                          <div class="type-span-span">
+                            Used for standard corporate font.
                           </div>
                         </div>
                         <!-- <div class="type-info-div">
@@ -421,6 +421,8 @@
                     
                         </div> -->
                       </div>
+                      </div>
+               
                     </div>
                   </div>
                 </div>
@@ -456,7 +458,7 @@
                   </div>
                   <div class="outer-wrapper-content-small-color">
                     <div class="wrapper-content-small-color">
-                      <div class="color-array">
+                      <div class="color-array nopadding">
                         <div class="color-array-container">
                           <div class="color-array-div">
                             <div class="color-title">Coragous Cablt</div>
@@ -590,10 +592,10 @@
                           <div class="color-array-intro-body-text">
                             Keep track! Stay motivate! Stay connected!
                             <br />
-                            This color pallette has been designed to excited the
-                            senses, get you moving, and make you smile. The Spry
-                            Color Pallette balances bright bubbly colors with
-                            warm supportive tones.
+                            Our Fitness App has been design to keep track of your 
+                            taliored fitness journey. As well as,  hundreds of workout playlists to
+                            stay motivated and entertained.
+                           
                           </div>
                         </div>
                       </div>
@@ -647,18 +649,18 @@
                     <div class="color-bar-agile"></div>
                     <div class="colorSubDiv">
                       <div class="colorSubDivLeft">
-                        <div class="color-sup-text">sneak <br /></div>
-                        <div class="color-sup-text">a</div>
-                        <div class="color-sup-text">peak</div>
+                        <div class="color-sup-text">EXCITING</div>
+                        <div class="color-sup-text">PLESANT</div>
+                        <div class="color-sup-text">BOLD</div>
                       </div>
                       <div class="colorSubDivRight">
                         <div class="color-array-intro-body">
                           <div class="color-array-intro-body-text">
                             Take a look! <br />
-                            This color pallette has been designed to excited the
-                            senses, get you moving, and make you smile. The Spry
-                            Color Pallette balances bright bubbly colors with
-                            warm supportive tones.
+                            Sneak a peak at out taliored guildlines. Agiles Brand Manual lays out the brand and
+                            the approved visiual elements, colors, typography, as well as the brand 
+                            values, vision, and our brand promised. 
+                             
                           </div>
                         </div>
                       </div>
@@ -735,124 +737,157 @@
                       <div class="colorSubDivRight">
                         <div class="color-array-intro-body">
                           <div class="color-array-intro-body-text">
-                            Give me life! Give me energy! Get me motivated!
+                                Agile Fitness is a tailor fitness journey for everyone! 
                             <br />
-                            This color pallette has been designed to excited the
-                            senses, get you moving, and make you smile. The Spry
-                            Color Pallette balances bright bubbly colors with
-                            warm supportive tones.
+                     
+                         We don’t have a target market or demographic that we cater 
+                         to exclusively. Our mission is to build a fitness plan and 
+                         tailor it to the everyday desires and demands. 
+                         This infographic display the highest percent of 
+                         each group surveyed by the CDC. 
                           </div>
                         </div>
                       </div>
                     </div>
                   </div>
-                  <div class="outer-wrapper-content-small-color">
-                    <div class="wrapper-content-small-color">
-                      <div class="color-array">
-                        <div class="color-array-container">
-                          <div class="color-array-div">
-                            <div class="color-title">Coragous Cablt</div>
+                  <div class="outer-wrapper-content-small-demo">
+                    <div class="wrapper-content-small-demo">
+                      <div class="color-array nopadding">
+                        <div class="demo-array-container">
+                          <div class="demo-array-div">
+                            <div class="demo-title">Education</div>
 
-                            <div class="content-color-div">
+                            <div class="content-demo-div">
                               <div class="content-color-left">
                                 <div class="color-codes">
-                                  <div class="">HEX : 00617E</div>
-                                  <div class="">CMYK : 49% 11% 0% 51%</div>
-                                  <div class="">RGB : 0 97 126</div>
+                                  <div class="">> Graduate degree</div>
+                            
+                                  <div class="">High School Graduate</div>
+                                  <div class="">AA Degree</div>
+                                  <div class=""> BA or MA Degree</div>
                                 </div>
                               </div>
                               <div class="content-color-right">
-                                <div
-                                  class="
-                                    content-color-colors-1
-                                    hoverMeNote
-                                    cobalt
-                                  "
-                                ></div>
+                                    <div class="color-codes">
+                                  <div class="">50.4%</div>
+                                  <div class="">43.9%</div>
+                                  <div class="">46%</div>
+                             <div class="">42%</div>
+                                </div>
                               </div>
                             </div>
                           </div>
-                          <div class="color-array-div">
-                            <div class="color-title">Phoenix Red</div>
-                            <div class="content-color-div">
+                                      <div class="demo-ppl-array-div span-demo-2">
+                            <div class="demo-title" style="text-align: center">Joe & Jane</div>
+                            <div class="content-demo-ppl-div">
+                          <img src="./../../../assets/images/agile/demoppl.png">
+                            </div>
+                          </div>
+                          <div class="demo-array-div">
+                            <div class="demo-title">Age</div>
+                            <div class="content-demo-div">
                               <div class="content-color-left">
                                 <div class="color-codes">
-                                  <div class="">HEX : 960935</div>
-                                  <div class="">CMYK : 0% 55% 38% 41%</div>
-                                  <div class="">RGB : 150 9 53</div>
+                                  <div class="">25-44 years</div>
+                                  <div class="">45-64 years</div>
+                                  <div class="">65-74 years</div>
+                                   <div class="">74+ years</div>
                                 </div>
                               </div>
                               <div class="content-color-right">
-                                <div
-                                  class="content-color-colors-1 cherry"
-                                ></div>
+                                 <div class="color-codes">
+                                  <div class="">50.4%</div>
+                                  <div class="">43.9%</div>
+                                  <div class="">46%</div>
+                             <div class="">42%</div>
+                                </div>
                               </div>
                             </div>
                           </div>
-                          <div class="color-array-div">
-                            <div class="color-title">Noble Orange</div>
-                            <div class="content-color-div">
+                          <div class="demo-array-div">
+                            <div class="demo-title">Race</div>
+                            <div class="content-demo-div">
                               <div class="content-color-left">
                                 <div class="color-codes">
-                                  <div class="">HEX : F57F28</div>
-                                  <div class="">CMYK: 0% 46% 80% 4%</div>
-                                  <div class="">RGB : 245 127 40</div>
+                                  <div class="">Pacific Islander</div>
+                                  <div class="">Black or AA</div>
+                                  <div class="">White</div>
+                                       <div class="">Latino</div>
                                 </div>
                               </div>
 
                               <div class="content-color-right">
-                                <div
-                                  class="content-color-colors-1 orange"
-                                ></div>
+                                   <div class="color-codes">
+                                  <div class="">28.9%</div>
+                                  <div class="">34.6%</div>
+                                  <div class="">46%</div>
+                             <div class="">42%</div>
+                                </div>
                               </div>
                             </div>
                           </div>
-                          <div class="color-array-div">
-                            <div class="color-title">Recharge Yellow</div>
-                            <div class="content-color-div">
+               
+                                   
+                          <div class="demo-array-div">
+                            <div class="demo-title">Geographic Region</div>
+                            <div class="content-demo-div">
                               <div class="content-color-left">
                                 <div class="color-codes">
-                                  <div class="">HEX : FEEB92</div>
-                                  <div class="">CMYK: 0% 7% 42% 0%</div>
-                                  <div class="">RGB : 254 235 146</div>
+                                  <div class="">Northeast</div>
+                                  <div class="">Midwest</div>
+                                  <div class="">South</div>
+                                   <div class="">North</div>
                                 </div>
                               </div>
                               <div class="content-color-right">
-                                <div
-                                  class="content-color-colors-1 yellow"
-                                ></div>
+                              <div class="color-codes">
+                                  <div class="">44.8%</div>
+                                  <div class="">26.4%</div>
+                                  <div class="">6%</div>
+                             <div class="">42%</div>
+                                </div>
                               </div>
                             </div>
                           </div>
-                          <div class="color-array-div">
-                            <div class="color-title">Hop Blue</div>
-                            <div class="content-color-div">
+                          <div class="demo-array-div">
+                            <div class="demo-title">Material Status</div>
+                            <div class="content-demo-div">
                               <div class="content-color-left">
                                 <div class="color-codes">
-                                  <div class="">HEX : AAEFFF</div>
-                                  <div class="">CMYK: 933% 6% 0% 0%</div>
-                                  <div class="">RGBA : 170 239 255</div>
+                                  <div class="">Never Married</div>
+                                  <div class="">Widowed</div>
+                                  <div class="">Cohabiting</div>
+                                    <div class="">Divorced or Separated</div>
                                 </div>
                               </div>
                               <div class="content-color-right">
-                                <div class="content-color-colors-1 lBlue"></div>
+                                <div class="color-codes">
+                                  <div class="">45.8%</div>
+                                  <div class="">37.5%</div>
+                                  <div class="">46%</div>
+                             <div class="">42%</div>
+                                </div>
                               </div>
                             </div>
                           </div>
-                          <div class="color-array-div">
-                            <div class="color-title">Slate White</div>
-                            <div class="content-color-div">
+                          <div class="demo-array-div">
+                            <div class="demo-title">Poverty Status</div>
+                            <div class="content-demo-div">
                               <div class="content-color-left">
                                 <div class="color-codes">
-                                  <div class="">HEX : F9FFFE</div>
-                                  <div class="">CMYK : 2% 0% 0% 0%</div>
-                                  <div class="">RGB : 249 255 254</div>
+                                  <div class="">$11,770 or less</div>
+                                  <div class="">$11,770-$23,540</div>
+                                  <div class="">$23,540-$47,080</div>
+                       
                                 </div>
                               </div>
                               <div class="content-color-right">
-                                <div
-                                  class="content-color-colors-1 eShell"
-                                ></div>
+                                  <div class="color-codes">
+                                  <div class="">32.4%</div>
+                                  <div class="">34.9%</div>
+                                  <div class="">4.34</div>
+                            
+                                </div>
                               </div>
                             </div>
                           </div>
@@ -1218,7 +1253,7 @@ export default {
 }
 .agileBg {
   height: inherit;
-  backdrop-filter: blur(10px) brightness(0.8);
+    backdrop-filter: blur(20px) brightness(0.97);
   padding: 0px 4.5%;
 }
 .colors,

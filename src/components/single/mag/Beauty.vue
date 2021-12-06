@@ -18,7 +18,7 @@
 
     <!-- nav -->
     <div class="articleMenuContainer">
-      <div class="beautyText beauty">beauty.</div>
+      <div class="beautyText beauty">dossier</div>
       <div class="articleMenu">
         <router-link to="/about">
           <div class="articleMenuText">home</div></router-link
