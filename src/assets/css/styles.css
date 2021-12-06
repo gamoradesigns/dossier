@@ -30,34 +30,67 @@
       overflow: hidden;
   }
   /* /////////////////////////////////// ANIMATAIONS */
+  /* first in - for titles | second in - for footers | fourth in for photos (slow burn entry) | fall for - titles | fall-sub for sub titles */
+  /* page-fade in for - mag page animation | fade in out is for - clickers ( beauty, nogen) */
   
   .before-page-fade-in {
       opacity: 0;
-      transition: all .5s .5s cubic-bezier(.58, .37, .7, 1.48);
+      transition: all 5s .5s cubic-bezier(.58, .37, .7, 1.48);
   }
   
   .page-fade-in {
       opacity: 1;
   }
   
-  .before-first-in {
+  .before-fade-in-out {
       opacity: 0;
-      transition: all .5s .1s cubic-bezier(.58, .37, .7, 1.48) !important;
+      transition: all .5s .5s cubic-bezier(.58, .37, .7, 1.48);
   }
   
-  .before-second-in {
+  .fade-in-out {
+      opacity: 1;
+  }
+  
+  .before-first-in {
       opacity: 0;
       transition: all .5s .2s cubic-bezier(.58, .37, .7, 1.48) !important;
   }
   
+  .before-second-in {
+      opacity: 0;
+      transition: all .5s .3s cubic-bezier(.58, .37, .7, 1.48) !important;
+  }
+  
   .before-third-in {
       opacity: 0;
-      transition: all .5s .4s cubic-bezier(.58, .37, .7, 1.48) !important;
+      transition: all .5s .8s cubic-bezier(.58, .37, .7, 1.48) !important;
   }
   
   .before-fourth-in {
       opacity: 0;
-      transition: all .5s 2s cubic-bezier(.58, .37, .7, 1.48) !important;
+      transition: all 1s .5s cubic-bezier(.58, .37, .7, 1.48) !important;
+  }
+  
+  .before-enter-fall {
+      opacity: 0;
+      transform: translateY(-30px);
+      transition: all 1.6s .8s cubic-bezier(0.17, 0.67, 0.39, 1.16);
+  }
+  
+  .enter-fall {
+      opacity: 1;
+      transform: translateY(0px);
+  }
+  
+  .before-enter-fall-sub {
+      opacity: 0;
+      transform: translateY(-30px);
+      transition: all 1.6s 1s cubic-bezier(0.17, 0.67, 0.39, 1.16);
+  }
+  
+  .enter-fall-sub {
+      opacity: 1;
+      transform: translateY(0px);
   }
   
   .first-in,
@@ -66,14 +99,21 @@
   .fourth-in {
       opacity: 1;
   }
-  /* .before-enter-fade {
-      opacity: 0;
-      transition: all 1s .2s cubic-bezier(.58, .37, .7, 1.48);
+  /* for footer menu func  */
+  
+  .fade-enter-active,
+  .fade-leave-active {
+      transition-duration: 0.3s;
+      transition-property: opacity;
+      transition-timing-function: ease;
   }
   
-  .enter-fade {
-      opacity: 1
+  .fade-enter,
+  .fade-leave-active {
+      opacity: 0
   }
+  /* 
+
   
   .before-enter {
       opacity: 0;
@@ -1041,7 +1081,7 @@
       z-index: -1;
       background: black;
       opacity: 0.89;
-      height: auto;
+      height: inherit;
       width: 100%;
   }
   
@@ -1367,6 +1407,28 @@
       line-height: 1;
   }
   
+  .articleHeaderDivBrandingAgile {
+      font-size: 3.5rem;
+      text-transform: uppercase;
+      font-family: "Covered By Your Grace", cursive !important;
+      position: relative;
+      /* left: -19px; */
+      line-height: 1;
+      padding-top: 13px;
+  }
+  
+  .articleHeaderDivBrandingLgAgile {
+      font-size: 1.4rem;
+      text-transform: uppercase;
+      font-family: Avenir, Helvetica, Arial, sans-seri;
+      position: relative;
+      line-height: 1;
+      padding-top: 2px;
+      font-weight: 700;
+      letter-spacing: 7px;
+      opacity: 0.5;
+  }
+  
   .articleHeaderDivBrandingLG {
       font-size: 4rem;
       /* text-transform: uppercase; */
@@ -1482,13 +1544,13 @@
       /* top: 15%; */
       /* left: 13%; */
       display: grid;
-      grid-template-rows: minmax(30vh, auto) 20vh 6vh;
+      grid-template-rows: minmax(500px, 1fr) minmax(7vh, 20vh) 6vh;
       width: 100vw;
       /* grid-template-columns: 175px 1fr; */
   }
   
   .magImgContainer {
-      margin: 5%;
+      margin: 9% 12%;
   }
   
   .magContentContainer2 {
@@ -1667,8 +1729,10 @@
   
   .magTitleContainer {
       width: 30%;
+      min-width: 10%;
       padding: 10px;
       text-align: left;
+      min-height: 50%;
   }
   
   .magBtmContainer {
@@ -1707,11 +1771,9 @@
   
   .brandingContainer {
       height: 90vh;
-      ;
+      grid-template-columns: 30% 72%;
       display: grid;
       margin: 20px;
-      grid-template-columns: 32% 60%;
-      grid-gap: 8%;
   }
   
   .brandingMenuRow {
@@ -1811,10 +1873,10 @@
   .brandingBottomMenuContainer {
       height: 93vh;
       position: relative;
-      top: -29vh;
+      top: -19vh;
       overflow: scroll;
-      padding: 10px;
-      backdrop-filter: blur(10px) brightness(0.68);
+      padding: 20px;
+      backdrop-filter: blur(10px) brightness(0.95)
   }
   
   .brandingBottomMenuDiv {
@@ -1831,5 +1893,113 @@
       /* height: 400px; */
       /* border: 1px solid cyan; */
       z-index: 1;
+      padding: 16px;
+  }
+  /* about */
+  
+  .aboutContainer {
+      overflow: hidden;
+      text-align: left;
+      height: 92vh;
+  }
+  
+  .backdropContentAbout {
+      height: 90%;
+      width: auto;
+      margin: 2%;
+      padding: 2%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+  }
+  
+  .aboutTopMenuDiv {
+      position: relative;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      z-index: 1;
       padding: 10px;
+  }
+  
+  .outer-wrapper-content-small-about {
+      width: 50vh;
+      height: 92vw !important;
+      transform: rotate( -90deg) translateX(0vh);
+      transform-origin: top left;
+      overflow-y: scroll;
+      overflow-x: hidden;
+      position: absolute;
+      /* background: #0000000f; */
+  }
+  
+  .wrapper-content-small-about {
+      display: flex;
+      position: inherit;
+      flex-direction: row;
+      width: 176vw;
+      transform: rotate( 90deg) translateY(-60vh);
+      transform-origin: top left;
+      color: white;
+      left: -10vh;
+      z-index: 1000;
+  }
+  
+  .aboutSliderDiv {
+      display: flex;
+      flex-direction: row;
+  }
+  
+  .aboutSliderSingle {
+      height: 24vh;
+      width: 14vw;
+      padding: 10%;
+      margin: 0px 5%;
+      -webkit-backdrop-filter: blur(.5px) brightness(0.95);
+      backdrop-filter: blur(16px) brightness(0.94);
+  }
+  
+  .aboutSubHeaderText {
+      font-weight: 500;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      font-size: .8rem;
+  }
+  
+  .aboutBusCardContainer {
+      height: 22vh;
+      overflow: hidden;
+      width: 23vw;
+  }
+  
+  .agileBrand {
+      height: 24vh;
+      display: flex;
+      flex-direction: column-reverse;
+      padding: 2%;
+      /* margin-top: auto; */
+      position: absolute;
+      bottom: 7vh;
+      width: 59vw;
+      backdrop-filter: blur(10px) brightness(0.8);
+  }
+  
+  .articleHeaderDivBrandingMd {
+      font-size: 4rem;
+      /* text-transform: uppercase; */
+      font-family: "baskerville-display-pt";
+      position: relative;
+      line-height: 1;
+  }
+  
+  .articleHeaderDivBrandingsx {
+      text-transform: uppercase;
+      font-weight: 400;
+      letter-spacing: 10px;
+      font-size: 1.8rem;
+      padding-bottom: 2%;
+  }
+  
+  .nextViewDiv:hover {
+      cursor: pointer;
   }

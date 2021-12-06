@@ -11,7 +11,7 @@
     <div class="articleMenuContainer">
       <div class="beautyText beauty"  >beauty.</div>
       <div class="articleMenu">
-        <router-link to="/"  >
+        <router-link to="/about"  >
           <div class="articleMenuText">home</div></router-link
         >
         <router-link to="/collectionMenu"  >

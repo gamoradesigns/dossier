@@ -5,7 +5,7 @@
       <div class="col-endcap">
         <div class="col-grid">
           <div class="topSection hideOverflow beautyBox">
-            <div class="beautyText topLeftBeauty"  >
+            <div class="beautyText topLeftBeauty" v-firstIn >
              dossier <br />
 
               <div class="spanbeautyText">
@@ -34,7 +34,7 @@
           >
             <div class="middleSection" style="height: 100%">
               <div class="hideOverflow" style="height: 100%">
-                <div class="imgDiv3 hideOverflow height100" v-firstIn>
+                <div class="imgDiv3 hideOverflow height100" v-thirdIn>
                   <img
                   class='menuImg'
                   
@@ -51,10 +51,10 @@
                  
                   >
                     <div class="paddedBox-1">
-                      <div class="navLinkTitle"  >
+                      <div class="navLinkTitle" v-fallinganimation >
                         Agile Fitness
                       </div>
-                      <div class="navLinkSubTitle"   style="transition: all 1s .6s cubic-bezier(0.58, 0.37, 0.7, 1.48);">
+                      <div class="navLinkSubTitle"   v-fallinganimationsub>
                   Brand Developement &middot; UX  &middot; UI
                       </div>
                     </div>
@@ -84,7 +84,7 @@
                         &middot; magazines &middot;
                       </div>
                     </router-link>
-                    <router-link to="/">
+                    <router-link to="/about">
                       <div class="divTwo div beautyText menuText">
                         &middot; about &middot;
                       </div>
@@ -97,7 +97,7 @@
 
           <div
             class="bottomSection footer-text"
-             
+             v-secondIn
             @click="viewMenu((val = 1))"
           >
             &middot; {{ showMenu1 ? "explore dossier" : "explore"}} &middot;
@@ -143,7 +143,7 @@
             <div class="middleSection height100">
               <transition name="fade">
                 <div class="height100">
-                  <div class="imgDiv3 height100">
+                  <div class="imgDiv3 height100" v-thirdIn>
                     <img
                     class=""
                        
@@ -156,10 +156,10 @@
                       class="paddedBox-2 "
                      
                     >
-                      <div class="navLinkTitle"  >
+                      <div class="navLinkTitle" v-fallinganimation  >
                        ALTA 
                       </div>
-                      <div class="navLinkSubTitle"   style="transition: all 1s .6s cubic-bezier(0.58, 0.37, 0.7, 1.48);">
+                      <div class="navLinkSubTitle"   v-fallinganimationsub>
                         Logo Design &middot; Visual Elements
                       </div>
                     </div>
@@ -189,7 +189,7 @@
                         &middot; magazines &middot;
                       </div>
                     </router-link>
-                    <router-link to="/">
+                    <router-link to="/about">
                       <div class="divTwo div beautyText menuText">
                         &middot; about &middot;
                       </div>
@@ -201,7 +201,7 @@
           </router-link>
           <div
             class="bottomSection footer-text"
-             
+             v-secondIn
             @click="viewMenu((val = 2))"
           >
             &middot; {{ showMenu2 ? "explore dossier" : "explore" }} &middot;
@@ -232,7 +232,7 @@
           >
             <div class="middleSection" style="height: 100%">
               <div class="hideOverflow" style="height: 100%">
-                <div class="imgDiv3 height100">
+                <div class="imgDiv3 height100" v-thirdIn>
                   <!-- <img
                      
                     src=""
@@ -248,10 +248,10 @@
                   >
                     <div class="paddedBox-3">
                     
-                      <div class="navLinkTitle"  >
+                      <div class="navLinkTitle" v-fallinganimation  >
                         Coming Soon
                       </div>
-                      <div class="navLinkSubTitle"   style="transition: all 1s .6s cubic-bezier(0.58, 0.37, 0.7, 1.48);">
+                      <div class="navLinkSubTitle"   v-fallinganimationsub>
                       Spring &middot; 2022
                       </div>
                     </div>
@@ -281,7 +281,7 @@
                         &middot; magazines &middot;
                       </div>
                     </router-link>
-                    <router-link to="/">
+                    <router-link to="/about">
                       <div class="divTwo div beautyText menuText">
                         &middot; about &middot;
                       </div>
@@ -293,7 +293,7 @@
           </router-link>
           <div
             class="bottomSection footer-text"
-             
+             v-secondIn
             @click="viewMenu((val = 3))"
           >
             &middot; {{ showMenu3 ? "explore dossier" : "explore" }} &middot;
@@ -348,10 +348,10 @@
                     
                     >
                   
-                      <div class="navLinkTitle"  >
+                      <div class="navLinkTitle" v-fallinganimation  >
                        Coming Soon 
                       </div>
-                      <div class="navLinkSubTitle"   style="transition: all 1s .6s cubic-bezier(0.58, 0.37, 0.7, 1.48);">
+                      <div class="navLinkSubTitle"   v-fallinganimationsub>
                        Spring &middot; 2022
                       </div>
                     </div>
@@ -381,7 +381,7 @@
                         &middot; magazines &middot;
                       </div>
                     </router-link>
-                    <router-link to="/">
+                    <router-link to="/about">
                       <div class="divTwo div beautyText menuText">
                         &middot; about &middot;
                       </div>
@@ -393,7 +393,7 @@
           </router-link>
           <div
             class="bottomSection footer-text"
-             
+             v-secondIn
             @click="viewMenu((val = 4))"
           >
             &middot; {{ showMenu4 ? "explore dossier" : "explore" }} &middot;
@@ -409,7 +409,7 @@
       <div class="col-endcap">
         <div class="col-grid">
           <div class="topSection hideOverflow beautyBox">
-             <div class="beautyText topLeftBeauty"  >
+             <div class="beautyText topLeftBeauty" v-firstIn >
              dossier <br />
 
               <div class="spanbeautyText">

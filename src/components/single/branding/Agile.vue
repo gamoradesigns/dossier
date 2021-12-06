@@ -38,14 +38,14 @@
         <div class="backdropContent_Collection"  >
           <div class="brandingTopMenuDiv">
             <div
-              class="articleHeaderDivBranding"
+              class="articleHeaderDivBrandingAgile"
                
            
             >
-              5545 <br />
+              Agile Fitness <br />
             </div>
             <div
-              class="articleHeaderDivBrandingLG"
+              class="articleHeaderDivBrandingLgAgile"
                
             
             >
@@ -100,6 +100,23 @@
                     </div>
                     <div class="nextViewText">logo</div>
                   </div>
+                  <div
+                    class="nextViewMenuDiv"
+                    @click="showContainer(colorInput)"
+                  >
+                    <div class="nextViewMenuImgDiv">
+                      <img
+                        class="fullImg"
+                        src="./../../../assets/images/resizeLONG/branding/manual/agile/kick.jpg"
+                        alt=""
+                      />
+                    </div>
+                    <div class="nextViewText">colors</div>
+                  </div>
+                
+                </div>
+                  <div class="brandingMenuRow">
+               
                   <div
                     class="nextViewMenuDiv"
                     @click="showContainer(colorInput)"
@@ -200,46 +217,26 @@
         style="margin: 10px 0px 0px 10px; overflow: hidden !important"
       >
         <div class="backdropContentBrandingGrid">
-          <div class="container">
-            <div class="agileBrand" v-if="grid">
-              <div class="grid-layout">
-                <div class="grid-item grid-item-1">
-                  <img src="./../../../assets/images/agile/agile3.jpg" alt="" />
-                </div>
-                <div class="grid-item grid-item-2">
-                  <img
-                    src="./../../../assets/images/resizeLONG/branding/manual/agile/agile8.jpg"
-                  />
-                </div>
-                <div class="grid-item span-3 grid-item-3">
-                  <img
-                    src="./../../../assets/images/resizeLONG/branding/manual/agile/agile6_1.jpg"
-                  />
-                </div>
-                <div class="grid-item grid-item-4">
-                  <img
-                    src="./../../../assets/images/resizeLONG/branding/manual/agile/agile6.jpg"
-                  />
-                </div>
-                <div class="grid-item span-2 grid-item-5">
-                  <img
-                    src="./../../../assets/images/resizeLONG/branding/manual/agile/agile7.jpg"
-                  />
-                </div>
-                <div class="grid-item grid-item-6">
-                  <img
-                    src="./../../../assets/images/resizeLONG/branding/manual/agile/agileux32.jpg"
-                  />
-                </div>
-                <div class="grid-item grid-item-7">
-                  <img
-                    src="./../../../assets/images/resizeLONG/branding/manual/agile/agile7.jpg"
-                  />
-                </div>
-              </div>
+             <div class="container">
+              <div class="agileBrand" v-if="grid">
+           <div class="brandGridHomeDiv">
+             <div class="articleHeaderDivBrandingMd">
+              Agile Brand 
+             </div>
+             <div class="articleHeaderDivBrandingsx">
+               Development
+             </div>
+
+             <div class="brandGridHomeBOdy">Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+               Itaque pariatur fugiat eum ipsa porro possimus quo qui consequatur aut! Inventore 
+               hic ducimus numquam, quis ullam voluptate voluptatum exercitationem architecto assumenda?</div>
+           </div>
             </div>
+     
+        
             <div class="logo" v-if="logo">
-              <div class="colors">
+                
+              <div class="colors agileBg">
                 <div class="color-pallette-content">
                   <div class="color-array">
                     <transition>
@@ -455,8 +452,8 @@
                 </div>
               </div>
             </div>
-            <div class="type" v-if="type">
-              <div class="colors">
+            <div class="type " v-if="type">
+              <div class="colors agileBg">
                 <div class="color-pallette-content">
                   <div class="color-array">
                     <transition>
@@ -579,7 +576,7 @@
               </div>
             </div>
             <div class="colors" v-if="color">
-              <div class="colors">
+              <div class="colors agileBg">
                 <div class="color-pallette-content">
                   <div class="color-array">
                     <transition>
@@ -878,7 +875,7 @@
               </div>
             </div>
             <div class="socialmedia" v-if="social">
-              <div class="colors">
+              <div class="colors agileBg">
                 <div class="color-pallette-content">
                   <div class="color-array">
                     <transition>
@@ -971,7 +968,7 @@
               </div>
             </div>
             <div class="colors" v-if="manual">
-              <div class="colors">
+              <div class="colors agileBg">
                 <div class="color-pallette-content">
                   <div class="color-array">
                     <transition>
@@ -1187,10 +1184,7 @@
       </div>
     </div>
 
-    <div class="hideContentsDiv" @click="hideContents"  >
-      <i v-if="!hideMe" class="fa fa-eye-slash"  ></i>
-      <i v-if="hideMe" class="fa fa-eye"  ></i>
-    </div>
+
   </div>
 </template>
 
@@ -1401,12 +1395,25 @@ export default {
   /* background: black; */
 }
 .backdropContentBrandingGrid {
-  backdrop-filter: blur(0.5px) brightness(0.95);
-  padding: 20px;
+  /* backdrop-filter: blur(0.5px) brightness(0.95); */
+ 
   height: 100%;
   overflow: scroll;
   /* background: black; */
 }
+.agileBg {
+    height: inherit;
+    backdrop-filter: blur(10px) brightness(0.95);
+     padding: 0px 3%;
+}
+.colors, .type, .socialmedia, .logo {
+  height: inherit;
+}
+.container {
+    height: 100vh;
+    padding: 0px 4%;
+}
+
 img.fullImg {
   background-size: cover;
   width: 100%;

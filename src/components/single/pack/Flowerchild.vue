@@ -34,9 +34,9 @@
       <div class="articleMenuIcon"></div>
     </div>
     <!-- content div -->
-    <div class="articleContentContainer positionInherit" v-if="!hideMe"  >
+    <div class="articleContentContainer positionInherit" v-if="!hideMe"  v-fadeInOut >
       <div class="backdropContent_Collection"   >
-     <div class="articleHeaderDiv"     >5545 <br /></div>
+     <div class="articleHeaderDiv"     >PJ9810 <br /></div>
       <div class="articleHeaderDiv2"      >
         Flowerchild<br />
         Packaging Design  

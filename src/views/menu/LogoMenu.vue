@@ -54,7 +54,7 @@
                       <div class="navLinkTitle"  >
                         mama
                       </div>
-                      <div class="navLinkSubTitle"   style="transition: all 1s .6s cubic-bezier(0.58, 0.37, 0.7, 1.48);">
+                      <div class="navLinkSubTitle"   v-fallinganimationsub>
                   Brand Developement &middot; UX  &middot; UI
                       </div>
                     </div>
@@ -84,7 +84,7 @@
                         &middot; magazines &middot;
                       </div>
                     </router-link>
-                    <router-link to="/">
+                    <router-link to="/about">
                       <div class="divTwo div beautyText menuText">
                         &middot; about &middot;
                       </div>
@@ -156,10 +156,10 @@
                       class="paddedBox-2 "
                      
                     >
-                      <div class="navLinkTitle"  >
+                      <div class="navLinkTitle"  v-fallinganimation >
                        ALTA Fin
                       </div>
-                      <div class="navLinkSubTitle"   style="transition: all 1s .6s cubic-bezier(0.58, 0.37, 0.7, 1.48);">
+                      <div class="navLinkSubTitle"   v-fallinganimationsub>
                         Logo Design &middot; Visual Elements
                       </div>
                     </div>
@@ -189,7 +189,7 @@
                         &middot; magazines &middot;
                       </div>
                     </router-link>
-                    <router-link to="/">
+                    <router-link to="/about">
                       <div class="divTwo div beautyText menuText">
                         &middot; about &middot;
                       </div>
@@ -248,10 +248,10 @@
                   >
                     <div class="paddedBox-3">
                     
-                      <div class="navLinkTitle"  >
+                      <div class="navLinkTitle" v-fallinganimation  >
                         Packing Design
                       </div>
-                      <div class="navLinkSubTitle"   style="transition: all 1s .6s cubic-bezier(0.58, 0.37, 0.7, 1.48);">
+                      <div class="navLinkSubTitle"   v-fallinganimationsub>
                        Product Design &middot; Visual Communication
                       </div>
                     </div>
@@ -281,7 +281,7 @@
                         &middot; magazines &middot;
                       </div>
                     </router-link>
-                    <router-link to="/">
+                    <router-link to="/about">
                       <div class="divTwo div beautyText menuText">
                         &middot; about &middot;
                       </div>
@@ -348,10 +348,10 @@
                     
                     >
                   
-                      <div class="navLinkTitle"  >
+                      <div class="navLinkTitle" v-fallinganimation  >
                        Magazine Viewing
                       </div>
-                      <div class="navLinkSubTitle"   style="transition: all 1s .6s cubic-bezier(0.58, 0.37, 0.7, 1.48);">
+                      <div class="navLinkSubTitle"   v-fallinganimationsub>
                        Layout Design &middot; Editoral
                       </div>
                     </div>
@@ -381,7 +381,7 @@
                         &middot; magazines &middot;
                       </div>
                     </router-link>
-                    <router-link to="/">
+                    <router-link to="/about">
                       <div class="divTwo div beautyText menuText">
                         &middot; about &middot;
                       </div>

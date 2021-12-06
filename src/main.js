@@ -20,22 +20,29 @@ Vue.directive('thirdIn', ThirdIn)
 import FourthIn from "./directives/fourthIn"
 Vue.directive('fourthIn', FourthIn)
 
+import FallingAnimation from "./directives/fallinganimation"
+Vue.directive('fallinganimation', FallingAnimation)
 
-// spare fade in animaition 
-// import PageFadeIn from "./directives/pageFadeIn"
-// Vue.directive('pageFadeIn', PageFadeIn)
+import FallingAnimationSub from "./directives/fallinganimationsub"
+Vue.directive('fallinganimationsub', FallingAnimationSub)
+
+
+import PageFadeIn from "./directives/pageFadeIn"
+Vue.directive('pageFadeIn', PageFadeIn)
+
+import FadeInOut from "./directives/fadeInOut"
+Vue.directive('fadeInOut', FadeInOut)
 
 
 
 // old animations - try not to use -- buggy
 // import ScrollAnimation from "./directives/scrollanimation"
 // import ScrollFadingAnimation from "./directives/scrollfadinganimation"
-// import FallingAnimation from "./directives/fallinganimation"
 // import AppearOnScroll from "./directives/appearOnScroll" - in and out on scroll - buggy
 // Vue.directive('appearOnScroll', AppearOnScroll)
 // Vue.directive('scrollanimation', ScrollAnimation)
 // Vue.directive('scrollfadinganimation', ScrollFadingAnimation)
-// Vue.directive('fallinganimation', FallingAnimation)
+
 
 
 

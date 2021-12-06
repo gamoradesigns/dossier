@@ -2,7 +2,7 @@ const animatedScrollObserver = new IntersectionObserver(
     (entries) => {
         entries.forEach(({ target, isIntersecting }) => {
             if (isIntersecting) {
-                target.classList.add('third-in');
+                target.classList.add('second-in');
                 return
             }
             // else  if (!isIntersecting) {
@@ -17,7 +17,7 @@ const animatedScrollObserver = new IntersectionObserver(
 
 export default {
     bind(el) {
-        el.classList.add('before-third-in');
+        el.classList.add('before-second-in');
         animatedScrollObserver.observe(el)
     }
 }

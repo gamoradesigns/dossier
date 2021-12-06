@@ -1,6 +1,6 @@
 <template>
-  <div class="articleContainer"  >
-<!-- background img -->
+  <div class="articleContainer">
+    <!-- background img -->
     <img
       class="bgImg"
       src="./../../../assets/images/mag/nogen/NogenManual.jpg"
@@ -9,18 +9,18 @@
 
     <!-- nav -->
     <div class="articleMenuContainer">
-      <div class="beautyText beauty"  >beauty.</div>
+      <div class="beautyText beauty">beauty.</div>
       <div class="articleMenu">
-        <router-link to="/"  >
+        <router-link to="/about">
           <div class="articleMenuText">home</div></router-link
         >
-        <router-link to="/collectionMenu"  >
+        <router-link to="/collectionMenu">
           <div class="articleMenuText">Collections</div></router-link
         >
-        <router-link to="/articleMenu"  >
+        <router-link to="/articleMenu">
           <div class="articleMenuText">Articles</div></router-link
         >
-        <router-link to="/closerLookMenu"  >
+        <router-link to="/closerLookMenu">
           <div class="articleMenuText">Closer Look</div></router-link
         >
       </div>
@@ -31,11 +31,7 @@
     <div class="magContentContainer">
       <div class="magImgContainer">
         <!-- img div -->
-        <div
-          class="magImg"
-           
-           
-        >
+        <div class="magImg" v-pageFadeIn>
           <img
             v-if="itemSelected"
             :src="
@@ -53,7 +49,7 @@
         </div>
       </div>
       <!-- btm slider -->
-      <div class="magBtmContainer" v-if="showAll">
+      <div class="magBtmContainer" v-if="showAll" v-fadeInOut>
         <!-- title side -->
         <div class="magTitleContainer">
           <div class="magTitleDiv">
@@ -63,11 +59,7 @@
             </div>
           </div>
           <div class="packageSubHeaderContainer">
-            <div
-              class="packageSubHeaderDiv"
-               
-               
-            >
+            <div class="packageSubHeaderDiv">
               <span class="subHeaderText">magazine</span> &middot; layout design
             </div>
           </div>
@@ -109,13 +101,9 @@
             <i class="fa fa-chevron-circle-left"></i>
           </div>
 
-          <div class="magPopup" @click="showCollection"  >
-            <i
-              v-if="!hideMe"
-              class="fa fa-eye-slash"
-               
-            ></i>
-            <i v-if="hideMe" class="fa fa-eye"  ></i>
+          <div class="magPopup" @click="showCollection">
+            <i v-if="!hideMe" class="fa fa-eye-slash"></i>
+            <i v-if="hideMe" class="fa fa-eye"></i>
           </div>
 
           <div class="magRightBtn" @click="forwards()">
@@ -134,7 +122,6 @@ export default {
   components: {},
   data() {
     return {
-
       hideMe: false,
       showAll: true,
       pageNumber: 0,
@@ -150,26 +137,22 @@ export default {
         { imgName: "NogenManual9.jpg", currentEdition: "zeta" },
 
         { imgName: "NogenManual11.jpg", currentEdition: "zeta" },
-          { imgName: "NogenManual16.jpg", currentEdition: "zeta" },
-            { imgName: "NogenManual19.jpg", currentEdition: "zeta" },
-              { imgName: "NogenManual20.jpg", currentEdition: "zeta" },
+        { imgName: "NogenManual16.jpg", currentEdition: "zeta" },
+        { imgName: "NogenManual19.jpg", currentEdition: "zeta" },
+        { imgName: "NogenManual20.jpg", currentEdition: "zeta" },
 
-                  { imgName: "NogenManual33.jpg", currentEdition: "zeta" },
-          
-                      { imgName: "NogenManual35.jpg", currentEdition: "zeta" },
+        { imgName: "NogenManual33.jpg", currentEdition: "zeta" },
+
+        { imgName: "NogenManual35.jpg", currentEdition: "zeta" },
       ],
-
-
-    
     };
   },
 
   methods: {
- 
     nextImg(index, image) {
       console.log("page number- ", this.pageNumber, index, image);
       this.pageNumber = index;
-      return
+      return;
     },
     forwards() {
       if (this.pageNumber <= 10) {
@@ -192,13 +175,12 @@ export default {
     showCollection() {
       this.showAll = !this.showAll;
       this.hideMe = !this.hideMe;
-      return
+      return;
     },
   },
 };
 </script>
 <style scoped>
-
 img.bgImg {
   position: absolute;
   top: -200px;

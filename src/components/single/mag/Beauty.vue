@@ -1,9 +1,12 @@
 <template>
-  <div class="articleContainer"  >
+  <div class="articleContainer">
+    <!-- background img -->
     <img
       v-if="itemSelected"
       class="bgImg"
-      :src="require(`./../../../assets/images/mag/beauty/${beautyAssets[pageNumber].imgName}`)"
+      :src="
+        require(`./../../../assets/images/mag/beauty/${beautyAssets[pageNumber].imgName}`)
+      "
       alt=""
     />
     <img
@@ -15,18 +18,18 @@
 
     <!-- nav -->
     <div class="articleMenuContainer">
-      <div class="beautyText beauty"  >beauty.</div>
+      <div class="beautyText beauty">beauty.</div>
       <div class="articleMenu">
-        <router-link to="/"  >
+        <router-link to="/about">
           <div class="articleMenuText">home</div></router-link
         >
-        <router-link to="/collectionMenu"  >
+        <router-link to="/collectionMenu">
           <div class="articleMenuText">Collections</div></router-link
         >
-        <router-link to="/articleMenu"  >
+        <router-link to="/articleMenu">
           <div class="articleMenuText">Articles</div></router-link
         >
-        <router-link to="/closerLookMenu"  >
+        <router-link to="/closerLookMenu">
           <div class="articleMenuText">Closer Look</div></router-link
         >
       </div>
@@ -34,150 +37,119 @@
     </div>
     <!-- content div -->
 
-
-    
-
     <div class="magContentContainer">
-
-
       <div class="magImgContainer">
-    <!-- img div -->
-      <div
-        class="magImg"
-         
-         
-      >
-        <img
-          v-if="itemSelected"
-          :src="
-            require(`./../../../assets/images/mag/beauty/${beautyAssets[pageNumber].imgName}`)
-          "
-          alt=""
-        />
-        <img
-          v-if="!itemSelected"
-          :src="
-            require(`./../../../assets/images/mag/beauty/${beautyAssets[pageNumber].imgName}`)
-          "
-          alt=""
-        />
+        <!-- img div -->
+        <div class="magImg" v-pageFadeIn>
+          <img
+            v-if="itemSelected"
+            :src="
+              require(`./../../../assets/images/mag/beauty/${beautyAssets[pageNumber].imgName}`)
+            "
+            alt=""
+          />
+          <img
+            v-if="!itemSelected"
+            :src="
+              require(`./../../../assets/images/mag/beauty/${beautyAssets[pageNumber].imgName}`)
+            "
+            alt=""
+          />
+        </div>
       </div>
-
-
-
-
-
-    </div>
-    <div class="magBtmContainer" v-if="showAll">
-      <div class="magTitleContainer">
-        <div class="magTitleDiv">
-          <div class="magTopTitle articleHeaderDivBrandingLG">
-            beauty
+      <!-- btm slider -->
+      <div class="magBtmContainer" v-if="showAll" v-fadeInOut>
+        <!-- title side -->
+        <div class="magTitleContainer">
+          <div class="magTitleDiv">
+            <div class="magTopTitle articleHeaderDivBrandingLG">beauty</div>
+            <div class="magBtnTitle packageSubHeaderDiv">
+              <br />
+            </div>
           </div>
-          <div class="magBtnTitle packageSubHeaderDiv">
-            <br>
+          <div class="packageSubHeaderContainer">
+            <div class="packageSubHeaderDiv">
+              <span class="subHeaderText">magazine</span> &middot; layout design
+            </div>
           </div>
         </div>
-             <div class="packageSubHeaderContainer">
-        <div class="packageSubHeaderDiv"     >
-          <span class="subHeaderText">magazine</span> &middot; layout design
-        </div>
-      
-          
-      </div>
-        
-      </div>
-  <div class="magSliderContainer">
-       <div class="outer-wrapper-content-small-mag">
-    <div class="wrapper-content-small-mag">
-       <div class="magMenuRow">
-
-         <ul style="display: flex" class="ulMag">
-           <li v-for="(image, index) in beautyAssets"
-                  :key="index"
-                  @click="nextImg(index, image)"
-                  class="liMag">
-<div class="nextViewMagDiv">
-                    <div class="nextViewMagImgDiv">
-                      <img
-                        class="fullImg"
-                        :src="
-                          require(`./../../../assets/images/mag/beauty/${image.imgName}`)
-                        "
-                        alt=""
-                      />
-                   <!-- <div class="nextViewText">
+        <!-- slider side   -->
+        <div class="magSliderContainer">
+          <div class="outer-wrapper-content-small-mag">
+            <div class="wrapper-content-small-mag">
+              <div class="magMenuRow">
+                <ul style="display: flex" class="ulMag">
+                  <li
+                    v-for="(image, index) in beautyAssets"
+                    :key="index"
+                    @click="nextImg(index, image)"
+                    class="liMag"
+                  >
+                    <div class="nextViewMagDiv">
+                      <div class="nextViewMagImgDiv">
+                        <img
+                          class="fullImg"
+                          :src="
+                            require(`./../../../assets/images/mag/beauty/${image.imgName}`)
+                          "
+                          alt=""
+                        />
+                        <!-- <div class="nextViewText">
                       {{ image.currentEdition }}
                     </div> -->
+                      </div>
                     </div>
-                
-                  </div>
-           </li>
-         </ul>
-             
-                </div>
-    </div>
-       </div>
-    </div>
-
-    </div>
-  
-<div class="magControlContainer">
-    <!-- control  btns -->
-      <div class="magControlDiv">
-       <div class="magLeftBtn" @click="backwards()">
-          <i class="fa fa-chevron-circle-left"></i>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
         </div>
-        
-
-            <div class="magPopup"  @click="showCollection"  >
-      <i v-if="!hideMe" class="fa fa-eye-slash"  ></i>
-      <i v-if="hideMe" class="fa fa-eye"  ></i>
-    </div>
-
-
-        <div class="magRightBtn" @click="forwards()">
-          <i class="fa fa-chevron-circle-right"></i>
-        </div>
-       
       </div>
-</div>
 
+      <div class="magControlContainer">
+        <!-- control  btns -->
+        <div class="magControlDiv">
+          <div class="magLeftBtn" @click="backwards()">
+            <i class="fa fa-chevron-circle-left"></i>
+          </div>
+
+          <div class="magPopup" @click="showCollection">
+            <i v-if="!hideMe" class="fa fa-eye-slash"></i>
+            <i v-if="hideMe" class="fa fa-eye"></i>
+          </div>
+
+          <div class="magRightBtn" @click="forwards()">
+            <i class="fa fa-chevron-circle-right"></i>
+          </div>
+        </div>
+      </div>
 
       <!-- left  side -->
 
       <!-- <div class="closerContentDiv"> -->
-        <!-- <ul>
+      <!-- <ul>
           <li v-for="(value, index) in credit" :key="index"  >
             <div class="closerContentHeader">{{ credit[index].title }}</div>
             <div class="closerContentSubHeader" >{{ credit[index].value }}</div>
           </li>
         </ul> -->
 
-        <!--               
+      <!--               
         <div class="closerContentHeader">photography</div>
         <div class="closerContentSubHeader">{{ athrName }}</div> -->
-        <!-- <div class="closerContentHeader">{{credits[1].credit[0].title}}</div>
+      <!-- <div class="closerContentHeader">{{credits[1].credit[0].title}}</div>
         <div class="closerContentSubHeader">{{ credits[1].credit[1].value }}</div>
              <div class="closerContentHeader">{{credits[1].credit[2].title}}</div>
         <div class="closerContentSubHeader">{{ credits[1].credit[3].value }}</div>
              <div class="closerContentHeader">{{credits[1].credit[4].title}}</div>
         <div class="closerContentSubHeader">{{ credits[1].credit[5].value }}</div> -->
       <!-- </div> -->
-
-  
-    
     </div>
     <!-- sidebar - hover -->
-    <div
-    v-if="showAll"
-      class=""
-       
-      
-    >
+    <div v-if="showAll" class="">
       <div class="">
-        <div class="menuClick" >
-          
+        <div class="menuClick">
           <!-- <div class="title">Editions</div> -->
           <div class="">
             <div class="magContentContainer2">
@@ -245,10 +217,10 @@ export default {
         { imgName: "beauty5.jpg", currentEdition: "V" },
         { imgName: "beauty6.jpg", currentEdition: "VI" },
         { imgName: "beauty7.jpg", currentEdition: "VII" },
-         { imgName: "beauty8.jpg", currentEdition: "VIII" },
+        { imgName: "beauty8.jpg", currentEdition: "VIII" },
         { imgName: "beauty9.jpg", currentEdition: "IX" },
       ],
-     
+
       credit: [
         { title: "production", value: "SPACE KRTVE" },
         { title: "in frame", value: "SAUTI SOL" },
@@ -303,36 +275,31 @@ export default {
       // this.itemSelected = true;
     },
     forwards() {
-   
       if (this.pageNumber <= 7) {
-    this.pageNumber += 1; 
-    return
+        this.pageNumber += 1;
+        return;
       } else {
-    this.pageNumber = 0; 
-          return
+        this.pageNumber = 0;
+        return;
       }
-  
     },
     backwards() {
-   
       if (this.pageNumber >= 1) {
-      this.pageNumber -= 1;
-      return
+        this.pageNumber -= 1;
+        return;
       } else {
-           this.pageNumber = 8; 
-        return
+        this.pageNumber = 8;
+        return;
       }
-
     },
-    showCollection(){
-      this.showAll = !this.showAll
-      this.hideMe = !this.hideMe
-    }
+    showCollection() {
+      this.showAll = !this.showAll;
+      this.hideMe = !this.hideMe;
+    },
   },
 };
 </script>
 <style scoped>
-
 img.bgImg {
   position: absolute;
   top: -200px;
