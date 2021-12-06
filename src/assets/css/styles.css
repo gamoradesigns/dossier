@@ -591,9 +591,14 @@
   
   .logo-containter {
       display: grid;
-      grid-template-columns: 600px 500px 430px 430px 430px;
+      grid-template-columns: 30vw 30vw 30vw 30vw 30vw;
       grid-template-rows: 600px;
       grid-column-gap: 3%;
+      height: 300px;
+  }
+  
+  .logo-whole-container {
+      width: inherit;
   }
   
   .logo-title {
@@ -605,15 +610,24 @@
   }
   
   .logo-img {
-      height: 200px;
+      height: 80%;
       background-size: contain;
       background-repeat: no-repeat;
-      width: 327px;
+      width: 90%;
+  }
+  
+  .logo-img-icon {
+      height: 92%;
+      background-size: contain;
+      background-repeat: no-repeat;
+      width: 48%;
   }
   
   .logo-single-div {
-      /* height: 100%; */
-      margin: 60px 20px 0px 0px;
+      margin: 3% 20px 0px 0px;
+      height: 40vh;
+      display: grid;
+      grid-template-rows: 50%;
   }
   
   .og-logo-alta {
@@ -726,12 +740,13 @@
   }
   
   .type-container {
-      display: flex;
+      display: grid;
       margin: 37px 80px 0px 0px;
       /* border: 1px solid; */
       overflow: hidden;
       flex-direction: column-reverse;
       width: 25vw;
+      grid-template-rows: 13vh 14vh 4vh 14vh;
   }
   /*   
   .text-example-div {
@@ -751,6 +766,7 @@
       top: -56px;
       font-weight: 500;
       opacity: 1;
+      left: -12px;
   }
   
   .aphlaText-covered {
@@ -781,6 +797,26 @@
   }
   
   .content-color-colors-1:hover {
+      width: 200px;
+      cursor: pointer;
+  }
+  
+  .hoverMeNote::before {
+      content: "hover me";
+      font-family: "Covered By Your Grace", cursive;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 96%;
+      opacity: .8;
+      word-break: break-word;
+  }
+  
+  .hoverMeNote:hover::before {
+      content: "";
+  }
+  
+  .hoverMeNote:hover {
       width: 200px;
       cursor: pointer;
   }
@@ -1667,7 +1703,7 @@
   
   .outer-wrapper-content-small {
       width: 50vh;
-      height: 50vw !important;
+      height: 59vw !important;
       transform: rotate( -90deg) translateX(-55vh);
       transform-origin: top left;
       overflow-y: scroll;
@@ -1679,11 +1715,56 @@
       display: flex;
       position: inherit;
       flex-direction: row;
-      width: 84vw;
+      width: 66vw;
       transform: rotate( 90deg) translateY(-100vh);
       transform-origin: top left;
       color: white;
       left: -46vh;
+      padding: 2%;
+  }
+  
+  .outer-wrapper-content-small-color {
+      width: 50vh;
+      height: 59vw !important;
+      transform: rotate( -90deg) translateX(-55vh);
+      transform-origin: top left;
+      overflow-y: scroll;
+      overflow-x: hidden;
+      position: absolute;
+  }
+  
+  .wrapper-content-small-color {
+      display: flex;
+      position: inherit;
+      flex-direction: row;
+      width: 74vw;
+      transform: rotate( 90deg) translateY(-100vh);
+      transform-origin: top left;
+      color: white;
+      left: -46vh;
+      padding: 2%;
+  }
+  
+  .outer-wrapper-content-small-logo {
+      width: 50vh;
+      height: 58vw !important;
+      transform: rotate( -90deg) translateX(-54vh);
+      transform-origin: top left;
+      overflow-y: scroll;
+      overflow-x: hidden;
+      position: absolute;
+  }
+  
+  .wrapper-content-small-logo {
+      display: flex;
+      position: inherit;
+      flex-direction: row;
+      width: 190vw;
+      transform: rotate( 90deg) translateY(-90vh);
+      transform-origin: top left;
+      color: white;
+      left: -41vh;
+      z-index: 1000;
   }
   
   .outer-wrapper-content-small-mag {
@@ -1816,6 +1897,7 @@
   
   .nextViewMenuDiv {
       padding: 0px 2px;
+      cursor: pointer;
   }
   
   .nextViewMenuImgDiv {
@@ -1876,7 +1958,7 @@
       top: -19vh;
       overflow: scroll;
       padding: 20px;
-      backdrop-filter: blur(10px) brightness(0.95)
+      backdrop-filter: blur(10px) brightness(0.99)
   }
   
   .brandingBottomMenuDiv {
@@ -1986,8 +2068,8 @@
   
   .articleHeaderDivBrandingMd {
       font-size: 4rem;
-      /* text-transform: uppercase; */
-      font-family: "baskerville-display-pt";
+      text-transform: uppercase;
+      font-family: "Covered By Your Grace", cursive !important;
       position: relative;
       line-height: 1;
   }
