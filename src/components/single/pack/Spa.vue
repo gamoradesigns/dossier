@@ -6,7 +6,7 @@
       v-if="itemSelected"
       class="bgImg"
       :src="
-        require(`./../../../assets/images/resizeLONG/branding/pack/spa/${packageImg}`)
+        require(`./../../../assets/images/pack/spa/${packageImg}`)
       "
       alt=""
     />
@@ -14,7 +14,7 @@
       v-if="!itemSelected"
       class="bgImg"
       :src="
-        require(`./../../../assets/images/resizeLONG/branding/pack/spa/${firstImg}`)
+        require(`./../../../assets/images/pack/spa/${firstImg}`)
       "
       alt=""
     />
@@ -46,7 +46,7 @@
       <div class="backdropContent_CollectionSpa">
         <div class="articleHeaderDiv">PJ5545 <br /></div>
         <div class="articleHeaderDiv2">
-          Cosmetic Essienial <br />
+          Cosmetic Essential <br />
           Packaging Design
         </div>
         <div class="packageSubHeaderContainer">
@@ -85,7 +85,7 @@
                     <img
                       class="fullImg"
                       :src="
-                        require(`./../../../assets/images/resizeLONG/branding/pack/spa/${image.imgName}`)
+                        require(`./../../../assets/images/pack/spa/${image.imgName}`)
                       "
                       alt=""
                     />

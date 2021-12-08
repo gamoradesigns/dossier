@@ -235,7 +235,7 @@
                 <div class="imgDiv3 height100" v-thirdIn>
                   <!-- <img
                      
-                    src="../../assets/images/resizeLONG/branding/pack/jar/pine5F.png"
+                    src="../../assets/images/pack/jar/pine5F.png"
                     alt=""
                   /> -->
                 </div>
@@ -338,7 +338,7 @@
                   <div class="imgDiv3 height100">
                     <!-- <img
                        
-                     src="../../assets/images/resizeLONG/branding/mag/beauty/beauty.jpg"
+                     src="../../assets/images/mag/beauty/beauty.jpg"
                       alt=""
                     /> -->
                   </div>

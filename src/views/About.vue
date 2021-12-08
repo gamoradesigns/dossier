@@ -4,7 +4,7 @@
 
     <img
       class="bgImg"
-      src="../assets/images/resizeLONG/branding/manual/agile/agile8.jpg"
+      src="../assets/images/agile/agile8.jpg"
       alt=""
     />
     <!-- nav -->

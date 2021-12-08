@@ -4,7 +4,7 @@
 
     <img
       class="bgImg"
-      src="./../../../assets/images/resizeLONG/branding/manual/agile/agile2.jpg"
+      src="./../../../assets/images/agile/agile2.jpg"
       alt=""
     />
     <!-- nav -->
@@ -55,7 +55,7 @@
                     >
                       <img
                         class="fullImg"
-                        src="./../../../assets/images/resizeLONG/branding/manual/agile/agile2.jpg"
+                        src="./../../../assets/images/agile/agile2.jpg"
                         alt=""
                       />
                     </div>
@@ -74,7 +74,7 @@
                     >
                       <img
                         class="fullImg"
-                        src="./../../../assets/images/resizeLONG/branding/manual/agile/yoga.jpg"
+                        src="./../../../assets/images/agile/yoga.jpg"
                         alt=""
                       />
                     </div>
@@ -87,7 +87,7 @@
                     <div class="nextViewMenuImgDiv">
                       <img
                         class="fullImg"
-                        src="./../../../assets/images/resizeLONG/branding/manual/agile/kick.jpg"
+                        src="./../../../assets/images/agile/kick.jpg"
                         alt=""
                       />
                     </div>
@@ -102,7 +102,7 @@
                     <div class="nextViewMenuImgDiv">
                       <img
                         class="fullImg"
-                        src="./../../../assets/images/resizeLONG/branding/manual/agile/oneleg.jpg"
+                        src="./../../../assets/images/agile/oneleg.jpg"
                         alt=""
                       />
                     </div>
@@ -118,7 +118,7 @@
                     <div class="nextViewMenuImgDiv">
                       <img
                         class="fullImg"
-                        src="./../../../assets/images/resizeLONG/branding/manual/agile/jump.jpg"
+                        src="./../../../assets/images/agile/jump.jpg"
                         alt=""
                       />
                     </div>
@@ -138,7 +138,7 @@
                     >
                       <img
                         class="fullImg"
-                        src="./../../../assets/images/resizeLONG/branding/manual/agile/agile7.1.jpg"
+                        src="./../../../assets/images/agile/agile7.1.jpg"
                         alt=""
                       />
                     </div>
@@ -154,7 +154,7 @@
                     >
                       <img
                         class="fullImg"
-                        src="./../../../assets/images/resizeLONG/branding/manual/agile/agile3.jpg"
+                        src="./../../../assets/images/agile/agile3.jpg"
                         alt=""
                       />
                     </div>
@@ -168,11 +168,7 @@
                       class="nextViewMenuImgDiv"
                       @click="showContainer(stationInput)"
                     >
-                      <img
-                        class="fullImg"
-                        src="./../../../assets/images/resizeLONG/branding/manual/agile/agile7.1.jpg"
-                        alt=""
-                      />
+                  
                     </div>
                     <div class="nextViewText" style="top: -40px !important">
                       Stationary Packet
@@ -597,29 +593,29 @@
                         <div class="grid-layout-small">
                           <div class="grid-item grid-item-1">
                             <img
-                              src="./../../../assets/images/resizeLONG/branding/manual/agile/agile7.jpg"
+                              src="./../../../assets/images/agile/agile7.jpg"
                               alt=""
                             />
                           </div>
                           <div class="grid-item span-2 grid-item-2">
                             <img
-                              src="./../../../assets/images/resizeLONG/branding/manual/agile/agile6_1.jpg"
+                              src="./../../../assets/images/agile/agile6_1.jpg"
                             />
                           </div>
                           <div class="grid-item grid-item-3">
                             <img
-                              src="./../../../assets/images/resizeLONG/branding/manual/agile/agile8.jpg"
+                              src="./../../../assets/images/agile/agile8.jpg"
                             />
                           </div>
                           <div class="grid-item grid-item-4">
                             <img
-                              src="./../../../assets/images/resizeLONG/branding/manual/agile/agile6.jpg"
+                              src="./../../../assets/images/agile/agile6.jpg"
                             />
                           </div>
 
                           <div class="grid-item grid-item-2">
                             <img
-                              src="./../../../assets/images/resizeLONG/branding/manual/agile/agile6_1.jpg"
+                              src="./../../../assets/images/agile/agile6_1.jpg"
                             />
                           </div>
                         </div>
@@ -662,43 +658,43 @@
                         <div class="grid-layout-small-manual">
                           <div class="grid-item span-2 grid-item-2">
                             <img
-                              src="./../../../assets/images/resizeLONG/branding/manual/agile/agileux5.jpg"
+                              src="./../../../assets/images/agile/agileux5.jpg"
                             />
                           </div>
                           <div class="grid-item grid-item-3">
                             <img
-                              src="./../../../assets/images/resizeLONG/branding/manual/agile/agileux6.jpg"
+                              src="./../../../assets/images/agile/agileux6.jpg"
                             />
                           </div>
                           <div class="grid-item grid-item-4">
                             <img
-                              src="./../../../assets/images/resizeLONG/branding/manual/agile/agileux7.jpg"
+                              src="./../../../assets/images/agile/agileux7.jpg"
                             />
                           </div>
                           <div class="grid-item span-2 grid-item-5">
                             <img
-                              src="./../../../assets/images/resizeLONG/branding/manual/agile/agileux8.jpg"
+                              src="./../../../assets/images/agile/agileux8.jpg"
                             />
                           </div>
                           <div class="grid-item grid-item-6">
                             <img
-                              src="./../../../assets/images/resizeLONG/branding/manual/agile/agileux9.jpg"
+                              src="./../../../assets/images/agile/agileux9.jpg"
                             />
                           </div>
                           <div class="grid-item grid-item-7">
                             <img
-                              src="./../../../assets/images/resizeLONG/branding/manual/agile/agileux10.jpg"
+                              src="./../../../assets/images/agile/agileux10.jpg"
                             />
                           </div>
                           <div class="grid-item grid-item-1">
                             <img
-                              src="./../../../assets/images/resizeLONG/branding/manual/agile/agileux14.jpg"
+                              src="./../../../assets/images/agile/agileux14.jpg"
                               alt=""
                             />
                           </div>
                           <div class="grid-item grid-item-1">
                             <img
-                              src="./../../../assets/images/resizeLONG/branding/manual/agile/agileux32.jpg"
+                              src="./../../../assets/images/agile/agileux32.jpg"
                               alt=""
                             />
                           </div>
@@ -922,7 +918,7 @@
                     >
                       <img
                         class="fullImg"
-                        src="./../../../assets/images/resizeLONG/branding/manual/agile/agile2.jpg"
+                        src="./../../../assets/images/agile/agile2.jpg"
                         alt=""
                       />
                     </div>
@@ -941,7 +937,7 @@
                     >
                       <img
                         class="fullImg"
-                        src="./../../../assets/images/resizeLONG/branding/manual/agile/yoga.jpg"
+                        src="./../../../assets/images/agile/yoga.jpg"
                         alt=""
                       />
                     </div>
@@ -954,7 +950,7 @@
                     <div class="nextViewMenuImgDiv">
                       <img
                         class="fullImg"
-                        src="./../../../assets/images/resizeLONG/branding/manual/agile/kick.jpg"
+                        src="./../../../assets/images/agile/kick.jpg"
                         alt=""
                       />
                     </div>
@@ -969,7 +965,7 @@
                     <div class="nextViewMenuImgDiv">
                       <img
                         class="fullImg"
-                        src="./../../../assets/images/resizeLONG/branding/manual/agile/oneleg.jpg"
+                        src="./../../../assets/images/agile/oneleg.jpg"
                         alt=""
                       />
                     </div>
@@ -985,7 +981,7 @@
                     <div class="nextViewMenuImgDiv">
                       <img
                         class="fullImg"
-                        src="./../../../assets/images/resizeLONG/branding/manual/agile/jump.jpg"
+                        src="./../../../assets/images/agile/jump.jpg"
                         alt=""
                       />
                     </div>
@@ -1005,7 +1001,7 @@
                     >
                       <img
                         class="fullImg"
-                        src="./../../../assets/images/resizeLONG/branding/manual/agile/agile7.1.jpg"
+                        src="./../../../assets/images/agile/agile7.1.jpg"
                         alt=""
                       />
                     </div>
@@ -1021,7 +1017,7 @@
                     >
                       <img
                         class="fullImg"
-                        src="./../../../assets/images/resizeLONG/branding/manual/agile/agile3.jpg"
+                        src="./../../../assets/images/agile/agile3.jpg"
                         alt=""
                       />
                     </div>
@@ -1037,7 +1033,7 @@
                     >
                       <img
                         class="fullImg"
-                        src="./../../../assets/images/resizeLONG/branding/manual/agile/agile7.1.jpg"
+                        src="./../../../assets/images/agile/agile7.1.jpg"
                         alt=""
                       />
                     </div>
@@ -1465,29 +1461,29 @@
                         <div class="grid-layout-small">
                           <div class="grid-item grid-item-1">
                             <img
-                              src="./../../../assets/images/resizeLONG/branding/manual/agile/agile7.jpg"
+                              src="./../../../assets/images/agile/agile7.jpg"
                               alt=""
                             />
                           </div>
                           <div class="grid-item span-2 grid-item-2">
                             <img
-                              src="./../../../assets/images/resizeLONG/branding/manual/agile/agile6_1.jpg"
+                              src="./../../../assets/images/agile/agile6_1.jpg"
                             />
                           </div>
                           <div class="grid-item grid-item-3">
                             <img
-                              src="./../../../assets/images/resizeLONG/branding/manual/agile/agile8.jpg"
+                              src="./../../../assets/images/agile/agile8.jpg"
                             />
                           </div>
                           <div class="grid-item grid-item-4">
                             <img
-                              src="./../../../assets/images/resizeLONG/branding/manual/agile/agile6.jpg"
+                              src="./../../../assets/images/agile/agile6.jpg"
                             />
                           </div>
 
                           <div class="grid-item grid-item-2">
                             <img
-                              src="./../../../assets/images/resizeLONG/branding/manual/agile/agile6_1.jpg"
+                              src="./../../../assets/images/agile/agile6_1.jpg"
                             />
                           </div>
                         </div>
@@ -1530,43 +1526,43 @@
                         <div class="grid-layout-small-manual">
                           <div class="grid-item span-2 grid-item-2">
                             <img
-                              src="./../../../assets/images/resizeLONG/branding/manual/agile/agileux5.jpg"
+                              src="./../../../assets/images/agile/agileux5.jpg"
                             />
                           </div>
                           <div class="grid-item grid-item-3">
                             <img
-                              src="./../../../assets/images/resizeLONG/branding/manual/agile/agileux6.jpg"
+                              src="./../../../assets/images/agile/agileux6.jpg"
                             />
                           </div>
                           <div class="grid-item grid-item-4">
                             <img
-                              src="./../../../assets/images/resizeLONG/branding/manual/agile/agileux7.jpg"
+                              src="./../../../assets/images/agile/agileux7.jpg"
                             />
                           </div>
                           <div class="grid-item span-2 grid-item-5">
                             <img
-                              src="./../../../assets/images/resizeLONG/branding/manual/agile/agileux8.jpg"
+                              src="./../../../assets/images/agile/agileux8.jpg"
                             />
                           </div>
                           <div class="grid-item grid-item-6">
                             <img
-                              src="./../../../assets/images/resizeLONG/branding/manual/agile/agileux9.jpg"
+                              src="./../../../assets/images/agile/agileux9.jpg"
                             />
                           </div>
                           <div class="grid-item grid-item-7">
                             <img
-                              src="./../../../assets/images/resizeLONG/branding/manual/agile/agileux10.jpg"
+                              src="./../../../assets/images/agile/agileux10.jpg"
                             />
                           </div>
                           <div class="grid-item grid-item-1">
                             <img
-                              src="./../../../assets/images/resizeLONG/branding/manual/agile/agileux14.jpg"
+                              src="./../../../assets/images/agile/agileux14.jpg"
                               alt=""
                             />
                           </div>
                           <div class="grid-item grid-item-1">
                             <img
-                              src="./../../../assets/images/resizeLONG/branding/manual/agile/agileux32.jpg"
+                              src="./../../../assets/images/agile/agileux32.jpg"
                               alt=""
                             />
                           </div>

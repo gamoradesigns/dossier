@@ -5,13 +5,13 @@
     <img  
       v-if="itemSelected"
       class="bgImg"
-     :src="require(`./../../../assets/images/resizeLONG/branding/pack/bag/${packageImg}`)"
+     :src="require(`./../../../assets/images/pack/bag/${packageImg}`)"
       alt=""
     />
     <img  
       v-if="!itemSelected"
       class="bgImg"
-      :src="require(`./../../../assets/images/resizeLONG/branding/pack/bag/${firstImg}`)"
+      :src="require(`./../../../assets/images/pack/bag/${firstImg}`)"
       alt=""
     />
     <!-- nav -->
@@ -74,7 +74,7 @@
               <div class="nextViewDiv">
                 <div class="nextViewImgDiv" >
                   <img class="fullImg"
-                  :src="require(`./../../../assets/images/resizeLONG/branding/pack/bag/${image.imgName}`)"
+                  :src="require(`./../../../assets/images/pack/bag/${image.imgName}`)"
                     alt=""
                   />
                 </div>

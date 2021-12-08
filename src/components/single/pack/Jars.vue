@@ -6,7 +6,7 @@
       v-if="itemSelected"
       class="bgImg"
       :src="
-        require(`./../../../assets/images/resizeLONG/branding/pack/jar/${packageImg}`)
+        require(`./../../../assets/images/pack/jar/${packageImg}`)
       "
       alt=""
     />
@@ -14,7 +14,7 @@
       v-if="!itemSelected"
       class="bgImg"
       :src="
-        require(`./../../../assets/images/resizeLONG/branding/pack/jar/${firstImg}`)
+        require(`./../../../assets/images/pack/jar/${firstImg}`)
       "
       alt=""
     />
@@ -87,7 +87,7 @@
                     <img
                       class="fullImg"
                       :src="
-                        require(`./../../../assets/images/resizeLONG/branding/pack/jar/${image.imgName}`)
+                        require(`./../../../assets/images/pack/jar/${image.imgName}`)
                       "
                       alt=""
                     />

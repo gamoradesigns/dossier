@@ -6,7 +6,7 @@
       v-if="itemSelected"
       class="bgImg"
       :src="
-        require(`./../../../assets/images/resizeLONG/branding/pack/mama/${packageImg}`)
+        require(`./../../../assets/images/pack/mama/${packageImg}`)
       "
       alt=""
     />
@@ -14,7 +14,7 @@
       v-if="!itemSelected"
       class="bgImg"
       :src="
-        require(`./../../../assets/images/resizeLONG/branding/pack/mama/${firstImg}`)
+        require(`./../../../assets/images/pack/mama/${firstImg}`)
       "
       alt=""
     />
@@ -84,7 +84,7 @@
                     <img
                       class="fullImg"
                       :src="
-                        require(`./../../../assets/images/resizeLONG/branding/pack/mama/${image.imgName}`)
+                        require(`./../../../assets/images/pack/mama/${image.imgName}`)
                       "
                       alt=""
                     />

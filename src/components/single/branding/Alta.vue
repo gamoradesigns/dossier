@@ -539,29 +539,29 @@
                         <div class="grid-layout-small">
                           <div class="grid-item grid-item-1">
                             <img
-                              src="./../../../assets/images/resizeLONG/branding/manual/alta/media2.jpg"
+                              src="./../../../assets/images/alta/media2.jpg"
                               alt=""
                             />
                           </div>
                           <div class="grid-item span-2 grid-item-2">
                             <img
-                              src="./../../../assets/images/resizeLONG/branding/manual/alta/thumbnail.jpg"
+                              src="./../../../assets/images/alta/thumbnail.jpg"
                             />
                           </div>
                           <div class="grid-item grid-item-2">
                             <img
-                              src="./../../../assets/images/resizeLONG/branding/manual/alta/media1.jpg"
+                              src="./../../../assets/images/alta/media1.jpg"
                             />
                           </div>
                           <div class="grid-item grid-item-4">
                             <img
-                              src="./../../../assets/images/resizeLONG/branding/manual/agile/agile6.jpg"
+                              src="./../../../assets/images/agile/agile6.jpg"
                             />
                           </div>
 
                           <div class="grid-item grid-item-2">
                             <img
-                              src="./../../../assets/images/resizeLONG/branding/manual/agile/agile6_1.jpg"
+                              src="./../../../assets/images/agile/agile6_1.jpg"
                             />
                           </div>
                         </div>
@@ -604,43 +604,43 @@
                         <div class="grid-layout-small-manual">
                           <div class="grid-item span-2 grid-item-2">
                             <img
-                              src="./../../../assets/images/resizeLONG/branding/manual/alta/altabrandbible2.jpg"
+                              src="./../../../assets/images/alta/altabrandbible2.jpg"
                             />
                           </div>
                           <div class="grid-item grid-item-3">
                             <img
-                              src="./../../../assets/images/resizeLONG/branding/manual/alta/altabrandbible66.jpg"
+                              src="./../../../assets/images/alta/altabrandbible66.jpg"
                             />
                           </div>
                           <div class="grid-item grid-item-4">
                             <img
-                              src="./../../../assets/images/resizeLONG/branding/manual/alta/altabrandbible5.jpg"
+                              src="./../../../assets/images/alta/altabrandbible5.jpg"
                             />
                           </div>
                           <div class="grid-item span-2 grid-item-5">
                             <img
-                              src="./../../../assets/images/resizeLONG/branding/manual/alta/altabrandbible7.jpg"
+                              src="./../../../assets/images/alta/altabrandbible7.jpg"
                             />
                           </div>
                           <div class="grid-item grid-item-6">
                             <img
-                              src="./../../../assets/images/resizeLONG/branding/manual/alta/altabrandbible11.jpg"
+                              src="./../../../assets/images/alta/altabrandbible11.jpg"
                             />
                           </div>
                           <div class="grid-item grid-item-7">
                             <img
-                              src="./../../../assets/images/resizeLONG/branding/manual/alta/altabrandbible12.jpg"
+                              src="./../../../assets/images/alta/altabrandbible12.jpg"
                             />
                           </div>
                           <div class="grid-item grid-item-1">
                             <img
-                              src="./../../../assets/images/resizeLONG/branding/manual/alta/altabrandbible15.jpg"
+                              src="./../../../assets/images/alta/altabrandbible15.jpg"
                               alt=""
                             />
                           </div>
                           <div class="grid-item grid-item-1">
                             <img
-                              src="./../../../assets/images/resizeLONG/branding/manual/alta/altabrandbible14.jpg"
+                              src="./../../../assets/images/alta/altabrandbible14.jpg"
                               alt=""
                             />
                           </div>
@@ -723,32 +723,32 @@
                           </div>
                           <div class="grid-item span-2 grid-item-2">
                             <img
-                              src="./../../../assets/images/resizeLONG/branding/manual/agile/agile8.jpg"
+                              src="./../../../assets/images/agile/agile8.jpg"
                             />
                           </div>
                           <div class="grid-item grid-item-3">
                             <img
-                              src="./../../../assets/images/resizeLONG/branding/manual/agile/agile6_1.jpg"
+                              src="./../../../assets/images/agile/agile6_1.jpg"
                             />
                           </div>
                           <div class="grid-item grid-item-4">
                             <img
-                              src="./../../../assets/images/resizeLONG/branding/manual/agile/agile6.jpg"
+                              src="./../../../assets/images/agile/agile6.jpg"
                             />
                           </div>
                           <div class="grid-item grid-item-5">
                             <img
-                              src="./../../../assets/images/resizeLONG/branding/manual/agile/agile7.jpg"
+                              src="./../../../assets/images/agile/agile7.jpg"
                             />
                           </div>
                           <div class="grid-item grid-item-6">
                             <img
-                              src="./../../../assets/images/resizeLONG/branding/manual/agile/agileux32.jpg"
+                              src="./../../../assets/images/agile/agileux32.jpg"
                             />
                           </div>
                           <div class="grid-item grid-item-7">
                             <img
-                              src="./../../../assets/images/resizeLONG/branding/manual/agile/agile7.jpg"
+                              src="./../../../assets/images/agile/agile7.jpg"
                             />
                           </div>
                         </div>
@@ -1277,29 +1277,29 @@
                         <div class="grid-layout-small">
                           <div class="grid-item grid-item-1">
                             <img
-                              src="./../../../assets/images/resizeLONG/branding/manual/alta/media2.jpg"
+                              src="./../../../assets/images/alta/media2.jpg"
                               alt=""
                             />
                           </div>
                           <div class="grid-item span-2 grid-item-2">
                             <img
-                              src="./../../../assets/images/resizeLONG/branding/manual/alta/thumbnail.jpg"
+                              src="./../../../assets/images/alta/thumbnail.jpg"
                             />
                           </div>
                           <div class="grid-item grid-item-2">
                             <img
-                              src="./../../../assets/images/resizeLONG/branding/manual/alta/media1.jpg"
+                              src="./../../../assets/images/alta/media1.jpg"
                             />
                           </div>
                           <div class="grid-item grid-item-4">
                             <img
-                              src="./../../../assets/images/resizeLONG/branding/manual/agile/agile6.jpg"
+                              src="./../../../assets/images/agile/agile6.jpg"
                             />
                           </div>
 
                           <div class="grid-item grid-item-2">
                             <img
-                              src="./../../../assets/images/resizeLONG/branding/manual/agile/agile6_1.jpg"
+                              src="./../../../assets/images/agile/agile6_1.jpg"
                             />
                           </div>
                         </div>
@@ -1342,43 +1342,43 @@
                         <div class="grid-layout-small-manual">
                           <div class="grid-item span-2 grid-item-2">
                             <img
-                              src="./../../../assets/images/resizeLONG/branding/manual/alta/altabrandbible2.jpg"
+                              src="./../../../assets/images/alta/altabrandbible2.jpg"
                             />
                           </div>
                           <div class="grid-item grid-item-3">
                             <img
-                              src="./../../../assets/images/resizeLONG/branding/manual/alta/altabrandbible66.jpg"
+                              src="./../../../assets/images/alta/altabrandbible66.jpg"
                             />
                           </div>
                           <div class="grid-item grid-item-4">
                             <img
-                              src="./../../../assets/images/resizeLONG/branding/manual/alta/altabrandbible5.jpg"
+                              src="./../../../assets/images/alta/altabrandbible5.jpg"
                             />
                           </div>
                           <div class="grid-item span-2 grid-item-5">
                             <img
-                              src="./../../../assets/images/resizeLONG/branding/manual/alta/altabrandbible7.jpg"
+                              src="./../../../assets/images/alta/altabrandbible7.jpg"
                             />
                           </div>
                           <div class="grid-item grid-item-6">
                             <img
-                              src="./../../../assets/images/resizeLONG/branding/manual/alta/altabrandbible11.jpg"
+                              src="./../../../assets/images/alta/altabrandbible11.jpg"
                             />
                           </div>
                           <div class="grid-item grid-item-7">
                             <img
-                              src="./../../../assets/images/resizeLONG/branding/manual/alta/altabrandbible12.jpg"
+                              src="./../../../assets/images/alta/altabrandbible12.jpg"
                             />
                           </div>
                           <div class="grid-item grid-item-1">
                             <img
-                              src="./../../../assets/images/resizeLONG/branding/manual/alta/altabrandbible15.jpg"
+                              src="./../../../assets/images/alta/altabrandbible15.jpg"
                               alt=""
                             />
                           </div>
                           <div class="grid-item grid-item-1">
                             <img
-                              src="./../../../assets/images/resizeLONG/branding/manual/alta/altabrandbible14.jpg"
+                              src="./../../../assets/images/alta/altabrandbible14.jpg"
                               alt=""
                             />
                           </div>

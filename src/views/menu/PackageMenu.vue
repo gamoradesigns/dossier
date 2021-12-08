@@ -39,7 +39,7 @@
                   class='menuImg'
                   
                      
-                    src="../../assets/images/resizeLONG/branding/pack/jar/pine5F.png"
+                    src="../../assets/images/pack/jar/pine5F.png"
                     alt=""
                   />
                 </div>
@@ -147,7 +147,7 @@
                     <img
                     class=""
                        
-                      src="../../assets/images/resizeLONG/branding/pack/mama/mama1.jpg"
+                      src="../../assets/images/pack/mama/mama1.jpg"
                       alt=""
                     />
                   </div>
@@ -235,7 +235,7 @@
                 <div class="imgDiv3 height100" v-thirdIn>
                   <img
                      
-                    src="../../assets/images/resizeLONG/branding/pack/bag/bagThumbnail.jpg"
+                    src="../../assets/images/pack/bag/bagThumbnail.jpg"
                     alt=""
                   />
                 </div>
@@ -338,7 +338,7 @@
                   <div class="imgDiv3 height100" v-thirdIn>
                     <img
                        
-                     src="../../assets/images/resizeLONG/branding/pack/spa/spa3.jpg"
+                     src="../../assets/images/pack/spa/spa3.jpg"
                       alt=""
                     />
                   </div>
@@ -349,7 +349,7 @@
                     >
                   
                       <div class="navLinkTitle" v-fallinganimation  >
-                      Cosmetic Essienial
+                    Cosmetic Essential 
                       </div>
                       <div class="navLinkSubTitle"   v-fallinganimationsub>
                   Package Design &middot; Visual Communication
