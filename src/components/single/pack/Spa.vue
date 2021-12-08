@@ -159,12 +159,7 @@ export default {
 .fullWidth {
   width: 100% !important;
 }
-.backdropContent_CollectionSpa {
-  backdrop-filter: blur(0.5px) brightness(0.95);
-  padding: 20px;
-  height: 90%;
-  width: 50%;
-}
+
 img.fullImg {
   background-size: cover;
   width: 100%;

@@ -35,7 +35,7 @@
     </div>
     <!-- content div -->
     <div class="articleContentContainer positionInherit" v-if="!hideMe"  v-fadeInOut >
-      <div class="backdropContent_Collection"   >
+      <div class="backdropContent_CollectionSpa"   >
      <div class="articleHeaderDiv"     >PJ9810 <br /></div>
       <div class="articleHeaderDiv2"      >
         Flowerchild<br />
@@ -61,8 +61,8 @@
       </div> -->
 
   <!-- photo gallery-->
-      <div class="">
-        <div class="">
+     <div class="outer-wrapper-content-small-spa">
+                    <div class="wrapper-content-small-spa">
       
           <ul   v-thirdIn   >
             <li

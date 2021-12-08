@@ -137,7 +137,7 @@
             class="linkClass"
             style="overflow: hidden"
             :to="{
-              name: 'LogoMenu',
+              name: '',
              
             }"
           >
@@ -158,8 +158,7 @@
                      
                     >
                       <div class="navLinkTitle"  v-fallinganimation >
-                        Logo 
-                      Viewing
+                       Branded Bites
                       </div>
                       <div class="navLinkSubTitle"   v-fallinganimationsub>
                         Logo Design &middot; Visual Elements

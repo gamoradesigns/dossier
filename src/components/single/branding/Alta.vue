@@ -2,11 +2,7 @@
   <div class="articleContainer">
     <!-- background images  -->
 
-    <img
-      class="bgImg"
-      src="./../../../assets/images/agile/Icon.jpg"
-      alt=""
-    />
+    <img class="bgImg" src="./../../../assets/images/agile/Icon.jpg" alt="" />
     <!-- nav -->
     <div class="articleMenuContainer">
       <div class="beauty beautyText">dossier</div>
@@ -27,7 +23,10 @@
       <div class="articleMenuIcon"></div>
     </div>
     <!-- content div -->
-    <div class="brandingContainer">
+
+
+
+    <div class="brandingContainer largeScreen">
       <div
         class="brandingGridContainer2 positionInherit"
         style="margin: 10px 0px 0px 10px"
@@ -104,9 +103,11 @@
                         alt=""
                       />
                     </div>
-                    <div class="nextViewText">Typography</div>
+                    <div class="nextViewText up40">
+                      Typo <br />
+                      graphy
+                    </div>
                   </div>
-          
                 </div>
 
                 <div class="brandingSubHeaderDiv">
@@ -114,7 +115,7 @@
                   take a look
                 </div>
                 <div class="brandingMenuRow">
-                       <div class="nextViewMenuDiv">
+                  <div class="nextViewMenuDiv">
                     <div
                       class="nextViewMenuImgDiv"
                       @click="showContainer(manualInput)"
@@ -125,8 +126,9 @@
                         alt=""
                       />
                     </div>
-                    <div class="nextViewText up40" >
-                      Brand Manual
+                    <div class="nextViewText up40">
+                      Brand <br />
+                      Manual
                     </div>
                   </div>
                   <div class="nextViewMenuDiv">
@@ -145,7 +147,6 @@
                       Media
                     </div>
                   </div>
-             
                 </div>
               </div>
             </div>
@@ -171,17 +172,17 @@
                 <div class="articleHeaderDivBrandingsx">Development</div>
 
                 <div class="brandGridHomeBOdy">
-                
-              Welcome and explore ALta's brand basics and visual elements. Explore the
-                 brand core values, viual assets from the colors, typography, logos, customer demeographics, application design
-                 and more. 
+                  Welcome and explore ALTAs brand basics and visual elements.
+                  Explore the brand core values, visual assets from the colors,
+                  typography, logos, customer demographics, application design
+                  and more.
                 </div>
               </div>
             </div>
             <div class="logo" v-if="logo">
               <div class="colors agileBg">
                 <div class="color-pallette-content">
-                  <div class="color-array ">
+                  <div class="color-array">
                     <transition>
                       <div class="colorTitle">The ALTA Logo</div>
                     </transition>
@@ -197,10 +198,9 @@
                           <div class="color-array-intro-body-text">
                             Our Logo is the key building block of our identity,
                             the primary visual element that identifies us. The
-                            signature is a combination of the the symbol itself
-                            and our company name – they have a fixed
-                            relationship that should never be changed in any
-                            way.
+                            signature is a combination of the symbol itself and
+                            our company name – they have a fixed relationship
+                            that should never be changed in any way.
                           </div>
                         </div>
                       </div>
@@ -211,26 +211,23 @@
                       <div class="color-array nopadding">
                         <div class="logo-whole-container">
                           <div class="logo-containter">
-                            <div class="logo-single-div ">
-                             
+                            <div class="logo-single-div">
                               <div class="logo-img">
                                 <img
                                   src="./../../../assets/images/alta/altalogoog.png"
                                   alt=""
                                 />
                               </div>
-                              <div
-                                class="logo-content-div "
-                              >
-                               <div class="logo-title mont-font">
-                                the ALTA Logo
-                              </div>
+                              <div class="logo-content-div">
+                                <div class="logo-title mont-font">
+                                  the ALTA Logo
+                                </div>
                                 <div class="logo-body">
                                   Our Logo is the key building block of our
                                   identity, the primary visual element that
                                   identifies us. The signature is a combination
-                                  of the the symbol itself and our company name
-                                  – they have a fixed relationship that should
+                                  of the symbol itself and our company name –
+                                  they have a fixed relationship that should
                                   never be changed in any way.
                                 </div>
                               </div>
@@ -247,10 +244,9 @@
                                   Logo Spacing
                                 </div>
                                 <div class="logo-body">
-                                  Lorem ipsum dolor sit amet consectetur
-                                  adipisicing elit. Ullam molestias commodi
-                                  suscipit obcaecati eligendi quis totam ipsam
-                                  distinctio natu.
+                                  The spacing and prepositions are key when
+                                  depicting the logo. This guild can be used as
+                                  reference.
                                 </div>
                               </div>
                             </div>
@@ -266,7 +262,8 @@
                                   White Logo
                                 </div>
                                 <div class="logo-body">
-                                  Will be used when the backround color is dark
+                                  Will be used when the background color is
+                                  dark.
                                 </div>
                               </div>
                             </div>
@@ -330,7 +327,7 @@
                       <div class="colorSubDivRight">
                         <div class="color-array-intro-body">
                           <div class="color-array-intro-body-text">
-                            Give me life! Give me energy! Get me motivated!
+                            The typeface of ALTA
                             <br />
                             Typography is the art and technique of arranging
                             type to make written language legible, readable and
@@ -342,36 +339,35 @@
                   </div>
                   <div class="outer-wrapper-content-small">
                     <div class="wrapper-content-small-type">
-                          <div class="type-div-first">
-                                 <div class="type-container">
-                        <div class="abText mont-font">AaBbCc</div>
-                        <div class="aphlaText mont-font">
-                          ABCDEFGHIJKLMNOPQRSTUVWXYZ <br />
-                          abcdefghijlmnopqrstvuwxyz <br />
-                          `~!@#$%^?,./:"{}[]*()_+-=
-                        </div>
-
-                        <div class="type-info-title title-short mont-font">
-                          MONTSERRAT 
-                        </div>
-                        <div class="type-span">
-                          The old posters and signs in the traditional
-                          neighborhood of Buenos Aires called Montserrat. The
-                          goal is to rescue what is in Montserrat and set it
-                          free.
-                          <div class="type-span">
-                              Used for standard corporate font.
+                      <div class="type-div-first">
+                        <div class="type-container">
+                          <div class="abText mont-font">AaBbCc</div>
+                          <div class="aphlaText mont-font">
+                            ABCDEFGHIJKLMNOPQRSTUVWXYZ <br />
+                            abcdefghijlmnopqrstvuwxyz <br />
+                            `~!@#$%^?,./:"{}[]*()_+-=
                           </div>
-                        </div>
-                        <!-- <div class="type-info-div">
+
+                          <div class="type-info-title title-short mont-font">
+                            MONTSERRAT
+                          </div>
+                          <div class="type-span">
+                            The old posters and signs in the traditional
+                            neighborhood of Buenos Aires called Montserrat. The
+                            goal is to rescue what is in Montserrat and set it
+                            free.
+                            <div class="type-span">
+                              Used for standard corporate font.
+                            </div>
+                          </div>
+                          <!-- <div class="type-info-div">
                         
                         </div>
                         <div class="text-example-div">
                     
                         </div> -->
+                        </div>
                       </div>
-                          </div>
-                         
                     </div>
                   </div>
                 </div>
@@ -396,11 +392,10 @@
                           <div class="color-array-intro-body-text">
                             Banking with ALTA is banking with trust!
                             <br />
-                            This color pallette has been designed to convey
-                            the stablitiy of banking with ALTA. Choosing to stick with a tight blue and green color pallette,
-                            we give you our Peacock Color Pallette
-
-                       
+                            This color palette has been designed to convey the
+                            stability of banking with ALTA. Choosing to stick
+                            with a tight blue and green color palette, we give
+                            you our Peacock Color Palette
                           </div>
                         </div>
                       </div>
@@ -410,8 +405,10 @@
                     <div class="wrapper-content-small-color">
                       <div class="color-array nopadding">
                         <div class="color-array-container">
-                             <div class="color-array-div">
-                            <div class="color-title">Always trust a man in blue</div>
+                          <div class="color-array-div">
+                            <div class="color-title">
+                              Always trust a man in blue
+                            </div>
                             <div class="content-color-div">
                               <div class="content-color-left">
                                 <div class="color-codes">
@@ -421,7 +418,13 @@
                                 </div>
                               </div>
                               <div class="content-color-right">
-                                <div class="content-color-colors-1 hoverMeNote altablue"></div>
+                                <div
+                                  class="
+                                    content-color-colors-1
+                                    hoverMeNote
+                                    altablue
+                                  "
+                                ></div>
                               </div>
                             </div>
                           </div>
@@ -437,13 +440,11 @@
                                 </div>
                               </div>
                               <div class="content-color-right">
-                                <div
-                                  class="content-color-colors-1 blue1"
-                                ></div>
+                                <div class="content-color-colors-1 blue1"></div>
                               </div>
                             </div>
                           </div>
-                       
+
                           <div class="color-array-div">
                             <div class="color-title">Gem Green</div>
                             <div class="content-color-div">
@@ -506,7 +507,7 @@
             <div class="socialmedia" v-if="social">
               <div class="colors agileBg">
                 <div class="color-pallette-content">
-                  <div class="color-array ">
+                  <div class="color-array">
                     <transition>
                       <div class="colorTitle">Social Media Ad</div>
                     </transition>
@@ -520,12 +521,13 @@
                       <div class="colorSubDivRight">
                         <div class="color-array-intro-body">
                           <div class="color-array-intro-body-text">
-                            Keep track! Stay motivate! Stay connected!
+                            Custom Social Media Kit!
                             <br />
-                            This color pallette has been designed to excited the
-                            senses, get you moving, and make you smile. The Spry
-                            Color Pallette balances bright bubbly colors with
-                            warm supportive tones.
+
+                            Our Social Media Kit was designed with customizable,
+                            reusable and versatile templates. To establish a
+                            consistence voice, tone and brand across all
+                            platforms.
                           </div>
                         </div>
                       </div>
@@ -572,7 +574,7 @@
             <div class="colors" v-if="manual">
               <div class="colors agileBg">
                 <div class="color-pallette-content">
-                  <div class="color-array ">
+                  <div class="color-array">
                     <transition>
                       <div class="colorTitle">ALTA's Brand Manual</div>
                     </transition>
@@ -587,10 +589,10 @@
                         <div class="color-array-intro-body">
                           <div class="color-array-intro-body-text">
                             Take a look! <br />
-                            This color pallette has been designed to excited the
-                            senses, get you moving, and make you smile. The Spry
-                            Color Pallette balances bright bubbly colors with
-                            warm supportive tones.
+                            Sneak a peak at our tailored guidelines. ALTA's
+                            Brand Manual lays out the brand and the approved
+                            visual elements, colors, typography, as well as the
+                            brand values, vision, and our brand promised.
                           </div>
                         </div>
                       </div>
@@ -761,6 +763,637 @@
       </div>
     </div>
 
+    <div class="smallScreenBranding">
+      <div
+        class="brandingGridContainer2 positionInherit"
+        style="margin: 10px 0px 0px 10px"
+
+      >
+        <div class="backdropContent_Collection" v-if="hideMe">
+          <div class="brandingTopMenuDiv">
+            <div class="articleHeaderDivBrandingAlta">AltA <br /></div>
+            <div class="articleHeaderDivBrandingLgAgile">Visiual Menu</div>
+          </div>
+          <div class="brandingBottomMenuContainer">
+            <div class="brandingBottomMenuDiv">
+              <div class="packageSubHeaderContainer">
+                <div class="brandingSubHeaderDiv">
+                  Meet the brand
+                  <!-- &middot; <span class="subHeaderText">UX</span>  -->
+                </div>
+                <div class="brandingMenuRow">
+                  <div class="nextViewMenuDiv">
+                    <div
+                      class="nextViewMenuImgDiv"
+                      @click="showContainer(gridInput)"
+                    >
+                      <img
+                        class="fullImg"
+                        src="./../../../assets/images/agile/alta3.png"
+                        alt=""
+                      />
+                    </div>
+                    <div class="nextViewText">Alta</div>
+                  </div>
+                </div>
+                <div class="brandingSubHeaderDiv">
+                  <!-- <span class="subHeaderText"> UI</span> &middot;  -->
+                  get to know
+                </div>
+                <div class="brandingMenuRow">
+                  <div class="nextViewMenuDiv">
+                    <div
+                      class="nextViewMenuImgDiv"
+                      @click="showContainer(logoInput)"
+                    >
+                      <img
+                        class="fullImg"
+                        src="./../../../assets/images/agile/womantrust.jpg"
+                        alt=""
+                      />
+                    </div>
+                    <div class="nextViewText">logo</div>
+                  </div>
+                  <div
+                    class="nextViewMenuDiv"
+                    @click="showContainer(colorInput)"
+                  >
+                    <div class="nextViewMenuImgDiv">
+                      <img
+                        class="fullImg"
+                        src="./../../../assets/images/agile/guywbag.jpg"
+                        alt=""
+                      />
+                    </div>
+                    <div class="nextViewText">colors</div>
+                  </div>
+                </div>
+                <div class="brandingMenuRow">
+                  <div
+                    class="nextViewMenuDiv"
+                    @click="showContainer(typeInput)"
+                  >
+                    <div class="nextViewMenuImgDiv">
+                      <img
+                        class="fullImg"
+                        src="./../../../assets/images/agile/guywdog.jpg"
+                        alt=""
+                      />
+                    </div>
+                    <div class="nextViewText up40">
+                      Typo <br />
+                      graphy
+                    </div>
+                  </div>
+                </div>
+
+                <div class="brandingSubHeaderDiv">
+                  <!-- <span class="subHeaderText"> Deliveriables</span> &middot;  -->
+                  take a look
+                </div>
+                <div class="brandingMenuRow">
+                  <div class="nextViewMenuDiv">
+                    <div
+                      class="nextViewMenuImgDiv"
+                      @click="showContainer(manualInput)"
+                    >
+                      <img
+                        class="fullImg"
+                        src="./../../../assets/images/agile/womanonmt.jpg"
+                        alt=""
+                      />
+                    </div>
+                    <div class="nextViewText up40">
+                      Brand <br />
+                      Manual
+                    </div>
+                  </div>
+                  <div class="nextViewMenuDiv">
+                    <div
+                      class="nextViewMenuImgDiv"
+                      @click="showContainer(socialInput)"
+                    >
+                      <img
+                        class="fullImg"
+                        src="./../../../assets/images/agile/guyon.jpg"
+                        alt=""
+                      />
+                    </div>
+                    <div class="nextViewText up40">
+                      Social <br />
+                      Media
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- <div class="articleContentDiv fullWidth">
+        {{ collectionText }}
+      </div> -->
+
+          <!-- photo gallery-->
+        </div>
+      </div>
+
+      <div
+       v-if="!hideMe"
+        class="brandingGridContainer positionInherit"
+        style="margin: 10px 0px 0px 10px; overflow: hidden !important"
+      >
+        <div class="backdropContentBrandingGrid">
+          <div class="container">
+            <div class="agileBrand" v-if="grid">
+              <div class="brandGridHomeDiv">
+                <div class="articleHeaderDivBrandingMdAlta">Alta's Brand</div>
+                <div class="articleHeaderDivBrandingsx">Development</div>
+
+                <div class="brandGridHomeBOdy">
+                  Welcome and explore ALTAs brand basics and visual elements.
+                  Explore the brand core values, visual assets from the colors,
+                  typography, logos, customer demographics, application design
+                  and more.
+                </div>
+              </div>
+            </div>
+            <div class="logo" v-if="logo">
+              <div class="colors agileBg">
+                <div class="color-pallette-content">
+                  <div class="color-array">
+                    <transition>
+                      <div class="colorTitle">The ALTA Logo</div>
+                    </transition>
+                    <div class="color-bar-agile"></div>
+                    <div class="colorSubDiv">
+                      <div class="colorSubDivLeft">
+                        <div class="color-sup-text">Fun <br /></div>
+                        <div class="color-sup-text">energtic</div>
+                        <div class="color-sup-text">supportive</div>
+                      </div>
+                      <div class="colorSubDivRight">
+                        <div class="color-array-intro-body">
+                          <div class="color-array-intro-body-text">
+                            Our Logo is the key building block of our identity,
+                            the primary visual element that identifies us. The
+                            signature is a combination of the symbol itself and
+                            our company name – they have a fixed relationship
+                            that should never be changed in any way.
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="outer-wrapper-content-small-logo-smallscreen">
+                    <div class="wrapper-content-small-logo-smallscreen">
+                      <div class="color-array nopadding">
+                        <div class="logo-whole-container">
+                          <div class="logo-containter">
+                            <div class="logo-single-div">
+                              <div class="logo-img">
+                                <img
+                                  src="./../../../assets/images/alta/altalogoog.png"
+                                  alt=""
+                                />
+                              </div>
+                              <div class="logo-content-div">
+                                <div class="logo-title mont-font">
+                                  the ALTA Logo
+                                </div>
+                                <div class="logo-body">
+                                  Our Logo is the key building block of our
+                                  identity, the primary visual element that
+                                  identifies us. The signature is a combination
+                                  of the symbol itself and our company name –
+                                  they have a fixed relationship that should
+                                  never be changed in any way.
+                                </div>
+                              </div>
+                            </div>
+                            <div class="logo-single-div">
+                              <div class="logo-img">
+                                <img
+                                  src="./../../../assets/images/alta/altalogowhite.png"
+                                  alt=""
+                                />
+                              </div>
+                              <div class="logo-content-div">
+                                <div class="logo-title mont-font">
+                                  Logo Spacing
+                                </div>
+                                <div class="logo-body">
+                                  The spacing and prepositions are key when
+                                  depicting the logo. This guild can be used as
+                                  reference.
+                                </div>
+                              </div>
+                            </div>
+                            <div class="logo-single-div">
+                              <div class="logo-img-icon">
+                                <img
+                                  src="./../../../assets/images/alta/monolinelogo.png"
+                                  alt=""
+                                />
+                              </div>
+                              <div class="logo-content-div">
+                                <div class="logo-title mont-font">
+                                  White Logo
+                                </div>
+                                <div class="logo-body">
+                                  Will be used when the background color is
+                                  dark.
+                                </div>
+                              </div>
+                            </div>
+                            <div class="logo-single-div">
+                              <div class="logo-img-icon">
+                                <img
+                                  src="./../../../assets/images/alta/monolinelogoblack.png"
+                                  alt=""
+                                />
+                              </div>
+                              <div class="logo-content-div">
+                                <div class="logo-title mont-font">
+                                  Monoline Logo
+                                </div>
+                                <div class="logo-body">
+                                  Will be used for an alternative to the full
+                                  color single logo.
+                                </div>
+                              </div>
+                            </div>
+                            <div class="logo-single-div">
+                              <div class="logo-img">
+                                <img
+                                  src="./../../../assets/images/alta/altabrandbible5.jpg"
+                                  alt=""
+                                />
+                              </div>
+
+                              <div class="logo-content-div">
+                                <div class="logo-title mont-font">
+                                  Black Monoline Logo
+                                </div>
+                                <div class="logo-body">
+                                  Will be used for an alternative to the full
+                                  color single logo.
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="type" v-if="type">
+              <div class="colors agileBg">
+                <div class="color-pallette-content">
+                  <div class="color-array">
+                    <transition>
+                      <div class="colorTitle">Typography</div>
+                    </transition>
+                    <div class="color-bar-agile"></div>
+                    <div class="colorSubDiv">
+                      <div class="colorSubDivLeft">
+                        <div class="color-sup-text">exciting <br /></div>
+                        <div class="color-sup-text">Plesant</div>
+                        <div class="color-sup-text">bold</div>
+                      </div>
+                      <div class="colorSubDivRight">
+                        <div class="color-array-intro-body">
+                          <div class="color-array-intro-body-text">
+                            The typeface of ALTA
+                            <br />
+                            Typography is the art and technique of arranging
+                            type to make written language legible, readable and
+                            appealing when displayed.
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="outer-wrapper-content-small-smallscreen">
+                    <div class="wrapper-content-small-type">
+                      <div class="type-div-first">
+                        <div class="type-container">
+                          <div class="abText mont-font">AaBbCc</div>
+                          <div class="aphlaText mont-font">
+                            ABCDEFGHIJKLMNOPQRSTUVWXYZ <br />
+                            abcdefghijlmnopqrstvuwxyz <br />
+                            `~!@#$%^?,./:"{}[]*()_+-=
+                          </div>
+
+                          <div class="type-info-title title-short mont-font">
+                            MONTSERRAT
+                          </div>
+                          <div class="type-span">
+                            The old posters and signs in the traditional
+                            neighborhood of Buenos Aires called Montserrat. The
+                            goal is to rescue what is in Montserrat and set it
+                            free.
+                            <div class="type-span">
+                              Used for standard corporate font.
+                            </div>
+                          </div>
+                          <!-- <div class="type-info-div">
+                        
+                        </div>
+                        <div class="text-example-div">
+                    
+                        </div> -->
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="colors" v-if="color">
+              <div class="colors agileBg">
+                <div class="color-pallette-content">
+                  <div class="color-array">
+                    <transition>
+                      <div class="colorTitle">Peacock Color Pallette</div>
+                    </transition>
+                    <div class="color-bar-agile"></div>
+                    <div class="colorSubDiv">
+                      <div class="colorSubDivLeft">
+                        <div class="color-sup-text">corporate <br /></div>
+                        <div class="color-sup-text">freedom</div>
+                        <div class="color-sup-text">trust</div>
+                      </div>
+                      <div class="colorSubDivRight">
+                        <div class="color-array-intro-body">
+                          <div class="color-array-intro-body-text">
+                            Banking with ALTA is banking with trust!
+                            <br />
+                            This color palette has been designed to convey the
+                            stability of banking with ALTA. Choosing to stick
+                            with a tight blue and green color palette, we give
+                            you our Peacock Color Palette
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="outer-wrapper-content-small-color-smallscreen">
+                    <div class="wrapper-content-small-color-smallscreen">
+                      <div class="color-array nopadding">
+                        <div class="color-array-container">
+                          <div class="color-array-div">
+                            <div class="color-title">
+                              Always trust a man in blue
+                            </div>
+                            <div class="content-color-div">
+                              <div class="content-color-left">
+                                <div class="color-codes">
+                                  <div class="">HEX : 071D49</div>
+                                  <div class="">CMYK: 803946</div>
+                                  <div class="">RGBA : 13 154 68</div>
+                                </div>
+                              </div>
+                              <div class="content-color-right">
+                                <div
+                                  class="
+                                    content-color-colors-1
+                                    hoverMeNote
+                                    altablue
+                                  "
+                                ></div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="color-array-div">
+                            <div class="color-title">Lake Blue</div>
+
+                            <div class="content-color-div">
+                              <div class="content-color-left">
+                                <div class="color-codes">
+                                  <div class="">HEX : 002352</div>
+                                  <div class="">CMYK : 48.23 0 94.21 0</div>
+                                  <div class="">RGBA :150 230 50</div>
+                                </div>
+                              </div>
+                              <div class="content-color-right">
+                                <div class="content-color-colors-1 blue1"></div>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="color-array-div">
+                            <div class="color-title">Gem Green</div>
+                            <div class="content-color-div">
+                              <div class="content-color-left">
+                                <div class="color-codes">
+                                  <div class="">HEX : 96E632</div>
+                                  <div class="">CMYK : 100 91 37 37</div>
+                                  <div class="">RGBA : 150 90 53 01</div>
+                                </div>
+                              </div>
+                              <div class="content-color-right">
+                                <div
+                                  class="content-color-colors-1 altagreen"
+                                ></div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="color-array-div">
+                            <div class="color-title">Forest Green</div>
+                            <div class="content-color-div">
+                              <div class="content-color-left">
+                                <div class="color-codes">
+                                  <div class="">HEX : 43B02B</div>
+                                  <div class="">CMYK: 803946</div>
+                                  <div class="">RGBA : 13 154 68</div>
+                                </div>
+                              </div>
+                              <div class="content-color-right">
+                                <div
+                                  class="content-color-colors-1 green1"
+                                ></div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="color-array-div">
+                            <div class="color-title">Honest Orange</div>
+                            <div class="content-color-div">
+                              <div class="content-color-left">
+                                <div class="color-codes">
+                                  <div class="">HEX : FF8F1C</div>
+                                  <div class="">CMYK: 651983</div>
+                                  <div class="">RGBA : 67 176 43</div>
+                                </div>
+                              </div>
+
+                              <div class="content-color-right">
+                                <div
+                                  class="content-color-colors-1 orange"
+                                ></div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="socialmedia" v-if="social">
+              <div class="colors agileBg">
+                <div class="color-pallette-content">
+                  <div class="color-array">
+                    <transition>
+                      <div class="colorTitle">Social Media Ad</div>
+                    </transition>
+                    <div class="color-bar-agile"></div>
+                    <div class="colorSubDiv">
+                      <div class="colorSubDivLeft">
+                        <div class="color-sup-text">corporate <br /></div>
+                        <div class="color-sup-text">freedom</div>
+                        <div class="color-sup-text">trust</div>
+                      </div>
+                      <div class="colorSubDivRight">
+                        <div class="color-array-intro-body">
+                          <div class="color-array-intro-body-text">
+                            Custom Social Media Kit!
+                            <br />
+
+                            Our Social Media Kit was designed with customizable,
+                            reusable and versatile templates. To establish a
+                            consistence voice, tone and brand across all
+                            platforms.
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="outer-wrapper-content-small-smallscreen">
+                    <div class="wrapper-content-small">
+                      <div class="color-array nopadding">
+                        <div class="grid-layout-small">
+                          <div class="grid-item grid-item-1">
+                            <img
+                              src="./../../../assets/images/resizeLONG/branding/manual/alta/media2.jpg"
+                              alt=""
+                            />
+                          </div>
+                          <div class="grid-item span-2 grid-item-2">
+                            <img
+                              src="./../../../assets/images/resizeLONG/branding/manual/alta/thumbnail.jpg"
+                            />
+                          </div>
+                          <div class="grid-item grid-item-2">
+                            <img
+                              src="./../../../assets/images/resizeLONG/branding/manual/alta/media1.jpg"
+                            />
+                          </div>
+                          <div class="grid-item grid-item-4">
+                            <img
+                              src="./../../../assets/images/resizeLONG/branding/manual/agile/agile6.jpg"
+                            />
+                          </div>
+
+                          <div class="grid-item grid-item-2">
+                            <img
+                              src="./../../../assets/images/resizeLONG/branding/manual/agile/agile6_1.jpg"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="colors" v-if="manual">
+              <div class="colors agileBg">
+                <div class="color-pallette-content">
+                  <div class="color-array">
+                    <transition>
+                      <div class="colorTitle">ALTA's Brand Manual</div>
+                    </transition>
+                    <div class="color-bar-alta"></div>
+                    <div class="colorSubDiv">
+                      <div class="colorSubDivLeft">
+                        <div class="color-sup-text">sneak <br /></div>
+                        <div class="color-sup-text">a</div>
+                        <div class="color-sup-text">peak</div>
+                      </div>
+                      <div class="colorSubDivRight">
+                        <div class="color-array-intro-body">
+                          <div class="color-array-intro-body-text">
+                            Take a look! <br />
+                            Sneak a peak at our tailored guidelines. ALTA's
+                            Brand Manual lays out the brand and the approved
+                            visual elements, colors, typography, as well as the
+                            brand values, vision, and our brand promised.
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="outer-wrapper-content-small-smallscreen">
+                    <div class="wrapper-content-small-manual">
+                      <div class="color-array nopadding">
+                        <div class="grid-layout-small-manual">
+                          <div class="grid-item span-2 grid-item-2">
+                            <img
+                              src="./../../../assets/images/resizeLONG/branding/manual/alta/altabrandbible2.jpg"
+                            />
+                          </div>
+                          <div class="grid-item grid-item-3">
+                            <img
+                              src="./../../../assets/images/resizeLONG/branding/manual/alta/altabrandbible66.jpg"
+                            />
+                          </div>
+                          <div class="grid-item grid-item-4">
+                            <img
+                              src="./../../../assets/images/resizeLONG/branding/manual/alta/altabrandbible5.jpg"
+                            />
+                          </div>
+                          <div class="grid-item span-2 grid-item-5">
+                            <img
+                              src="./../../../assets/images/resizeLONG/branding/manual/alta/altabrandbible7.jpg"
+                            />
+                          </div>
+                          <div class="grid-item grid-item-6">
+                            <img
+                              src="./../../../assets/images/resizeLONG/branding/manual/alta/altabrandbible11.jpg"
+                            />
+                          </div>
+                          <div class="grid-item grid-item-7">
+                            <img
+                              src="./../../../assets/images/resizeLONG/branding/manual/alta/altabrandbible12.jpg"
+                            />
+                          </div>
+                          <div class="grid-item grid-item-1">
+                            <img
+                              src="./../../../assets/images/resizeLONG/branding/manual/alta/altabrandbible15.jpg"
+                              alt=""
+                            />
+                          </div>
+                          <div class="grid-item grid-item-1">
+                            <img
+                              src="./../../../assets/images/resizeLONG/branding/manual/alta/altabrandbible14.jpg"
+                              alt=""
+                            />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <div class="hideContentsDiv" @click="hideContents">
       <i v-if="!hideMe" class="fa fa-eye-slash"></i>
       <i v-if="hideMe" class="fa fa-eye"></i>
@@ -836,6 +1469,7 @@ export default {
         this.logo = false;
         this.manual = false;
         this.station = false;
+         this.hideMe = !this.hideMe;
         return;
       } else if (input == "logo") {
         console.log("= to logo");
@@ -846,6 +1480,7 @@ export default {
         this.grid = false;
         this.manual = false;
         this.station = false;
+         this.hideMe = !this.hideMe;
         return;
       } else if (input == "type") {
         this.type = true;
@@ -863,7 +1498,8 @@ export default {
         this.social = false;
         this.grid = false;
         this.manual = false;
-        this.station = false;
+        this.station = false; 
+        this.hideMe = !this.hideMe;
         return;
       } else if (input == "social") {
         this.social = true;
@@ -872,7 +1508,8 @@ export default {
         this.color = false;
         this.grid = false;
         this.manual = false;
-        this.station = false;
+        this.station = false; 
+        this.hideMe = !this.hideMe;
         return;
       } else if (input == "manual") {
         this.manual = true;
@@ -881,7 +1518,8 @@ export default {
         this.color = false;
         this.grid = false;
         this.social = false;
-        this.station = false;
+        this.station = false; 
+        this.hideMe = !this.hideMe;
         return;
       } else if (input == "station") {
         this.station = true;
@@ -890,7 +1528,8 @@ export default {
         this.color = false;
         this.grid = false;
         this.manual = false;
-        this.social = false;
+        this.social = false; 
+        this.hideMe = !this.hideMe;
         return;
       } else {
         console.log("didnt work");
@@ -915,10 +1554,9 @@ export default {
 
 .grid-layout-small {
   display: grid;
-  grid-template-columns: minmax(204px, 1fr) minmax(204px, 1fr) minmax(
-      204px,
-      1fr
-    ) minmax(204px, 1fr);
+  grid-template-columns:
+    minmax(204px, 1fr) minmax(204px, 1fr) minmax(204px, 1fr)
+    minmax(204px, 1fr);
   grid-gap: 4px;
   grid-auto-columns: minmax(100px, auto);
   grid-auto-flow: dense;
@@ -927,13 +1565,9 @@ export default {
 }
 .grid-layout-small-manual {
   display: grid;
-  grid-template-columns: minmax(204px, 1fr) minmax(204px, 1fr) minmax(
-      204px,
-      1fr
-    ) minmax(204px, 1fr) minmax(204px, 1fr) minmax(204px, 1fr) minmax(
-      204px,
-      1fr
-    );
+  grid-template-columns:
+    minmax(204px, 1fr) minmax(204px, 1fr) minmax(204px, 1fr)
+    minmax(204px, 1fr) minmax(204px, 1fr) minmax(204px, 1fr) minmax(204px, 1fr);
   grid-gap: 4px;
   grid-auto-columns: minmax(100px, auto);
   grid-auto-flow: dense;

@@ -330,7 +330,7 @@ a {
 /* /////////////////////////////////// SPECIAL TEXT */
 
 .navLinkTitle {
-    font-size: 3em;
+    font-size: 3rem;
     line-height: 0.9;
     padding-bottom: 20px;
     font-family: baskerville-poster-pt, serif;
@@ -339,7 +339,7 @@ a {
 }
 
 .navLinkSubTitle {
-    font-size: 0.8em;
+    font-size: 0.8rem;
     text-transform: uppercase;
     letter-spacing: 1.5px;
     font-weight: 600;
@@ -347,7 +347,7 @@ a {
 }
 
 .footer-text {
-    font-size: 0.8em;
+    font-size: 0.8rem;
     font-family: "baskerville-poster-pt";
     font-style: italic;
     letter-spacing: 2px;
@@ -362,7 +362,7 @@ a {
 
 .spanbeautyText {
     font-style: italic;
-    font-size: 0.7em;
+    font-size: 0.7rem;
     letter-spacing: 1px;
     line-height: 1.2;
     padding-top: 1px;
@@ -385,7 +385,7 @@ a {
 }
 
 .menuText {
-    font-size: .9em;
+    font-size: .9rem;
     font-family: "baskerville-poster-pt";
     font-style: italic;
     letter-spacing: 2px;
@@ -401,7 +401,7 @@ a {
 }
 
 .menuText2 {
-    font-size: .9em;
+    font-size: .9rem;
     font-family: "baskerville-poster-pt";
     font-style: italic;
     letter-spacing: 2px;
@@ -542,7 +542,7 @@ img {
 .demo-bottom {
     font-style: italic;
     text-align: end;
-    font-size: 0.95em;
+    font-size: 0.95rem;
     padding-bottom: 5px;
 }
 
@@ -560,7 +560,7 @@ img {
     letter-spacing: 1px;
     font-weight: 100;
     letter-spacing: 2px;
-    font-size: 0.9em;
+    font-size: 0.9rem;
     border: 0.5px solid #303030;
     padding: 10px;
 }
@@ -595,13 +595,13 @@ img {
 }
 
 .supFontF {
-    font-size: 1.2em;
+    font-size: 1.2rem;
     letter-spacing: 1px;
     text-transform: uppercase;
 }
 
 .supFontB {
-    font-size: 1.5em;
+    font-size: 1.5rem;
     text-transform: uppercase;
     letter-spacing: 2px;
 }
@@ -638,7 +638,7 @@ img {
 .logo-title {
     margin: 0px 0px 20px 0px;
     font-family: "Covered By Your Grace", cursive;
-    font-size: 2em;
+    font-size: 2rem;
     text-transform: uppercase;
     letter-spacing: 2.5px;
 }
@@ -695,13 +695,13 @@ img {
 
 .type-span {
     margin-top: 10px;
-    font-size: .85em;
+    font-size: .85rem;
     width: 82%;
 }
 
 .type-span-span {
     margin-top: 10px;
-    font-size: .7em;
+    font-size: .7rem;
     width: 82%;
 }
 
@@ -714,7 +714,7 @@ img {
 }
 
 .color-array-intro-title {
-    font-size: 2.2em;
+    font-size: 2.2rem;
 }
 
 .color-array-intro-body {
@@ -742,7 +742,6 @@ img {
     /* height: 27%; */
     overflow: hidden;
     grid-column-gap: 70px;
-    margin-top: 50px;
 }
 
 .demo-ppl-array-div {
@@ -780,12 +779,12 @@ img {
     letter-spacing: 1px;
     font-weight: 600;
     letter-spacing: 2px;
-    font-size: 0.9em;
+    font-size: 0.9rem;
 }
 
 .type-info-title {
     margin-bottom: 20px;
-    font-size: 1.3em;
+    font-size: 1.3rem;
     font-weight: 600;
     letter-spacing: 1.2px;
 }
@@ -837,7 +836,7 @@ img {
 }
 
 .aphlaText-covered {
-    font-size: 1.2em;
+    font-size: 1.2rem;
     letter-spacing: 1.5px;
 }
 
@@ -891,7 +890,7 @@ img {
 
 .color-sup-text {
     font-family: proxima-nova, sans-serif;
-    font-size: 1.2em;
+    font-size: 1.2rem;
     letter-spacing: 2px;
     text-transform: uppercase;
     font-weight: 100;
@@ -1021,7 +1020,7 @@ img {
     text-transform: uppercase;
     font-weight: 100;
     letter-spacing: 2px;
-    font-size: 0.9em;
+    font-size: 0.9rem;
     /* font-family: baskerville-poster-pt, serif;
      text-transform: lowercase;
         font-style: italic; */
@@ -1053,7 +1052,7 @@ img {
         font-size: 1.2em !important;
     }
     .media-branding-title {
-        font-size: 1.3em;
+        font-size: 1.3rem;
     }
     .ux-content-sub {
         line-height: 1.4;
@@ -1105,7 +1104,7 @@ img {
     }
     .tabs__header {
         width: 100%;
-        font-size: 0.8em;
+        font-size: 0.8rem;
     }
     .color-array-intro {
         grid-template-columns: 408px 900px;
@@ -1153,7 +1152,7 @@ img {
       }
       .title-short-xs {
           width: 200px;
-          font-size: 2.9em;
+          font-size: 2.9rem;
       } */
     /* logo */
     .logo-content-div-first {
@@ -1198,6 +1197,7 @@ img.bgImg {
     height: 100vh;
     width: 100vw;
     background-size: cover;
+    overflow: hidden;
 }
 
 .articleMenu {
@@ -1212,7 +1212,7 @@ img.bgImg {
 }
 
 .articleMenuText {
-    font-size: 0.7em;
+    font-size: 0.7rem;
     text-transform: uppercase;
     letter-spacing: 3px;
     text-align: right;
@@ -1240,7 +1240,7 @@ img.bgImg {
     align-items: center;
     transition: all .5s;
     opacity: 1;
-    font-size: 1.1em;
+    font-size: 1.1rem;
     font-weight: 900;
     font-style: italic;
 }
@@ -1279,13 +1279,13 @@ img {
 .closerContentHeader {
     font-weight: 600;
     letter-spacing: 1px;
-    font-size: 0.85em;
+    font-size: 0.85rem;
     font-family: "baskerville-display-pt";
     font-style: italic;
 }
 
 .closerContentSubHeader {
-    font-size: 0.95em;
+    font-size: 0.95rem;
     text-transform: uppercase;
     font-weight: 600;
     letter-spacing: 3px;
@@ -1340,7 +1340,7 @@ body {
     transform: rotate(270deg);
     left: -29px;
     font-weight: 500;
-    font-size: 0.9em;
+    font-size: 0.9rem;
     text-transform: uppercase;
     letter-spacing: 3px;
     color: white;
@@ -1396,8 +1396,8 @@ li.photoGridDiv:hover {
 }
 
 .nextViewImgDiv {
-    height: 160px;
-    width: 120px;
+    height: 24vh;
+    width: 13vw;
     overflow: hidden;
 }
 
@@ -1405,7 +1405,7 @@ li.photoGridDiv:hover {
     position: relative;
     top: -26px;
     text-transform: uppercase;
-    font-size: 0.8em;
+    font-size: 0.8rem;
     left: 8px;
     font-weight: 600;
     letter-spacing: 1px;
@@ -1417,7 +1417,7 @@ li.photoGridDiv:hover {
     /* border: 6px solid brown; */
     height: 73vh;
     width: 100vw;
-    margin: 100px 0px 0px 150px;
+    margin: 10vh 0px 0px 10vw;
     text-align: left;
     color: white;
     overflow: hidden;
@@ -1426,7 +1426,7 @@ li.photoGridDiv:hover {
 }
 
 .articleHeaderDiv {
-    font-size: 2.5em;
+    font-size: 2.5rem;
     text-transform: uppercase;
     font-family: "baskerville-display-pt";
     position: relative;
@@ -1436,7 +1436,7 @@ li.photoGridDiv:hover {
 }
 
 .articleHeaderDiv2 {
-    font-size: 4em;
+    font-size: 6vw;
     /* text-transform: uppercase; */
     font-family: "baskerville-display-pt";
     position: relative;
@@ -1445,7 +1445,7 @@ li.photoGridDiv:hover {
 }
 
 .articleSubHeaderDiv {
-    font-size: 0.8em;
+    font-size: 0.8rem;
     text-transform: uppercase;
     letter-spacing: 3px;
     font-weight: 600;
@@ -1467,7 +1467,7 @@ li.photoGridDiv:hover {
     text-transform: uppercase;
     letter-spacing: 2px;
     /* font-weight: 900; */
-    font-size: 0.75em;
+    font-size: 0.75rem;
     margin-top: 50px;
 }
 
@@ -1481,7 +1481,7 @@ li.photoGridDiv:hover {
     text-transform: uppercase;
     letter-spacing: 2px;
     /* font-weight: 900; */
-    font-size: 0.75em;
+    font-size: 0.75rem;
     margin-left: 107%;
     margin-top: 11px;
 }
@@ -1503,7 +1503,7 @@ li.photoGridDiv:hover {
 }
 
 .articleHeaderDiv {
-    font-size: 2.5em;
+    font-size: 2.5rem;
     text-transform: uppercase;
     font-family: "baskerville-display-pt";
     position: relative;
@@ -1513,7 +1513,7 @@ li.photoGridDiv:hover {
 }
 
 .articleHeaderDivBranding {
-    font-size: 2.5em;
+    font-size: 2.5rem;
     text-transform: uppercase;
     font-family: "baskerville-display-pt";
     position: relative;
@@ -1523,7 +1523,7 @@ li.photoGridDiv:hover {
 }
 
 .articleHeaderDivBrandingAgile {
-    font-size: 3.5em;
+    font-size: 3.5rem;
     text-transform: uppercase;
     font-family: "Covered By Your Grace", cursive !important;
     position: relative;
@@ -1533,7 +1533,7 @@ li.photoGridDiv:hover {
 }
 
 .articleHeaderDivBrandingAlta {
-    font-size: 3.5em;
+    font-size: 3.5rem;
     text-transform: uppercase;
     font-family: 'Montserrat', sans-serif !important;
     position: relative;
@@ -1544,7 +1544,7 @@ li.photoGridDiv:hover {
 }
 
 .articleHeaderDivBrandingLgAgile {
-    font-size: 1.2em;
+    font-size: 1.2rem;
     text-transform: uppercase;
     font-family: Avenir, Helvetica, Arial, sans-seri;
     position: relative;
@@ -1556,7 +1556,7 @@ li.photoGridDiv:hover {
 }
 
 .articleHeaderDivBrandingLG {
-    font-size: 4em;
+    font-size: 4rem;
     /* text-transform: uppercase; */
     font-family: "baskerville-display-pt";
     position: relative;
@@ -1565,7 +1565,7 @@ li.photoGridDiv:hover {
 }
 
 .articleHeaderDiv2 {
-    font-size: 4em;
+    font-size: 4rem;
     /* text-transform: uppercase; */
     font-family: "baskerville-display-pt";
     position: relative;
@@ -1574,7 +1574,7 @@ li.photoGridDiv:hover {
 }
 
 .articleSubHeaderDiv {
-    font-size: 0.8em;
+    font-size: 0.8rem;
     text-transform: uppercase;
     letter-spacing: 3px;
     font-weight: 600;
@@ -1596,7 +1596,7 @@ li.photoGridDiv:hover {
     text-transform: uppercase;
     letter-spacing: 2px;
     /* font-weight: 900; */
-    font-size: 0.75em;
+    font-size: 0.75rem;
     margin-top: 50px;
 }
 
@@ -1610,7 +1610,7 @@ li.photoGridDiv:hover {
     text-transform: uppercase;
     letter-spacing: 2px;
     /* font-weight: 900; */
-    font-size: 0.75em;
+    font-size: 0.75rem;
     margin-left: 107%;
     margin-top: 11px;
 }
@@ -1645,7 +1645,7 @@ li.photoGridDiv:hover {
 }
 
 .packageSubHeaderDiv {
-    font-size: 0.8em;
+    font-size: 0.8rem;
     text-transform: uppercase;
     letter-spacing: 3px;
     font-weight: 600;
@@ -1715,7 +1715,7 @@ li.photoGridDiv:hover {
     width: 15%;
     justify-content: space-between;
     /* align-items: center; */
-    font-size: 1.4em;
+    font-size: 1.4rem;
     opacity: .6;
     cursor: pointer;
     z-index: 10;
@@ -1752,7 +1752,7 @@ li.photoGridDiv:hover {
     transform: rotate(270deg);
     left: -29px;
     font-weight: 500;
-    font-size: 0.9em;
+    font-size: 0.9rem;
     text-transform: uppercase;
     letter-spacing: 3px;
     color: white;
@@ -1799,7 +1799,7 @@ li.photoGridDiv:hover {
 .outer-wrapper-content-small-spa {
     width: 50vh;
     height: 50vw !important;
-    transform: rotate( -90deg) translateX(-49vh);
+    transform: rotate( -90deg) translateX(-50vh);
     transform-origin: top left;
     overflow-y: scroll;
     overflow-x: hidden;
@@ -1820,7 +1820,17 @@ li.photoGridDiv:hover {
 .outer-wrapper-content-small {
     width: 50vh;
     height: 59vw !important;
-    transform: rotate( -90deg) translateX(-55vh);
+    transform: rotate( -90deg) translateX(-50vh);
+    transform-origin: top left;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    position: absolute;
+}
+
+.outer-wrapper-content-small-smallscreen {
+    width: 50vh;
+    height: 80vw !important;
+    transform: rotate( -90deg) translateX(-50vh);
     transform-origin: top left;
     overflow-y: scroll;
     overflow-x: hidden;
@@ -1842,7 +1852,7 @@ li.photoGridDiv:hover {
 .outer-wrapper-content-small-color {
     width: 50vh;
     height: 59vw !important;
-    transform: rotate( -90deg) translateX(-55vh);
+    transform: rotate( -90deg) translateX(-50vh);
     transform-origin: top left;
     overflow-y: scroll;
     overflow-x: hidden;
@@ -1857,14 +1867,36 @@ li.photoGridDiv:hover {
     transform: rotate( 90deg) translateY(-100vh);
     transform-origin: top left;
     color: white;
-    left: -46vh;
+    left: -50vh;
+    padding: 2%;
+}
+
+.outer-wrapper-content-small-color-smallscreen {
+    width: 50vh;
+    height: 59vw !important;
+    transform: rotate( -90deg) translateX(-50vh);
+    transform-origin: top left;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    position: absolute;
+}
+
+.wrapper-content-small-color-smallscreen {
+    display: flex;
+    position: inherit;
+    flex-direction: row;
+    width: 90vw;
+    transform: rotate( 90deg) translateY(-100vh);
+    transform-origin: top left;
+    color: white;
+    left: -50vh;
     padding: 2%;
 }
 
 .outer-wrapper-content-small-demo {
     width: 52vh;
     height: 59vw !important;
-    transform: rotate( -90deg) translateX(-55vh);
+    transform: rotate( -90deg) translateX(-50vh);
     transform-origin: top left;
     overflow-y: scroll;
     overflow-x: hidden;
@@ -1886,7 +1918,7 @@ li.photoGridDiv:hover {
 .outer-wrapper-content-small-logo {
     width: 50vh;
     height: 58vw !important;
-    transform: rotate( -90deg) translateX(-54vh);
+    transform: rotate( -90deg) translateX(-50vh);
     transform-origin: top left;
     overflow-y: scroll;
     overflow-x: hidden;
@@ -1894,6 +1926,28 @@ li.photoGridDiv:hover {
 }
 
 .wrapper-content-small-logo {
+    display: flex;
+    position: inherit;
+    flex-direction: row;
+    width: 190vw;
+    transform: rotate( 90deg) translateY(-90vh);
+    transform-origin: top left;
+    color: white;
+    left: -41vh;
+    z-index: 1000;
+}
+
+.outer-wrapper-content-small-logo-smallscreen {
+    width: 50vh;
+    height: 80vw !important;
+    transform: rotate( -90deg) translateX(-50vh);
+    transform-origin: top left;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    position: absolute;
+}
+
+.wrapper-content-small-logo-smallscreen {
     display: flex;
     position: inherit;
     flex-direction: row;
@@ -1990,7 +2044,8 @@ li.photoGridDiv:hover {
 
 .brandingContainer {
     height: 90vh;
-    grid-template-columns: 20vw 78vw;
+    grid-template-columns: 25vw 74vw;
+    /* grid-template-columns: 20vw 78vw; */
     display: grid;
     margin: 20px;
 }
@@ -2019,6 +2074,14 @@ li.photoGridDiv:hover {
     text-align: left;
 }
 
+.brandingGridContainerSmallScreen {
+    height: 84vh;
+    overflow: scroll;
+    text-align: left;
+    position: absolute !important;
+    top: 10%;
+}
+
 .brandingGridContainer2 {
     height: 84vh;
     overflow: hidden;
@@ -2026,7 +2089,7 @@ li.photoGridDiv:hover {
 }
 
 .brandingSubHeaderDiv {
-    font-size: 0.8em;
+    font-size: 0.8rem;
     text-transform: uppercase;
     letter-spacing: 3px;
     font-weight: 600;
@@ -2066,7 +2129,7 @@ li.photoGridDiv:hover {
 
 .colorSubDivRight {
     padding: 0px 0px 0px 40px;
-    font-size: .9em;
+    font-size: .9rem;
 }
 
 .color-array-intro-title {
@@ -2078,7 +2141,7 @@ li.photoGridDiv:hover {
 }
 
 .colorTitle {
-    font-size: 4em;
+    font-size: 4rem;
     /* text-transform: uppercase; */
     font-family: "Covered By Your Grace", cursive !important;
     position: relative;
@@ -2187,7 +2250,7 @@ li.photoGridDiv:hover {
     font-weight: 500;
     letter-spacing: 3px;
     text-transform: uppercase;
-    font-size: .8em;
+    font-size: .8rem;
 }
 
 .aboutBusCardContainer {
@@ -2209,7 +2272,7 @@ li.photoGridDiv:hover {
 }
 
 .articleHeaderDivBrandingMd {
-    font-size: 4em;
+    font-size: 4rem;
     text-transform: uppercase;
     font-family: "Covered By Your Grace", cursive !important;
     position: relative;
@@ -2217,7 +2280,7 @@ li.photoGridDiv:hover {
 }
 
 .articleHeaderDivBrandingMdAlta {
-    font-size: 3em;
+    font-size: 3rem;
     text-transform: uppercase;
     font-family: 'Montserrat', sans-serif !important;
     position: relative;
@@ -2230,7 +2293,7 @@ li.photoGridDiv:hover {
     text-transform: uppercase;
     font-weight: 400;
     letter-spacing: 10px;
-    font-size: 1.8em;
+    font-size: 1.8rem;
     padding-bottom: 2%;
 }
 
@@ -2265,7 +2328,7 @@ li.photoGridDiv:hover {
     letter-spacing: 1px;
     font-weight: 100;
     letter-spacing: 2px;
-    font-size: 0.9em;
+    font-size: 0.9rem;
     border: 1px solid;
     padding: 1.5%;
 }
@@ -2274,102 +2337,362 @@ li.photoGridDiv:hover {
     padding: 4% 0px;
 }
 
+.backdropContent_CollectionSpa {
+    backdrop-filter: blur(0.5px) brightness(0.95);
+    padding: 20px;
+    height: 90%;
+    width: 50vw;
+}
+
+.up40 {
+    top: -40px;
+}
+
 
 /* media  */
 
 
-/* @media screen and (min-width: 1440px) {
-      .demo-array-container {
-          display: grid;
-          grid-template-columns: minmax(250px, 1fr) 49vw minmax(250px, 1fr);
-          grid-template-rows: repeat(3, minmax(70px, 140px));
-          /* height: 27%; */
+/* max-width def: this or less (max this value) */
 
 
-/* overflow: hidden; */
+/* min-width def: this or higher (min this value) */
+
+@media screen and (max-width: 1024px) {}
 
 
-/*   
-  grid-column-gap: 70px;
-  margin-top: 50px;
-}
-.content-demo-div {
-    display: flex;
-    margin: 10px 0px;
-    justify-content: space-between;
-    height: 114%;
-}
+/* MOBILE DEVICES  */
 
-}
-*/
 
-.up40 {
-    top: -40px !important;
-}
-
-@media screen and (max-width: 1200px) {
-    .up40 {
-        top: -5vh !important;
+/* @media screen and (max-width: 1024px) {
+    .articleContentContainer {
+        height: 86vh;
+        margin: 10%;
     }
-    .nextViewMenuImgDiv {
-        width: 15vw;
-        font-size: 1em;
+    .backdropContent_CollectionSpa {
+        padding: 4% 5% !important;
+        height: 90%;
+        width: 72% !important;
     }
-    .nextViewText {
-        width: 15vw;
-        font-size: 1em;
+    .outer-wrapper-content-small-spa {
+        height: 70vw !important;
+    }
+    .packageSubHeaderContainer {
+        padding: 3% 0px 5% 0px;
+    }
+    .nextViewImgDiv {
+        height: 40vh;
+        width: 30vw;
+        overflow: hidden;
+    }
+    .packageSubHeaderDiv {
+        font-size: 1.2rem;
+        letter-spacing: 4px;
+        padding: 8px 0px;
+    }
+    .hideContentsDiv {
+        margin: 0px 40px;
+        font-size: 2rem;
+    }
+} */
+
+
+/* small tables  */
+
+
+/* 
+@media screen and (max-width: 768px) {
+    pack - spa  
+    .articleContentContainer {
+        margin: 10%;
+        height: 80vh;
+    }
+    .backdropContent_CollectionSpa {
+        width: 72% !important;
+        text-align: left;
+        height: 100%;
+    }
+    .outer-wrapper-content-small-spa {
+        height: 72vw !important;
+    }
+    .nextViewImgDiv {
+        height: 32vh;
+        width: 25vw;
+    }
+} */
+
+
+/* 
+@media screen and (max-width: 500px) {
+    pack - spa  
+    .articleContentContainer {
+        height: 88vh;
+        width: 100vw;
+        margin: 5%;
+    }
+    .backdropContent_CollectionSpa {
+        width: 78% !important;
+        text-align: left;
+        font-size: 0.7rrem;
+    }
+    .articleHeaderDiv {
+        display: none;
+        top: -18px;
+        left: -24px;
+        font-size: 1.5rem;
+    }
+    .articleHeaderDiv2 {
+        font-size: 3.6rem;
+        padding-top: 0px;
+    }
+    .nextViewImgDiv {
+        height: 46vh;
+        width: 50vw;
+    }
+    .wrapper-content-small-spa {
+        width: 80vw;
+    }
+    .outer-wrapper-content-small-spa {
+        height: 77vw !important;
+        transform: rotate( -90deg) translateX(-55vh);
+    }
+    .packageSubHeaderDiv {
+        padding: 4px 0px;
+    }
+} */
+
+
+/* small phones */
+
+
+/* @media screen and (max-width: 375px) {
+    pack - spa  
+    .articleContentContainer {
+        height: 88vh;
+        width: 100vw;
+        margin: 5%;
+    }
+    .backdropContent_CollectionSpa {
+        width: 78% !important;
+        text-align: left;
+        font-size: 0.7rrem;
+    }
+    .articleHeaderDiv {
+        display: none;
+        top: -18px;
+        left: -24px;
+        font-size: 1.5rem;
+    }
+    .articleHeaderDiv2 {
+        font-size: 3.2rem;
+        padding-top: 0px;
+    }
+    .nextViewImgDiv {
+        height: 40vh;
+        width: 38vw;
+        overflow: hidden;
+    }
+    .wrapper-content-small-spa {
+        width: 80vw;
+    }
+    .outer-wrapper-content-small-spa {
+        height: 77vw !important;
+    }
+    .packageSubHeaderDiv {
+        padding: 4px 0px;
+    }
+} */
+
+
+/* iphone5    */
+
+
+/* @media screen and (max-width: 320px) {
+    .articleHeaderDiv2 {
+        font-size: 2.8rem;
+    }
+} */
+
+@media screen and (max-width: 975px) {
+    .backdropContent_CollectionSpa {
+        width: 70% !important;
+    }
+    .nextViewImgDiv {
+        height: 24vh;
+        width: 21vw;
+    }
+    .outer-wrapper-content-small-spa {
+        height: 62vw !important;
     }
     .brandingMenuRow {
         flex-direction: column;
     }
-    .nopadding {
-        padding: 0px !important;
+    .nextViewMenuImgDiv {
+        height: 20vh;
+        width: 15vw;
+        overflow: hidden;
+        opacity: .65;
+        transition: all .25s;
     }
 }
 
-@media screen and (min-width: 1440px) {
-    .up40 {
-        top: -5vh !important;
+@media screen and (max-width: 760px) {
+    .articleHeaderDivBrandingAgile {
+        font-size: 3rem;
     }
-    .brandingContainer {
-        grid-template-columns: 25vw 72vw;
-        margin: 20px;
+}
+
+
+/* media for small screens - branding  */
+
+@media screen and (max-width: 695px) {
+    .articleHeaderDiv2 {
+        font-size: 3.5rem;
     }
-    .agileBg {
-        font-size: 1.2em;
+    .articleHeaderDiv2 {
+        font-size: 3rem;
     }
-    .nextViewText {
-        font-size: 1em;
+    .packageSubHeaderDiv {
+        font-size: 0.7rem;
     }
-    .brandingSubHeaderDiv {
-        font-size: 1em;
+    .articleHeaderDivBrandingAgile {
+        font-size: 3.2rem;
+    }
+    .articleHeaderDivBrandingLgAgile {
+        font-size: .9rem;
         font-weight: 900;
+        letter-spacing: 4px;
+        opacity: 0.85;
     }
-    .nopadding {
-        padding: 0px !important;
+    .brandingContainer {}
+    .largeScreen {
+        display: none;
     }
-    .color-array-container {
-        grid-template-columns: minmax(34vw, 1fr) minmax(34vw, 1fr);
+    .nextViewMenuImgDiv {
+        height: 28vh;
+        width: 27vw;
+        opacity: 1;
     }
-    .color-array-div {
-        width: 100%;
+    .brandingMenuRow {
+        flex-direction: row;
     }
-    .articleMenuText {
-        font-size: .85em;
-        text-transform: uppercase;
-        letter-spacing: 3px;
-        text-align: right;
-        padding: 2px 5vw;
-        line-height: 2;
-        color: white;
-        font-weight: 800;
-        transition: all .5s;
-        opacity: .75;
+    .brandingGridContainer2 {
+        width: 94%;
+    }
+    .agileBrand {
+        height: 73vh;
+        padding: 6%;
+        width: 76vw;
+    }
+    .articleHeaderDivBrandingsx {
+        font-weight: 500;
+        font-size: 1.4rem;
+        letter-spacing: 6px;
+    }
+    .brandGridHomeBOdy {
+        padding-top: 8%;
+    }
+    .colorTitle {
+        font-size: 3.4rem;
+        padding-top: 0px;
+    }
+    .colorSubDiv {
+        padding-top: 20px;
+    }
+    .wrapper-content-small-color-smallscreen {
+        width: 130vw;
+        left: -47vh;
+    }
+    .outer-wrapper-content-small-color-smallscreen {
+        height: 80vw !important;
+    }
+    .logo-containter {
+        grid-template-columns: 50vw 50vw 50vw 50vw 50vw;
+    }
+    .type-container {
+        width: 40vw;
+    }
+    .outer-wrapper-content-small-smallscreen {
+        height: 80vw !important;
     }
     .demo-array-div {
-        font-size: .9em;
+        width: 34vw;
     }
-    /* .outer-wrapper-content-small {
-        transform: rotate( -90deg) translateX(-47vh);
-    } */
+    .outer-wrapper-content-small-demo {
+        height: 80vw !important;
+    }
+    .content-demo-ppl-div {
+        height: 85%;
+    }
+    .brandingGridContainerSmallScreen {
+        width: 100%;
+    }
 }
+
+@media screen and (min-width: 695px) {
+    .smallScreenBranding {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .articleHeaderDiv {
+        font-size: 1.5rem;
+    }
+    .articleHeaderDiv2 {
+        font-size: 2.5rem;
+    }
+    .packageSubHeaderDiv {
+        font-size: 0.6rem;
+    }
+    .articleContentContainer {
+        /* border: 6px solid brown; */
+        height: 82vh;
+        margin: 6vh 0px 0px 10vw;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .outer-wrapper-content-small-spa {
+        transform: rotate( -90deg) translateX(-46vh);
+        height: 62vw !important;
+    }
+    .articleHeaderDiv {
+        top: -7px;
+        font-size: 1rem;
+    }
+    .articleHeaderDiv2 {
+        font-size: 2.2rem;
+        padding: 0px;
+    }
+    .nextViewImgDiv {
+        height: 26vh;
+        width: 28vw;
+    }
+}
+
+@media screen and (max-width: 340px) {
+    .outer-wrapper-content-small-spa {
+        transform: rotate( -90deg) translateX(-46vh);
+        height: 62vw !important;
+    }
+    .articleHeaderDiv {
+        top: -7px;
+        font-size: 1rem;
+    }
+    .articleHeaderDiv2 {
+        font-size: 2rem;
+        padding: 0px;
+    }
+    .nextViewImgDiv {
+        height: 26vh;
+        width: 28vw;
+    }
+    .packageSubHeaderDiv {
+        padding: 2px 0px;
+    }
+}
+
+
+/* @media screen and (max-device-width: 500px) and (max-width: 500px) {
+ 
+} */
